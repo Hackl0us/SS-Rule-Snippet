@@ -1,0 +1,17 @@
+#如果你经常使用Telegram，那么则需要使用该规则片段
+
+[Rule]
+IP-CIDR,43.249.72.0/24,PROXY,no-resolve
+IP-CIDR,64.30.224.0/24,PROXY,no-resolve
+IP-CIDR,91.108.4.0/22,PROXY,no-resolve
+IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+IP-CIDR,109.239.140.0/24,PROXY,no-resolve
+IP-CIDR,117.18.232.0/21,PROXY,no-resolve
+IP-CIDR,149.154.160.0/20,PROXY,no-resolve
+IP-CIDR,194.14.177.0/24,PROXY,no-resolve
+IP-CIDR,194.68.28.0/23,PROXY,no-resolve
+IP-CIDR,194.68.30.0/24,PROXY,no-resolve
+IP-CIDR,194.132.172.0/24,PROXY,no-resolve
+IP-CIDR,194.132.162.0/24,PROXY,no-resolve
+IP-CIDR,193.182.7.0/24,PROXY,no-resolve
+IP-CIDR,216.58.197.100/32,PROXY,no-resolve
