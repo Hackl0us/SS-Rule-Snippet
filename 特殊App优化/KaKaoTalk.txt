@@ -1,12 +1,11 @@
-#此部分规则适用于韩国聊天软件KakaoTalk
-#此规则可以解除GFW对该软件及管网的封锁
-
 [Rule]
+
+// 通用部分
 DOMAIN,kakao.com,Proxy
 DOMAIN-SUFFIX,kakao.com,Proxy
 DOMAIN-KEYWORD,kakao,Proxy
 
-#Kakao公司拥有的公网IPv4地址段
+// iOS
 IP-CIDR,103.246.56.0/22,Proxy,no-resolve
 IP-CIDR,113.61.104.0/22,Proxy,no-resolve
 IP-CIDR,103.27.148.0/22,Proxy,no-resolve

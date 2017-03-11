@@ -1,11 +1,13 @@
-#如果您使用Line，请使用此规则片段
 
 [Rule]
+
+// 通用部分
 DOMAIN-SUFFIX,line-cdn.net,Proxy
 DOMAIN-SUFFIX,line-apps.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,line.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,line.naver.jp,Proxy,force-remote-dns
 
+// iOS
 IP-CIDR,119.235.224.0/21,Proxy,no-resolve
 IP-CIDR,203.104.128.0/20,Proxy,no-resolve
 IP-CIDR,119.235.235.0/24,Proxy,no-resolve
