@@ -31,9 +31,9 @@
 
 所以更推荐各位使用广告屏蔽插件，效果要比单纯在Surge配置好得多。
 
-Safari for macOS:`uBlock`、`Adguard`、`Ghostery`
-Safari for iOS:`Adguard`、`广告猎手`
-Chrome for macOS:`uBlock Origin`、`广告终结者`、`Adguard`、`Ghostery`
+- Safari for macOS:`uBlock`、`Adguard`、`Ghostery`
+- Safari for iOS:`Adguard`、`广告猎手`
+- Chrome for macOS:`uBlock Origin`、`广告终结者`、`Adguard`、`Ghostery`
 
 ## 关于项目发展
 
