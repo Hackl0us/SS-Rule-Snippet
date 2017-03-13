@@ -14,3 +14,6 @@ IP-CIDR,149.154.168.0/22,PROXY,no-resolve
 
 // macOS（Telegram 客户端）
 PROCESS-NAME,Telegram,Proxy
+
+//iOS (目前，仅 Surge 支持)
+USER-AGENT,ph.telegra.Telegraph*,Proxy
