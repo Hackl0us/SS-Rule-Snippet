@@ -1,0 +1,10 @@
+[Rule]
+
+// 通用部分
+DOMAIN-SUFFIX,whatsapp.com,Proxy
+
+// iOS
+USER-AGENT,WhatsApp*,Proxy
+
+// macOS App
+PROCESS-NAME,WhatsApp,Proxy
