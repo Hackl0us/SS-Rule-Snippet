@@ -1,15 +1,21 @@
 # Surge-Rule-Snippets
-本项目目的在于搜集、整理使用的Surge/ShadowRocket规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
+本项目目的在于搜集、整理使用的`Surge`/`ShadowRocket`/`Potatso（部分）`规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
+
+[项目更新日志](https://github.com/Hackl0us/Surge-Rule-Snippets/blob/master/Changelog.md)
 
 ## 注意事项
 
-1. 本规则兼容`ShadowRocket`。
-2. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket规则配置说明** 定制自己的规则
-3. 规则不意味着越多越好，而是越精越好。规则越多，效率越低，RAM占用越高，最后会导致工具退出运行，尤其是越狱设备。
+1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso](https://manual.potatso.com/index.html) 规则配置说明** 定制自己的规则
+2. 规则不意味着越多越好，而是越精越好。规则越多，效率越低，RAM占用越高，最后会导致工具退出运行，尤其是越狱设备。
+
+## 关于 懒人规则 和 兼容性
+
+1. 懒人规则目前支持三款工具，但是只有`ShadowRocket`可以直接导入用。`Surge` 和 `Potatso` **需要配置服务器**。详情请参考上文的配置手册。
+2. 就功能性而言，`Surge`功能最多最强大，`ShadowRocket`其次，`Potatso`功能最少。ShadowRocket和不支持 `Sruge` 的`USER-AGENT`/`PROCESS-NAME`/`URL-REGEX`等参数。`Potatso` 不支持 `DNS Force Remote`等功能。所以各位修改配置文件时，请确认参数的兼容性。
 
 ## 代理类型
 
-规则片段中会存在3中代理类型：
+规则片段中会存在 2 中代理类型：
 
 - PROXY：推荐使用代理，否则可能无法工作，或访问速度缓慢
 - DIRECT：最好直连，否则可能无法工作
@@ -43,52 +49,12 @@ Chrome for macOS:`uBlock Origin`、`广告终结者`、`Adguard`、`Ghostery`
 - [Telegram 维护组](https://t.me/joinchat/AAAAAAwDfpKBFiFuVpz8aw)：仅希望 **有时间和能力** 协助我维护规则的朋友请加入。
 
 ## 感谢
-
-本项目主要参考了：
+- [@Hyyy___Ink](http://weibo.com/u/3041958065) 协助我测试`LastPass`规则
 
 - [GFWList](https://github.com/gfwlist/gfwlist)
 - [Scomper](http://weibo.com/scomper)的[Surge规则](https://gist.githubusercontent.com/scomper/915b04a974f9e11952babfd0bbb241a8/raw/surge.conf)
-- [lhie1](http://weibo.com/809005537)的少部分[Surge规则](https://github.com/lhie1/Surge)
+- [lhie1](http://weibo.com/809005537)的[Surge规则](https://github.com/lhie1/Surge)
 
-后期将会根据用户需求更新完善更多的Surge规则，感谢各位支持。
+感谢各位支持。
 
 ---
-
-更新日志：
-v2.0 （2017/03/11 22:55）
-
-✅ **增加**：
-- 增加`国内直连`规则，专为国内用高速访问优化
-- 增加`科学上网（对抗GFW）`规则，针对性解决 GFW 封锁的网站问题
-- 增加`外网访问优化`规则，解决国内访问虽然未被墙，但访问外网速度缓慢的问题
-- 更新 `GFW黑名单`到 4740 条规则，增加 185 条，移除 62 条
-
-⭐️ **优化**：
-- 大幅优化 `屏蔽视频广告` 规则。主流视频网站的广告可以很好的屏蔽
-- 优化 `Apple服务优化`规则。代理、直连分类明确，获得更快更稳定的访问体验
-- `特殊App优化`的全部规则。更加细化iOS规则，增加针对macOS的规则
-
-⛔️ **移除**：
-- `NO_PROXY`策略类型。现在只有 2 种代理类型。更方便配置，以及更好的兼容性
-- `GFW白名单`规则。将该规则细化至其他规则
-- `广告、追踪、数据搜集`规则，原因详见上文
-
-📒 **未来计划**：
-- （待定）增加 LastPass 规则，优化同步速度
-- 增加 `Potatso` 规则
-- 更新 `Surge` / `ShadowRocket` 规则（待规则稳定后）
-
-v1.2 （2017/01/14 13:53）
-
-- 增加ShadowRocket自用规则，
-- 增加Surge自用规则
-- 修正LINE的规则，添加日区所有服务器地址段，提高可靠性（由于iOS版LINE对中国大陆区不友好，疑似中国大陆号段被封锁，所以此规则以后可能不再更新）
-
-v1.1 （2017/01/13 16:05）
-
-- 更新GFWList黑名单列表
-- 增加KakaoTalk规则
-- 修正LINE的部分规则(后期可能仍会变动)
-- 增加广告、追踪、数据分析屏蔽规则(试用)
-
-v1.0 （2017/01/01 15:15）
