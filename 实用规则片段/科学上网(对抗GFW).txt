@@ -260,8 +260,6 @@ DOMAIN-SUFFIX,tapbots.net,Proxy
 DOMAIN-SUFFIX,tdesktop.com,Proxy
 DOMAIN-SUFFIX,techcrunch.com,Proxy
 DOMAIN-SUFFIX,techsmith.com,Proxy
-DOMAIN-SUFFIX,telegra.ph,Proxy
-DOMAIN-SUFFIX,telegram.org,Proxy
 DOMAIN-SUFFIX,thepiratebay.org,Proxy
 DOMAIN-SUFFIX,theverge.com,Proxy
 DOMAIN-SUFFIX,time.com,Proxy
