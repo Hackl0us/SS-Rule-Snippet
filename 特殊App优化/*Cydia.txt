@@ -1,0 +1,22 @@
+[Rule]
+
+// BigBoss
+DOMAIN-SUFFIX,thebigboss.org,Proxy
+
+//ModMyi
+DOMAIN,apt.modmyi.com,Proxy
+
+//Saurik
+DOMAIN,apt.saurik.com,Proxy
+
+//Exile90software (iCleaner 官方软件源)
+DOMAIN,exile90software.com,Proxy
+
+//Karen's Pineapple (蔡明美 的软件园)
+DOMAIN,cydia.angelxwind.net,Proxy
+
+[URL Rewrite]
+
+// BigBoss
+^https?://apt.thebigboss.org/developer-packages.php http://burpsuite.applinzi.com/Request/ header
+^https?://moreinfo.thebigboss.org/moreinfo/depiction.php http://burpsuite.applinzi.com/Request/ header
