@@ -3,17 +3,18 @@
 // BigBoss
 DOMAIN-SUFFIX,thebigboss.org,Proxy
 
-//ModMyi
+// ModMyi
 DOMAIN,apt.modmyi.com,Proxy
 
-//Saurik
+// Saurik
 DOMAIN,apt.saurik.com,Proxy
 
-//Exile90software (iCleaner 官方软件源)
+// Exile90software (iCleaner 官方软件源)
 DOMAIN,exile90software.com,Proxy
 
-//Karen's Pineapple (蔡明美 的软件园)
+// Karen's Pineapple (蔡明美 的软件园)
 DOMAIN,cydia.angelxwind.net,Proxy
+
 
 [URL Rewrite]
 
