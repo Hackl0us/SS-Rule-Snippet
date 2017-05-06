@@ -1,5 +1,7 @@
 [Rule]
 
+## 以下为 Cydia 默认必备软件源，推荐所有用户添加此规则。
+
 // BigBoss
 DOMAIN-SUFFIX,thebigboss.org,Proxy
 
@@ -8,6 +10,8 @@ DOMAIN,apt.modmyi.com,Proxy
 
 // Saurik
 DOMAIN,apt.saurik.com,Proxy
+
+## 以下为 常用 / 实用 Cydia 源规则，用户需根据自己添加的源，对应添加规则。
 
 // Exile90software (iCleaner 官方软件源)
 DOMAIN,exile90software.com,Proxy
