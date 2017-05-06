@@ -4,16 +4,16 @@
 DOMAIN-SUFFIX,telegra.ph,Proxy
 DOMAIN-SUFFIX,telegram.org,Proxy
 
-IP-CIDR,91.108.56.0/22,PROXY,no-resolve
-IP-CIDR,91.108.4.0/22,PROXY,no-resolve
-IP-CIDR,109.239.140.0/24,PROXY,no-resolve
-IP-CIDR,149.154.164.0/22,PROXY,no-resolve
-IP-CIDR,149.154.172.0/22,PROXY,no-resolve
-IP-CIDR,149.154.160.0/22,PROXY,no-resolve
-IP-CIDR,149.154.168.0/22,PROXY,no-resolve
+IP-CIDR,91.108.56.0/22,Proxy,no-resolve
+IP-CIDR,91.108.4.0/22,Proxy,no-resolve
+IP-CIDR,109.239.140.0/24,Proxy,no-resolve
+IP-CIDR,149.154.164.0/22,Proxy,no-resolve
+IP-CIDR,149.154.172.0/22,Proxy,no-resolve
+IP-CIDR,149.154.160.0/22,Proxy,no-resolve
+IP-CIDR,149.154.168.0/22,Proxy,no-resolve
 
 // macOS（Telegram 客户端）
 PROCESS-NAME,Telegram,Proxy
 
-//iOS (目前，仅 Surge 支持)
+//iOS
 USER-AGENT,ph.telegra.Telegraph*,Proxy
