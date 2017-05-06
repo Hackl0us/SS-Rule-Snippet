@@ -41,7 +41,7 @@
 
 项目后期将会更加细化规则和分类，方便用户选择和定制。所以有想法帮助维护项目的朋友可以Issue的形式提交需求，或共享代码片段，帮助我一起维护这个项目，非常感谢。欢迎各位补充规则~
 
-如果您有更好的想法、建议或意见，请写邮件告诉我：talk@hackl0us.com，我会尽快回复。
+如果您有更好的想法、建议或意见，请写邮件告诉我：ask@hackl0us.com，我会尽快回复。
 
 ## 关注项目
 
@@ -50,11 +50,9 @@
 
 ## 感谢
 - [@Hyyy___Ink](http://weibo.com/u/3041958065) 协助我测试`LastPass`规则
-
 - [GFWList](https://github.com/gfwlist/gfwlist)
 - [Scomper](http://weibo.com/scomper)的[Surge规则](https://gist.githubusercontent.com/scomper/915b04a974f9e11952babfd0bbb241a8/raw/surge.conf)
 - [lhie1](http://weibo.com/809005537)的[Surge规则](https://github.com/lhie1/Surge)
-
-感谢各位支持。
+- [@未名\_\_\_\_\_](http://weibo.com/u/2305957833)提供纠正 Testflight 与服务器连接错误的规则
 
 ---
