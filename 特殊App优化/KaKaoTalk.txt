@@ -1,14 +1,9 @@
 [Rule]
 
 // 通用部分
-DOMAIN,kakao.com,Proxy
 DOMAIN-SUFFIX,kakao.com,Proxy
-DOMAIN-KEYWORD,kakao,Proxy
+DOMAIN-SUFFIX,kakao.co.kr,Proxy
+DOMAIN-SUFFIX,kakaocdn.net,Proxy
 
-// iOS
-IP-CIDR,103.246.56.0/22,Proxy,no-resolve
-IP-CIDR,113.61.104.0/22,Proxy,no-resolve
-IP-CIDR,103.27.148.0/22,Proxy,no-resolve
-IP-CIDR,110.76.140.0/22,Proxy,no-resolve
-IP-CIDR,27.0.236.0/22,Proxy,no-resolve
-IP-CIDR,1.201.0.0/24,Proxy,no-resolve
+USER-AGENT,KakaoTalk*,Proxy
+USER-AGENT,KT*,Proxy
