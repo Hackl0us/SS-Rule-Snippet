@@ -1,5 +1,5 @@
 # Surge-Rule-Snippets
-本项目目的在于搜集、整理使用的`Surge`/`ShadowRocket`/`Potatso（部分）`规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
+本项目目的在于搜集、整理使用的`Surge`/`ShadowRocket`/`Potatso`/`Cross`规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
 
 [项目更新日志](https://github.com/Hackl0us/Surge-Rule-Snippets/blob/master/Changelog.md)
 
@@ -11,14 +11,23 @@
 ## 关于 懒人规则 和 兼容性
 
 1. 懒人规则目前支持三款工具，但是只有`ShadowRocket`可以直接导入用。`Surge` 和 `Potatso` **需要配置服务器**。详情请参考上文的配置手册。
-2. 就功能性而言，`Surge`功能最多最强大，`ShadowRocket`其次，`Potatso`功能最少。ShadowRocket和不支持 `Sruge` 的`USER-AGENT`/`PROCESS-NAME`/`URL-REGEX`等参数。`Potatso` 不支持 `DNS Force Remote`等功能。所以各位修改配置文件时，请确认参数的兼容性。
+2. 就功能性而言，`Surge`功能最多最强大，`ShadowRocket`其次，`Potatso`功能最少。`ShadowRocket`/`Potatso`不支持 `Surge` 的`PROCESS-NAME`/`URL-REGEX`等参数。所以各位修改配置文件时，请确认参数的兼容性。
+
+## 如何使用懒人规则
+
+规则在 Github 网页上，需要以 `Raw`的形式显示才是纯文本格式，可以被代理工具识别，不可以直接复制项目的地址。操作步骤十分简单，请参考以下步骤：
+
+1. 在 Github 上找到您需要的**懒人文件**，并点击访问。
+2. 在显示的界面中，点击右上角的`Raw`按钮。![](http://ok9svak43.bkt.clouddn.com/blog/image/github/github_raw_1.jpg)
+3. 复制浏览器地址栏的地址到`代理工具`或`下载工具`即可。![](http://ok9svak43.bkt.clouddn.com/blog/image/github/github_raw_2.jpg)
 
 ## 代理类型
 
-规则片段中会存在 2 中代理类型：
+规则片段中会存在 3 中代理策论：
 
-- PROXY：推荐使用代理，否则可能无法工作，或访问速度缓慢
-- DIRECT：最好直连，否则可能无法工作
+- Proxy：代理，一般为海外备案、服务器在海外或被 GFW 阻挡的网站。若不使用代理，可能无法工作，或访问速度极其缓慢。
+- DIRECT：直连，一般为国内备案或服务器在中国的网站，可以获得更快的访问速度。
+- REJECT：拒绝连接。一般为可能个人泄露隐私的数据追踪或非友好广告的域名。
 
 ## 屏蔽广告与追踪
 
@@ -50,9 +59,10 @@
 
 ## 感谢
 - [@Hyyy___Ink](http://weibo.com/u/3041958065) 协助我测试`LastPass`规则
-- [GFWList](https://github.com/gfwlist/gfwlist)
+- [GFWList](https://github.com/gfwlist/gfwlist) 项目
 - [Scomper](http://weibo.com/scomper)的[Surge规则](https://gist.githubusercontent.com/scomper/915b04a974f9e11952babfd0bbb241a8/raw/surge.conf)
-- [lhie1](http://weibo.com/809005537)的[Surge规则](https://github.com/lhie1/Surge)
-- [@未名\_\_\_\_\_](http://weibo.com/u/2305957833)提供纠正 Testflight 与服务器连接错误的规则
+- [lhie1](http://weibo.com/809005537)的[Surge规则](https://github.com/lhie1/Surge) 中 **屏蔽视频广告** 部分规则
+- [@未名\_\_\_\_\_](http://weibo.com/u/2305957833) 提供纠正 `Testflight` 相关规则及 `Cross` 配置模板
+- [@Momo_Kong](http://weibo.com/momokon9) 提供 `Potatso 2`的规则
 
 ---
