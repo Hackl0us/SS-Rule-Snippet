@@ -1,82 +1,31 @@
-#此部分规则为屏蔽视频广告规则
-
 [Rule]
 
 // 爱奇艺
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.qiyi.com,REJECT
+DOMAIN-SUFFIX,api.cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,c.uaa.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ckm.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cloudpush.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cm.passport.iqiyi.com,REJECT
-DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
-DOMAIN-SUFFIX,data.video.qiyi.com,REJECT
+DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,gamecenter.iqiyi.com,REJECT
+DOMAIN-SUFFIX,hotchat-im.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ifacelog.iqiyi.com,REJECT
 DOMAIN-SUFFIX,mbdlog.iqiyi.com,REJECT
-DOMAIN-SUFFIX,msg.iqiyi.com,REJECT
-DOMAIN-SUFFIX,msg.video.qiyi.com,REJECT
-DOMAIN-SUFFIX,msg2.video.qiyi.com,REJECT
-DOMAIN-SUFFIX,notice.iqiyi.com,REJECT
-DOMAIN-SUFFIX,paopao.iqiyi.com,REJECT
 DOMAIN-SUFFIX,policy.video.iqiyi.com,REJECT
-DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,rcd.iqiyi.com,REJECT
-DOMAIN-SUFFIX,static.g.iqiyi.com,REJECT
-DOMAIN-SUFFIX,store.iqiyi.com,REJECT
-DOMAIN-SUFFIX,store.qiyi.com,REJECT
-DOMAIN-SUFFIX,yuedu.iqiyi.com,REJECT
+IP-CIDR,117.139.18.141/24,REJECT,no-resolve
+IP-CIDR,183.221.247.189/24,REJECT,no-resolve
 
-// 爱奇艺TV
-DOMAIN-SUFFIX,api.cupid.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,mixer.cupid.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,msg.c002.ottcn.com,REJECT
-DOMAIN-SUFFIX,msg.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,msg.video.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,msg2.video.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,msga.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,nl.rcd.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,pb.bi.gitv.tv,REJECT
-DOMAIN-SUFFIX,store.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv,REJECT
-
-DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,REJECT
-DOMAIN-SUFFIX,hotchat-im.iqiyi.com,REJECT
-DOMAIN-SUFFIX,paopao0.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao1.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao2.qiyipic.com,REJECT
-DOMAIN-SUFFIX,paopao3.qiyipic.com,REJECT
-DOMAIN-SUFFIX,tracker.sns.iqiyi.com,REJECT
-
-DOMAIN-SUFFIX,androidgo.duapp.com,REJECT
-DOMAIN-SUFFIX,count.game.pps.tv,REJECT
-DOMAIN-SUFFIX,game.pps.tv,REJECT
-DOMAIN-SUFFIX,msg.71.am,REJECT
-DOMAIN-SUFFIX,msga.71.am,REJECT
-DOMAIN-SUFFIX,noxagile.duapp.com,REJECT
-DOMAIN-SUFFIX,qosp.msg.71.am,REJECT
-DOMAIN-SUFFIX,static.g.ppstream.com,REJECT
-
-DOMAIN-SUFFIX,api.cupid.qiyi.com,REJECT
-
-// 迅雷看看
-DOMAIN-SUFFIX,biz5.kankan.com,REJECT
-DOMAIN-SUFFIX,logic.cpm.cm.kankan.com,REJECT
-DOMAIN-SUFFIX,float.kankan.com,REJECT
-
-// 酷6
-DOMAIN-SUFFIX,gug.ku6cdn.com,REJECT
-DOMAIN-SUFFIX,pq.stat.ku6.com,REJECT
-DOMAIN-SUFFIX,st.vq.ku6.cn,REJECT
-DOMAIN-SUFFIX,static.ku6.com,REJECT
-
-// 乐视
+// 乐视TV
 DOMAIN-SUFFIX,api.game.letvstore.com,REJECT
 DOMAIN-SUFFIX,ark.letv.com,REJECT
 DOMAIN-SUFFIX,dc.letv.com,REJECT
 DOMAIN-SUFFIX,dev.dc.letv.com,REJECT
 DOMAIN-SUFFIX,fz.letv.com,REJECT
 DOMAIN-SUFFIX,g3.letv.com,REJECT
+DOMAIN-SUFFIX,letv.allyes.com,REJECT
 DOMAIN-SUFFIX,letv.irs01.com,REJECT
 DOMAIN-SUFFIX,minisite.letv.com,REJECT
 DOMAIN-SUFFIX,msg.m.letv.com,REJECT
@@ -90,27 +39,33 @@ DOMAIN-SUFFIX,static.app.m.letv.com,REJECT
 // 腾讯视频
 DOMAIN-SUFFIX,aiseet.aa.atianqi.com,REJECT
 DOMAIN-SUFFIX,aiseet.atianqi.com,REJECT
+DOMAIN-SUFFIX,btrace.video.qq.com,REJECT
 DOMAIN-SUFFIX,c.l.qq.com,REJECT
 DOMAIN-SUFFIX,dp3.play.aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,dp3.qq.com,REJECT
 DOMAIN-SUFFIX,livep.l.aiseet.atianqi.com,REJECT
+DOMAIN-SUFFIX,livep.l.qq.com,REJECT
 DOMAIN-SUFFIX,lives.l.aiseet.atianqi.com,REJECT
+DOMAIN-SUFFIX,lives.l.qq.com,REJECT
 DOMAIN-SUFFIX,livew.l.qq.com,REJECT
+DOMAIN-SUFFIX,mcgi.v.qq.com,REJECT
 DOMAIN-SUFFIX,mdevstat.qqlive.qq.com,REJECT
 DOMAIN-SUFFIX,monitor-uu.play.aiseet.atianqi.com,REJECT
+DOMAIN-SUFFIX,news.l.qq.com,REJECT
 DOMAIN-SUFFIX,news-l.play.aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,omgmta1.qq.com,REJECT
 DOMAIN-SUFFIX,otheve.play.aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,othstr.play.aiseet.atianqi.com,REJECT
+DOMAIN-SUFFIX,p.l.qq.com,REJECT
 DOMAIN-SUFFIX,p-l.play.aiseet.atianqi.com,REJECT
 DOMAIN-SUFFIX,sdkconfig.play.aiseet.atianqi.com,REJECT
+DOMAIN-SUFFIX,t.l.qq.com,REJECT
 DOMAIN-SUFFIX,t-l.play.aiseet.atianqi.com,REJECT
+DOMAIN-SUFFIX,u.l.qq.com,REJECT
 DOMAIN-SUFFIX,vmindhls.tc.qq.com,REJECT
 DOMAIN-SUFFIX,vv.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,wa.gtimg.com,REJECT
 
-
-// 裤兜 (优酷、土豆)
+// 优酷、土豆
 DOMAIN-SUFFIX,actives.youku.com,REJECT
 DOMAIN-SUFFIX,ad.api.3g.tudou.com,REJECT
 DOMAIN-SUFFIX,ad.api.3g.youku.com,REJECT
@@ -136,6 +91,8 @@ DOMAIN-SUFFIX,hudong.pl.youku.com,REJECT
 DOMAIN-SUFFIX,hz.youku.com,REJECT
 DOMAIN-SUFFIX,iwstat.tudou.com,REJECT
 DOMAIN-SUFFIX,iyes.youku.com,REJECT
+DOMAIN-SUFFIX,l.ykimg.com,REJECT
+DOMAIN-SUFFIX,l.youku.com,REJECT
 DOMAIN-SUFFIX,lstat.youku.com,REJECT
 DOMAIN-SUFFIX,lvip.youku.com,REJECT
 DOMAIN-SUFFIX,mobilemsg.youku.com,REJECT
@@ -151,6 +108,7 @@ DOMAIN-SUFFIX,s.p.youku.com,REJECT
 DOMAIN-SUFFIX,sdk.m.youku.com,REJECT
 DOMAIN-SUFFIX,stat.tudou.com,REJECT
 DOMAIN-SUFFIX,stat.youku.com,REJECT
+DOMAIN-SUFFIX,static.lstat.youku.com,REJECT
 DOMAIN-SUFFIX,statis.api.3g.youku.com,REJECT
 DOMAIN-SUFFIX,stats.tudou.com,REJECT
 DOMAIN-SUFFIX,store.tv.api.3g.youku.com,REJECT
@@ -166,17 +124,6 @@ DOMAIN-SUFFIX,ykatr.youku.com,REJECT
 DOMAIN-SUFFIX,ykrec.youku.com,REJECT
 DOMAIN-SUFFIX,ykrectab.youku.com,REJECT
 
-// 优酷（补充）
-DOMAIN-SUFFIX,cms.laifeng.com,REJECT
-DOMAIN-SUFFIX,hp.smiler-ad.com,REJECT
-DOMAIN-SUFFIX,l.fancyapi.com,REJECT
-DOMAIN-SUFFIX,l.ftx.fancyapi.com,REJECT
-DOMAIN-SUFFIX,ld.kuaigames.com,REJECT
-DOMAIN-SUFFIX,rd.kuaigames.com,REJECT
-DOMAIN-SUFFIX,static8.pmadx.com,REJECT
-DOMAIN-SUFFIX,w.fancyapi.com,REJECT
-DOMAIN-SUFFIX,www.bfshan.cn,REJECT
-
 // Youtube
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
 DOMAIN-SUFFIX,azabu-u.ac.jp,REJECT
@@ -184,43 +131,43 @@ DOMAIN-SUFFIX,couchcoaster.jp,REJECT
 DOMAIN-SUFFIX,crt.comodoca.com,REJECT
 DOMAIN-SUFFIX,delivery.dmkt-sp.jp,REJECT
 DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
-DOMAIN-SUFFIX,files.adform.net,REJECT
-DOMAIN-SUFFIX,gcdn.2mdn.net,REJECT
 DOMAIN-SUFFIX,m-78.jp,REJECT
 DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
 DOMAIN-SUFFIX,nicorette.co.kr,REJECT
-DOMAIN-SUFFIX,s.youtube.com,REJECT
-DOMAIN-SUFFIX,s2.youtube.com,REJECT
-DOMAIN-SUFFIX,shizen-no-megumi.com,REJECT
 DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
 DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
 DOMAIN-SUFFIX,youtube.2cnt.net,REJECT
 
-// 搜狐
+// 搜狐视频
+DOMAIN-SUFFIX,agn.aty.sohu.com,REJECT
+DOMAIN-SUFFIX,goto.sms.sohu.com,REJECT
+DOMAIN-SUFFIX,i.go.sohu.com,REJECT
+DOMAIN-SUFFIX,m.aty.sohu.com,REJECT
+DOMAIN-SUFFIX,mb.hd.sohu.com.cn,REJECT
+DOMAIN-SUFFIX,mmg.aty.sohu.com,REJECT
+DOMAIN-SUFFIX,pv.sohu.com,REJECT
+DOMAIN-SUFFIX,s.go.sohu.com,REJECT
+DOMAIN-SUFFIX,score.my.tv.sohu.com,REJECT
+DOMAIN-SUFFIX,sohu.wrating.com,REJECT
 DOMAIN-SUFFIX,888.tv.sohu.com,REJECT
 DOMAIN-SUFFIX,api.k.sohu.com,REJECT
-DOMAIN-SUFFIX,aty.sohu.com,REJECT
-DOMAIN-SUFFIX,bd.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,click.hd.sohu.com.cn,REJECT
-DOMAIN-SUFFIX,click2.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,count.vrs.sohu.com,REJECT
-DOMAIN-SUFFIX,ctr.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,da.mmarket.com,REJECT
-DOMAIN-SUFFIX,data.vod.itc.cn,REJECT
-DOMAIN-SUFFIX,download.wan.sohu.com,REJECT
-DOMAIN-SUFFIX,hui.sohu.com,REJECT
-DOMAIN-SUFFIX,lm.tv.sohu.com,REJECT
-DOMAIN-SUFFIX,mb.hd.sohu.com.cn,REJECT
-DOMAIN-SUFFIX,pb.hd.sohu.com.cn,REJECT
-DOMAIN-SUFFIX,push.tv.sohu.com,REJECT
-DOMAIN-SUFFIX,pv.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,pv.ott.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,pv.sohu.com,REJECT
-DOMAIN-SUFFIX,statcounter.com,REJECT
-DOMAIN-SUFFIX,um.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,wl.hd.sohu.com,REJECT
 DOMAIN-SUFFIX,yule.sohu.com,REJECT
 DOMAIN-SUFFIX,zz.m.sohu.com,REJECT
+DOMAIN-SUFFIX,bd.hd.sohu.com,REJECT
+DOMAIN-SUFFIX,lm.tv.sohu.com,REJECT
+DOMAIN-SUFFIX,click.hd.sohu.com.cn,REJECT
+DOMAIN-SUFFIX,click2.hd.sohu.com,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN-SUFFIX,wl.hd.sohu.com,REJECT
+DOMAIN-SUFFIX,ctr.hd.sohu.com,REJECT
+DOMAIN-SUFFIX,count.vrs.sohu.com,REJECT
+DOMAIN-SUFFIX,hui.sohu.com,REJECT
+DOMAIN-SUFFIX,pv.hd.sohu.com,REJECT
+DOMAIN-SUFFIX,pb.hd.sohu.com.cn,REJECT
+DOMAIN-SUFFIX,download.wan.sohu.com,REJECT
+DOMAIN-SUFFIX,um.hd.sohu.com,REJECT
+DOMAIN-SUFFIX,push.tv.sohu.com,REJECT
+DOMAIN-SUFFIX,pv.ott.hd.sohu.com,REJECT
 
 // PPTV
 DOMAIN-SUFFIX,asimgs.pplive.cn,REJECT
@@ -230,84 +177,136 @@ DOMAIN-SUFFIX,pp2.pptv.com,REJECT
 DOMAIN-SUFFIX,stat.pptv.com,REJECT
 DOMAIN-SUFFIX,afp.pplive.com,REJECT
 
-// 其他（Beta）
+// 其他视频网站（根据需要选择性添加）
+DOMAIN-SUFFIX,ad.video.51togic.com,REJECT
 DOMAIN-SUFFIX,ads.cdn.tvb.com,REJECT
-DOMAIN-SUFFIX,btrace.video.qq.com,REJECT
+DOMAIN-SUFFIX,androidgo.duapp.com,REJECT
+DOMAIN-SUFFIX,biz5.kankan.com,REJECT
 DOMAIN-SUFFIX,c.algovid.com,REJECT
 DOMAIN-SUFFIX,cc.xtgreat.com,REJECT
+DOMAIN-SUFFIX,cm.zhiziyun.com,REJECT
+DOMAIN-SUFFIX,cms.laifeng.com,REJECT
+DOMAIN-SUFFIX,count.game.pps.tv,REJECT
 DOMAIN-SUFFIX,d.dsp.imageter.com,REJECT
+DOMAIN-SUFFIX,da.mmarket.com,REJECT
+DOMAIN-SUFFIX,data.vod.itc.cn,REJECT
+DOMAIN-SUFFIX,dotcounter.douyutv.com,REJECT
+DOMAIN-SUFFIX,files.adform.net,REJECT
+DOMAIN-SUFFIX,float.kankan.com,REJECT
+DOMAIN-SUFFIX,g.uusee.com,REJECT
+DOMAIN-SUFFIX,game.pps.tv,REJECT
+DOMAIN-SUFFIX,gcdn.2mdn.net,REJECT
+DOMAIN-SUFFIX,gentags.net,REJECT
 DOMAIN-SUFFIX,gg.jtertp.com,REJECT
+DOMAIN-SUFFIX,gug.ku6cdn.com,REJECT
+DOMAIN-SUFFIX,hp.smiler-ad.com,REJECT
+DOMAIN-SUFFIX,kooyum.com,REJECT
 DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT
+DOMAIN-SUFFIX,l.fancyapi.com,REJECT
+DOMAIN-SUFFIX,l.ftx.fancyapi.com,REJECT
+DOMAIN-SUFFIX,ld.kuaigames.com,REJECT
+DOMAIN-SUFFIX,logger.baofeng.com,REJECT
+DOMAIN-SUFFIX,logic.cpm.cm.kankan.com,REJECT
 DOMAIN-SUFFIX,logstat.t.sfht.com,REJECT
 DOMAIN-SUFFIX,match.rtbidder.net,REJECT
+DOMAIN-SUFFIX,mixer.cupid.ptqy.gitv.tv,REJECT
 DOMAIN-SUFFIX,mp4.res.hunantv.com,REJECT
+DOMAIN-SUFFIX,msg.c002.ottcn.com,REJECT
+DOMAIN-SUFFIX,msga.ptqy.gitv.tv,REJECT
+DOMAIN-SUFFIX,njwxh.com,REJECT
+DOMAIN-SUFFIX,nl.rcd.ptqy.gitv.tv,REJECT
+DOMAIN-SUFFIX,noxagile.duapp.com,REJECT
 DOMAIN-SUFFIX,n-st.vip.com,REJECT
+DOMAIN-SUFFIX,pb.bi.gitv.tv,REJECT
 DOMAIN-SUFFIX,pop.uusee.com,REJECT
+DOMAIN-SUFFIX,pq.stat.ku6.com,REJECT
+DOMAIN-SUFFIX,qchannel01.cn,REJECT
+DOMAIN-SUFFIX,rd.kuaigames.com,REJECT
+DOMAIN-SUFFIX,rtb.behe.com,REJECT
+DOMAIN-SUFFIX,shizen-no-megumi.com,REJECT
 DOMAIN-SUFFIX,shrek.6.cn,REJECT
 DOMAIN-SUFFIX,simba.6.cn,REJECT
+DOMAIN-SUFFIX,st.vq.ku6.cn,REJECT
+DOMAIN-SUFFIX,statcounter.com,REJECT
 DOMAIN-SUFFIX,static.bshare.cn,REJECT
 DOMAIN-SUFFIX,static.duoshuo.com,REJECT
+DOMAIN-SUFFIX,static.g.ppstream.com,REJECT
+DOMAIN-SUFFIX,static.ku6.com,REJECT
+DOMAIN-SUFFIX,static8.pmadx.com,REJECT
+DOMAIN-SUFFIX,store.ptqy.gitv.tv,REJECT
+DOMAIN-SUFFIX,stuff.cdn.biddingx.com,REJECT
 DOMAIN-SUFFIX,t.cr-nielsen.com,REJECT
+DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv,REJECT
+DOMAIN-SUFFIX,traffic.uusee.com,REJECT
 DOMAIN-SUFFIX,union.6.cn,REJECT
-
-// 斗鱼
-DOMAIN-SUFFIX,dotcounter.douyutv.com,REJECT
-
+DOMAIN-SUFFIX,w.fancyapi.com,REJECT
+DOMAIN-SUFFIX,wa.gtimg.com,REJECT
+DOMAIN-SUFFIX,www.bfshan.cn,REJECT
+DOMAIN-SUFFIX,x.da.hunantv.com,REJECT
+DOMAIN-SUFFIX,xs.houyi.baofeng.net,REJECT
 
 [URL Rewrite]
 
 // 爱奇艺
-^(http|https)://.+/videos/other/.+\.f4v - reject
-^(http|https)://iface.iqiyi.com/api/getNewAdInfo? - reject
-^(http|https)://iface2.iqiyi.com/views_pop/3.0/pop_control? - reject
-^(http|https)://iface2.iqiyi.com/views_pop/3.0/pop_home? - reject
-^(http|https)://msg.71.am - reject
-^(http|https)://msga.cupid.iqiyi.com - reject
-^(http|https)://pic\d{1}.qiyipic.com/common - reject
+^https?://.+/videos/other/.+\.f4v - reject
+^https?://iface.iqiyi.com/api/getNewAdInfo? - reject
+^https?://msga.cupid.iqiyi.com - reject
 
 // 优酷
-^(http|https)://api.mobile.youku.com/adv/ - reject
-^(http|https)://hd.api.mobile.youku.com/common/v3/hudong/new - reject
-^(http|https)://r.l.youku.com/rec_at_click - reject
-^(http|https)://api.appsdk.soku.com/tag/r - reject
-^(http|https)://api.mobile.youku.com/layout/search/hot/word - reject
-^(http|https)://m.youku.com/video/libs/iwt.js - reject
-^(http|https)://api.appsdk.soku.com/bg/r - reject
-^(http|https)://i.gtimg.cn/ https://i.gtimg.cn/ 302
-^(http|https)://api.k.sohu.com/api/channel/ad/ - reject
-^(http|https)://pic.k.sohu.com/img8/wb/tj/ - reject
-^(http|https)://hd.mobile.youku.com/common/v3/hudong/new - reject
-^(http|https)://pl.youku.com - reject
-^(http|https)://l.youku.com - reject
-^(http|https)://atm.youku.com - reject
-^(http|https)://ad.api.3g.youku.com - reject
-^(http|https)://i-play.mobile.youku.com/common/v5/play? http://burpsuite.applinzi.com/Request/ header
-^(http|https)://d.m6.cms.mobile.youku.com/player/domain_name? http://burpsuite.applinzi.com/Request/ header
-^(http|https)://burpsuite.applinzi.com/common/v5/play http://burpsuite.applinzi.com/Request/ header
-^(http|https)://api.mobile.youku.com/initial? http://burpsuite.applinzi.com/Request/ 302
-^(http|https)://home.mobile.youku.com/layout/iphone/v5/home/page? http://burpsuite.applinzi.com/Request/ header
-^(http|https)://appsdk.soku.com/bg/r? - reject
+^https?://ad.api.3g.youku.com - reject
+^https?://api.appsdk.soku.com/bg/r - reject
+^https?://api.appsdk.soku.com/tag/r - reject
+^https?://api.k.sohu.com/api/channel/ad/ - reject
+^https?://api.mobile.youku.com/adv/ - reject
+^https?://api.mobile.youku.com/initial? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& 302
+^https?://api.mobile.youku.com/layout/search/hot/word - reject
+^https?://appsdk.soku.com/bg/r? - reject
+^https?://atm.youku.com - reject
+^https?://burpsuite.applinzi.com/common/v5/play http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
+^https?://d.m6.cms.mobile.youku.com/player/domain_name? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
+^https?://hd.api.mobile.youku.com/common/v3/hudong/new - reject
+^https?://hd.mobile.youku.com/common/v3/hudong/new - reject
+^https?://home.mobile.youku.com/layout/iphone/v5/home/page? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>& header
+^https?://i.gtimg.cn/ https://i.gtimg.cn/ 302
+^https?://i-play.mobile.youku.com/common/v5/play? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>&dev=true& header
+^https?://l.youku.com - reject
+^https?://m.youku.com/video/libs/iwt.js - reject
+^https?://pic.k.sohu.com/img8/wb/tj/ - reject
+^https?://pl.youku.com - reject
+^https?://r.l.youku.com/rec_at_click - reject
+^https://ups.youku.com/ups/get.json? http://burpsuite.applinzi.com/Network/?configuration_token=<TOKEN>&dev=true& 302
 
 // 搜狐
-^(http|https)://api.tv.sohu.com/mobile/control/switch.json? - reject
-^(http|https)://api.tv.sohu.com/v4/mobile/control/switch.json? - reject
-^(http|https)://api.tv.sohu.com/mobile_user/device/clientconf.json? - reject
-^(http|https)://api.tv.sohu.com/v4/mobile/albumdetail.json? - reject
-^(http|https)://s1.api.tv.itc.cn/v4/mobile/searchFunctionConfig/list.json? - reject
-^(http|https)://s1.api.tv.itc.cn/v4/mobile/feeling/list.json? - reject
-^(http|https)://mmg.aty.sohu.com/pvlog? - reject
-^(http|https)://mmg.aty.sohu.com/mqs? - reject
-^(http|https)://agn.aty.sohu.com/m? - reject
-^(http|https)://m.aty.sohu.com/openload? - reject
-^(http|https)://api.tv.sohu.com/mobile_user/push/uploadtoken.json? - reject
-^(http|https)://mbl.56.com/config/v1/common/config.union.ios.do? - reject
-^(http|https)://hui.sohu.com/predownload2/? - reject
+^https?://agn.aty.sohu.com/m? - reject
+^https?://api.tv.sohu.com/mobile/control/switch.json? - reject
+^https?://api.tv.sohu.com/mobile_user/device/clientconf.json? - reject
+^https?://api.tv.sohu.com/mobile_user/push/uploadtoken.json? - reject
+^https?://api.tv.sohu.com/v4/mobile/albumdetail.json\?poid=.* - reject
+^https?://api.tv.sohu.com/v4/mobile/control/switch.json? - reject
+^https?://hui.sohu.com/predownload2/? - reject
+^https?://m.aty.sohu.com/openload? - reject
+^https?://mbl.56.com/config/v1/common/config.union.ios.do? - reject
+^https?://mmg.aty.sohu.com/mqs? - reject
+^https?://mmg.aty.sohu.com/pvlog? - reject
+^https?://photocdn.sohu.com/tvmobilemvms - reject
+^https?://s.go.sohu.com\/adgtr\/\?gbcode=\&appchn=.* - reject
+^https?://s1.api.tv.itc.cn/v4/mobile/feeling/list.json? - reject
+^https?://s1.api.tv.itc.cn/v4/mobile/searchFunctionConfig/list.json? - reject
 
 // 乐视
 ^.+ark.letv.com\/adx\?adzone=.+ _ reject
 ^.+ark.letv.com\/t\?mid=\d{7}$ _ reject
 
 // 斗鱼
-^https?://capi.douyucdn.cn/lapi/sign/appapi/ _ reject
-^https?://douyucdn\.cn\/.*\/appapi\/getinfo\?.* _ reject
-^https?://staticlive.douyucdn.cn/upload/signs/ _ reject
+^https://capi.douyucdn.cn/lapi/sign/appapi/getinfo?aid=.* - reject
+^https://capi.douyucdn.cn\/.*\/appapi\/getinfo\?.* - reject
+^https://staticlive.douyucdn\.cn/.*\/getStartSend\?.* - reject
+^https?://douyucdn\.cn\/.*\/appapi\/getinfo\?.* - reject
+^https?://staticlive.douyucdn.cn/upload/signs/ - reject
+^https?://staticlive.douyucdn\.cn/.*\/getStartSend\?.* - reject
+
+// Youtube
+^https?://m.youtube.com/_get_ads - reject
+^https?://pagead2.googlesyndication.com/pagead/ - reject
+^https?://s0.2mdn.net/ads/ - reject
+^https?://stats.tubemogul.com/stats/ - reject
