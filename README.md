@@ -60,9 +60,10 @@
 ## 感谢
 - [@Hyyy___Ink](http://weibo.com/u/3041958065) 协助我测试`LastPass`规则
 - [GFWList](https://github.com/gfwlist/gfwlist) 项目
+- [Super Liu (@s5s5)](https://medium.com/@s5s5) 的 [GFWListToSurgeRule](https://s5s5.github.io/GFWListToSurgeRule.js/) 项目
 - [Scomper](http://weibo.com/scomper)的[Surge规则](https://gist.githubusercontent.com/scomper/915b04a974f9e11952babfd0bbb241a8/raw/surge.conf)
 - [lhie1](http://weibo.com/809005537)的[Surge规则](https://github.com/lhie1/Surge) 中 **屏蔽视频广告** 部分规则
-- [@未名\_\_\_\_\_](http://weibo.com/u/2305957833) 提供纠正 `Testflight` 相关规则及 `Cross` 配置模板
-- [@Momo_Kong](http://weibo.com/momokon9) 提供 `Potatso 2`的规则
+- [@未名\_\_\_\_\_](http://weibo.com/u/2305957833) 提供 `Testflight` 相关规则及 `Cross` 配置模板
+- [@Momo_Kong](http://weibo.com/momokon9) 提供 `Potatso 2 `的懒人规则
 
 ---
