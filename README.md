@@ -17,7 +17,7 @@
 
 规则在 Github 网页上，需要以 `Raw`的形式显示才是纯文本格式，可以被代理工具识别，不可以直接复制项目的地址。操作步骤十分简单，请参考以下步骤：
 
-1. 在 Github 上找到您需要的**懒人文件**，并点击访问。
+1. 在 Github 上进入`LAZY_RULES`文件夹，找到您需要的**懒人配置文件**，并点击访问。
 2. 在显示的界面中，点击右上角的`Raw`按钮。![](http://ok9svak43.bkt.clouddn.com/blog/image/github/github_raw_1.jpg)
 3. 复制浏览器地址栏的地址到`代理工具`或`下载工具`即可。![](http://ok9svak43.bkt.clouddn.com/blog/image/github/github_raw_2.jpg)
 
