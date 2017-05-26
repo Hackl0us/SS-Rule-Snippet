@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,icloud-content.com,Proxy
 DOMAIN,e.crashlytics.com,REJECT
 
 // 通用部分
+DOMAIN-SUFFIX,appsto.re,Proxy
 DOMAIN,beta.itunes.apple.com,Proxy
 DOMAIN-SUFFIX,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
