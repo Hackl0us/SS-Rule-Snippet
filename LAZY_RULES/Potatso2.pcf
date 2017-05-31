@@ -21,7 +21,7 @@ rules = [
     "DOMAIN, www.appleiphonecell.com, DIRECT",
     "DOMAIN-SUFFIX, mzstatic.com, DIRECT",
     "DOMAIN, gs.apple.com, PROXY",
-    "DOMAIN-SUFFIX, akadns.net, DIRECT"
+    "DOMAIN-SUFFIX, akadns.net, DIRECT",
     "DOMAIN-SUFFIX, aaplimg.com, DIRECT",
     "DOMAIN-SUFFIX, icloud-content.com, PROXY",
     "DOMAIN-SUFFIX, appsto.re ,PROXY",
@@ -788,6 +788,6 @@ rules = [
     "IP-CIDR, 127.0.0.0/8, DIRECT",
     "IP-CIDR, 172.16.0.0/12, DIRECT",
     "IP-CIDR, 192.168.0.0/16, DIRECT",
-    "IP-CIDR, 100.64.0.0/10, DIRECT"
+    "IP-CIDR, 100.64.0.0/10, DIRECT",
     "IP-CIDR, 10.0.0.0/8, DIRECT"
 ]
