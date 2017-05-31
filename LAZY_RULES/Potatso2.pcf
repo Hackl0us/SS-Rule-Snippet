@@ -5,7 +5,6 @@ description = "Converted from Hackl0us's Surge lazy rules by Weiyi Kong."
 [RULESET.direct]
 name = "中国域名直连"
 rules = [
-    "DOMAIN-SUFFIX, edu.cn, DIRECT",
     "DOMAIN-SUFFIX, cn, DIRECT",
     "DOMAIN-MATCH, -cn, DIRECT",
     "GEOIP, cn, DIRECT"
@@ -14,25 +13,22 @@ rules = [
 [RULESET.apple]
 name = "Apple 服务优化"
 rules = [
-    "DOMAIN, captive.apple.com, DIRECT",
     "DOMAIN, www.thinkdifferent.us, DIRECT",
     "DOMAIN, www.itools.info, DIRECT",
     "DOMAIN, www.ibook.info, DIRECT",
     "DOMAIN, www.apple.com, DIRECT",
     "DOMAIN, www.aiport.us, DIRECT",
     "DOMAIN, www.appleiphonecell.com, DIRECT",
-    "DOMAIN-SUFFIX, cdn-apple.com, DIRECT",
     "DOMAIN-SUFFIX, mzstatic.com, DIRECT",
-    "DOMAIN, gs.apple.com ,PROXY",
-    "DOMAIN-SUFFIX, aaplimg.com ,PROXY",
-    "DOMAIN-SUFFIX, icloud-content.com ,PROXY",
-    "DOMAIN, e.crashlytics.com,REJECT",
+    "DOMAIN, gs.apple.com, PROXY",
+    "DOMAIN-SUFFIX, akadns.net, DIRECT"
+    "DOMAIN-SUFFIX, aaplimg.com, DIRECT",
+    "DOMAIN-SUFFIX, icloud-content.com, PROXY",
     "DOMAIN-SUFFIX, appsto.re ,PROXY",
     "DOMAIN, beta.itunes.apple.com ,PROXY",
     "DOMAIN-SUFFIX, itunes.apple.com, DIRECT",
     "DOMAIN-SUFFIX, apple.com, DIRECT",
-    "DOMAIN-SUFFIX, icloud.com, DIRECT",
-    "DOMAIN-SUFFIX, akadns.net, DIRECT"
+    "DOMAIN-SUFFIX, icloud.com, DIRECT"
 ]
 
 [RULESET.chinanet]
@@ -198,7 +194,7 @@ rules = [
 ]
 
 [RULESET.gfwed]
-name = "科学上网（绕过封锁）"
+name = "科学上网（绕过GFW）"
 rules = [
     "DOMAIN, accounts.google.com, PROXY",
     "DOMAIN-SUFFIX, appspot.com, PROXY",
@@ -773,7 +769,7 @@ rules = [
 ]
 
 [RULESET.telegram]
-name = "Telegram 相关"
+name = "Telegram"
 rules = [
   "DOMAIN-SUFFIX, telegra.ph, PROXY",
   "DOMAIN-SUFFIX, telegram.org, PROXY",
@@ -792,5 +788,6 @@ rules = [
     "IP-CIDR, 127.0.0.0/8, DIRECT",
     "IP-CIDR, 172.16.0.0/12, DIRECT",
     "IP-CIDR, 192.168.0.0/16, DIRECT",
+    "IP-CIDR, 100.64.0.0/10, DIRECT"
     "IP-CIDR, 10.0.0.0/8, DIRECT"
 ]
