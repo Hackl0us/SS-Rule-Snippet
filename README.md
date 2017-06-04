@@ -5,13 +5,18 @@
 
 ## 注意事项
 
-1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso](https://manual.potatso.com/index.html) 规则配置说明** 定制自己的规则
+1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso](https://manual.potatso.com/index.html) / [Cross](http://www.crossutility.com/) 规则配置说明** 定制自己的规则
 2. 规则不意味着越多越好，而是越精越好。规则越多，效率越低，RAM占用越高，最后会导致工具退出运行，尤其是越狱设备。
 
 ## 关于 懒人规则 和 兼容性
 
 1. 懒人规则目前支持三款工具，但是只有`ShadowRocket`可以直接导入用。`Surge` 和 `Potatso` **需要配置服务器**。详情请参考上文的配置手册。
 2. 就功能性而言，`Surge`功能最多最强大，`ShadowRocket`其次，`Potatso`功能最少。`ShadowRocket`/`Potatso`不支持 `Surge` 的`PROCESS-NAME`/`URL-REGEX`等参数。所以各位修改配置文件时，请确认参数的兼容性。
+
+## 已知问题
+
+1. 代理工具开启代理时，公共 Wi-Fi 的的验证网页可能无法加载。您可能需要手动关闭代理，验证完毕后再重新启动代理。导致问题的原因可能是验证页面使用代理服务器加载，而非直连。**可以尝试用将验证页面的域名手动加入到配置文件中，对其使用 skip-proxy 或 DIRCET 策略。**
+2. 代理工具开启代理时，App Store 的 App 可能无法正常更新，此 bug 可能是 iOS 系统的问题，可能需要后续系统更新解决。**作者已经尝试在懒人规则内调优相关参数，试图缓解该问题。欢迎各位试用并反馈。
 
 ## 如何使用懒人规则
 
@@ -52,10 +57,11 @@
 
 如果您有更好的想法、建议或意见，请写邮件告诉我：ask@hackl0us.com，我会尽快回复。
 
-## 关注项目
+## 关注项目、参与讨论
 
+- **Slack - [H Team](https://join.slack.com/hackl0us/shared_invite/MTkyMjY3NDgyMjkwLTE0OTY0OTY5MzUtZDAyNTczZjZkOA)** ⭐️：加入组织后，请移步`shadowsocks规则`频道，参与规则交流讨论。除此之外，您还可以在团队内讨论 Apple 相关的问题，和其他朋友成员互动、交流。**您还可以在这里体验到作者最新试验项目。**
+- 新浪微博 [@Hackl0us](weibo.com/hackl0us)：个人微博，可了解到很多关于 Apple、网络技术等科技方面的讯息。
 - [Telegram 频道](https://t.me/joinchat/AAAAAEBbyO8dblJS4QQ1hw)：任何用户均可收听该频道，关注更新动态。
-- [Telegram 维护组](https://t.me/joinchat/AAAAAAwDfpKBFiFuVpz8aw)：仅希望 **有时间和能力** 协助我维护规则的朋友请加入。
 
 ## 感谢
 - [@Hyyy___Ink](http://weibo.com/u/3041958065) 协助我测试`LastPass`规则
@@ -65,5 +71,6 @@
 - [lhie1](http://weibo.com/809005537)的[Surge规则](https://github.com/lhie1/Surge) 中 **屏蔽视频广告** 部分规则
 - [@未名\_\_\_\_\_](http://weibo.com/u/2305957833) 提供 `Testflight` 相关规则及 `Cross` 配置模板
 - [@Momo_Kong](https://twitter.com/momo_kon9) 帮助转换 `Potatso 2 `的懒人规则
+- [@坦克突突突突突](http://weibo.com/u/2896304111) 制作的获取最新`Potatso 2`懒人规则 Workflow 以及懒人规则中的语法错误 
 
 ---
