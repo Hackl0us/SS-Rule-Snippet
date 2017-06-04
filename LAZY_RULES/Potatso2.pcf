@@ -13,6 +13,7 @@ rules = [
 [RULESET.apple]
 name = "Apple 服务优化"
 rules = [
+    "DOMAIN, captive.apple.com, DIRECT",
     "DOMAIN, www.thinkdifferent.us, DIRECT",
     "DOMAIN, www.itools.info, DIRECT",
     "DOMAIN, www.ibook.info, DIRECT",
@@ -423,6 +424,7 @@ rules = [
     "DOMAIN-SUFFIX, skype.com, PROXY",
     "DOMAIN-SUFFIX, slack-edge.com, PROXY",
     "DOMAIN-SUFFIX, slack.com, PROXY",
+    "DOMAIN-SUFFIX, slack-msgs.com, PROXY",
     "DOMAIN-SUFFIX, smartdnsProxy.com, PROXY",
     "DOMAIN-SUFFIX, smartmailcloud.com, PROXY",
     "DOMAIN-SUFFIX, sndcdn.com, PROXY",
