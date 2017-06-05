@@ -71,6 +71,7 @@
 - [lhie1](http://weibo.com/809005537)的[Surge规则](https://github.com/lhie1/Surge) 中 **屏蔽视频广告** 部分规则
 - [@未名\_\_\_\_\_](http://weibo.com/u/2305957833) 提供 `Testflight` 相关规则及 `Cross` 配置模板
 - [@Momo_Kong](https://twitter.com/momo_kon9) 帮助转换 `Potatso 2 `的懒人规则
-- [@坦克突突突突突](http://weibo.com/u/2896304111) 制作的获取最新`Potatso 2`懒人规则 Workflow 以及懒人规则中的语法错误 
+- [@坦克突突突突突](http://weibo.com/u/2896304111) 指出`Potatso 2`中懒人规则中的语法错误 
+- [@不酷李](http://weibo.com/leexumeng)  制作的获取最新`Potatso 2`懒人规则的 Workflow
 
 ---
