@@ -1,8 +1,11 @@
-[URL Rewrite]
-
 #注意：此功能需要启用 Surge、Cross 等工具 MitM 功能。具体配置 MitM 功能请参考工具的配置手册。
+#iOS 10.3 及以上系统需要在所有配置完成后，进入 设置>通用>关于本机>证书信任度设置 中打开 Surge证书信任权限
+#Surge 可以参考 http://t.cn/RMXzgaw 配置教程（Surge 用户只看文章底部 2.0 部分即可）
 
-//Wikipedia
-^https://zh.(m.)?wikipedia.org/zh(-hans)? http://www.wikiwand.com/zh-hans 302
-^https://zh.(m.)?wikipedia.org/zh(-hk|-tw)? http://www.wikiwand.com/zh-hant 302
+[Rule]
+DOMAIN-SUFFIX,wikiwand.com,Proxy
+
+[URL Rewrite]
+^https://zh.(m.)?wikipedia.org/(zh-hans|zh-sg|zh-cn|zh(?=/)) http://www.wikiwand.com/zh 302
+^https://zh.(m.)?wikipedia.org/zh-[a-zA-Z]{2,} http://www.wikiwand.com/zh-hant 302
 ^https://.*.(m.)?wikipedia.org/wiki http://www.wikiwand.com/en 302
