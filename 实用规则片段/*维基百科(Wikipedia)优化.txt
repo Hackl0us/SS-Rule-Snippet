@@ -1,0 +1,8 @@
+[URL Rewrite]
+
+#注意：此功能需要启用 Surge、Cross 等工具 MitM 功能。具体配置 MitM 功能请参考工具的配置手册。
+
+//Wikipedia
+^https://zh.(m.)?wikipedia.org/zh(-hans)? http://www.wikiwand.com/zh-hans 302
+^https://zh.(m.)?wikipedia.org/zh(-hk|-tw)? http://www.wikiwand.com/zh-hant 302
+^https://.*.(m.)?wikipedia.org/wiki http://www.wikiwand.com/en 302
