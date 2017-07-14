@@ -1,6 +1,7 @@
+##注意：LINE一旦检测到中国运营商的SIM卡，会停止服务。
+##如果想使用正常使用LINE，只能尝试在不插卡的 iPad 或 iPhone 使用。
 
 [Rule]
-
 // 通用部分
 DOMAIN-SUFFIX,line-cdn.net,Proxy
 DOMAIN-SUFFIX,line-apps.com,Proxy,force-remote-dns
