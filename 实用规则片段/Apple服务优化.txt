@@ -1,17 +1,9 @@
 [Rule]
 
-// WIFI 连通性检测
-DOMAIN,www.thinkdifferent.us,DIRECT
-DOMAIN,www.itools.info,DIRECT
-DOMAIN,www.ibook.info,DIRECT
-DOMAIN,www.aiport.us,DIRECT
-DOMAIN,www.appleiphonecell.com,DIRECT
-
 // 其他服务
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN,gs.apple.com,Proxy
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
-DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,Proxy
 #DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消'#'注释。
 
@@ -21,4 +13,3 @@ DOMAIN,beta.itunes.apple.com,Proxy
 DOMAIN-SUFFIX,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
-
