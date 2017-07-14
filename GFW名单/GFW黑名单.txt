@@ -1,4 +1,4 @@
-# 4809 Rules from GFWList (GFWListToSurgeRule.js http://s5s5.github.io/GFWListToSurgeRule.js/)
+# 4813 Rules from GFWList (GFWListToSurgeRule.js http://s5s5.github.io/GFWListToSurgeRule.js/)
 DOMAIN,blog.ontrac.com,DIRECT
 DOMAIN,store.sprite.org,DIRECT
 DOMAIN,xx.wwwhost.biz,DIRECT
@@ -244,6 +244,7 @@ DOMAIN,video.ap.org,Proxy
 DOMAIN,apk-dl.com,Proxy
 DOMAIN,apkdler.com,Proxy
 DOMAIN,appledaily.com,Proxy
+DOMAIN,appshopper.com,Proxy
 DOMAIN,archive.is,Proxy
 DOMAIN,arctosia.com,Proxy
 DOMAIN,artofpeacefoundation.org,Proxy
@@ -309,7 +310,6 @@ DOMAIN,cacnw.com,Proxy
 DOMAIN,blog.calibre-ebook.com,Proxy
 DOMAIN,canadameet.com,Proxy
 DOMAIN,bbs.cantonese.asia,Proxy
-DOMAIN,canyu.org,Proxy
 DOMAIN,cardinalkungfoundation.org,Proxy
 DOMAIN,carmotorshow.com,Proxy
 DOMAIN,casatibet.org.mx,Proxy
@@ -1296,6 +1296,7 @@ DOMAIN,news.tvb.com,Proxy
 DOMAIN,news.tvbs.com.tw,Proxy
 DOMAIN,tvboxnow.com,Proxy
 DOMAIN,tvider.com,Proxy
+DOMAIN,tw-blog.com,Proxy
 DOMAIN,twbbs.org,Proxy
 DOMAIN,twbbs.tw,Proxy
 DOMAIN,tweepmag.com,Proxy
@@ -1850,6 +1851,7 @@ DOMAIN-SUFFIX,fb.me,Proxy
 DOMAIN-SUFFIX,m.me,Proxy
 DOMAIN-SUFFIX,messenger.com,Proxy
 DOMAIN-SUFFIX,oculus.com,Proxy
+DOMAIN-SUFFIX,rocksdb.org,Proxy
 DOMAIN-SUFFIX,1e100.net,Proxy
 DOMAIN-SUFFIX,abc.xyz,Proxy
 DOMAIN-SUFFIX,admob.com,Proxy
@@ -2284,6 +2286,7 @@ DOMAIN-SUFFIX,cam4.sg,Proxy
 DOMAIN-SUFFIX,camfrog.com,Proxy
 DOMAIN-SUFFIX,cams.com,Proxy
 DOMAIN-SUFFIX,cams.org.sg,Proxy
+DOMAIN-SUFFIX,canyu.org,Proxy
 DOMAIN-SUFFIX,cao.im,Proxy
 DOMAIN-SUFFIX,caobian.info,Proxy
 DOMAIN-SUFFIX,caochangqing.com,Proxy
@@ -2903,6 +2906,7 @@ DOMAIN-SUFFIX,gotrusted.com,Proxy
 DOMAIN-SUFFIX,gotw.ca,Proxy
 DOMAIN-SUFFIX,grammaly.com,Proxy
 DOMAIN-SUFFIX,graphis.ne.jp,Proxy
+DOMAIN-SUFFIX,graphql.org,Proxy
 DOMAIN-SUFFIX,greatfirewallofchina.net,Proxy
 DOMAIN-SUFFIX,greenfieldbookstore.com.hk,Proxy
 DOMAIN-SUFFIX,greenparty.org.tw,Proxy
@@ -3099,7 +3103,6 @@ DOMAIN-SUFFIX,idreamx.com,Proxy
 DOMAIN-SUFFIX,idv.tw,Proxy
 DOMAIN-SUFFIX,ied2k.net,Proxy
 DOMAIN-SUFFIX,ienergy1.com,Proxy
-DOMAIN-SUFFIX,ifanr.com,Proxy
 DOMAIN-SUFFIX,ifcss.org,Proxy
 DOMAIN-SUFFIX,ifreewares.com,Proxy
 DOMAIN-SUFFIX,igcd.net,Proxy
@@ -4338,6 +4341,7 @@ DOMAIN-SUFFIX,tubewolf.com,Proxy
 DOMAIN-SUFFIX,tuidang.se,Proxy
 DOMAIN-SUFFIX,tumview.com,Proxy
 DOMAIN-SUFFIX,tunnelbear.com,Proxy
+DOMAIN-SUFFIX,tuo8.blue,Proxy
 DOMAIN-SUFFIX,tuo8.cc,Proxy
 DOMAIN-SUFFIX,tuo8.club,Proxy
 DOMAIN-SUFFIX,tuo8.fit,Proxy
