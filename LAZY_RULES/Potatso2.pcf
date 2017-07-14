@@ -192,7 +192,7 @@ rules = [
     "DOMAIN-SUFFIX, awsstatic.com, PROXY",
     "DOMAIN-SUFFIX, azureedge.net, PROXY",
     "DOMAIN-SUFFIX, azurewebsites.net, PROXY",
-    "DOMAIN-SUFFIX, bing.com, PROXY"
+    "DOMAIN-SUFFIX, bing.com, PROXY",
     "DOMAIN-SUFFIX, bintray.com, PROXY",
     "DOMAIN-SUFFIX, bit.com, PROXY",
     "DOMAIN-SUFFIX, bit.ly, PROXY",
