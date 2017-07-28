@@ -352,6 +352,7 @@ rules = [
     "DOMAIN-SUFFIX, pdfexpert.com, PROXY",
     "DOMAIN-SUFFIX, periscope.tv, PROXY",
     "DOMAIN-SUFFIX, pinboard.in, PROXY",
+    "DOMAIN-SUFFIX, pinimg.com, PROXY",
     "DOMAIN-SUFFIX, pinterest.com, PROXY",
     "DOMAIN-SUFFIX, pixelmator.com, PROXY",
     "DOMAIN-SUFFIX, playpcesor.com, PROXY",
