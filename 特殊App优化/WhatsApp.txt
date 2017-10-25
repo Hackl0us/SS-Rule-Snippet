@@ -176,7 +176,7 @@ IP-CIDR,198.11.251.32/27,Proxy,no-resolve
 IP-CIDR,198.23.80.0/27,Proxy,no-resolve
 IP-CIDR,208.43.115.192/27,Proxy,no-resolve
 IP-CIDR,208.43.117.79/32,Proxy,no-resolve
-IP-CIDR,IP-CIDR,208.43.122.128/27,Proxy,no-resolve
+IP-CIDR,208.43.122.128/27,Proxy,no-resolve
 
 // IPv6 地址段（除非您使用 IPv6 否则无需添加）
 IP-CIDR,2607:f0d0:1b01:d4::/64,Proxy,no-resolve
