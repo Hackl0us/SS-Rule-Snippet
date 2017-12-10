@@ -18,6 +18,8 @@ DOMAIN-SUFFIX,blackwell-synergy.com,DIRECT
 DOMAIN-SUFFIX,sciencemag.org,DIRECT
 DOMAIN-SUFFIX,jstor.org,DIRECT
 DOMAIN-SUFFIX,cabdirect.org,DIRECT
+DOMAIN-SUFFIX,ieee.org,DIRECT
+DOMAIN-SUFFIX,nature.com,DIRECT
 
 // 告别出版商绑架
 DOMAIN-SUFFIX,sci-hub.cc,Proxy
