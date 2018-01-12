@@ -16,7 +16,7 @@
 ## 已知问题
 
 1. 代理工具开启代理时，公共 Wi-Fi 的的验证网页可能无法加载。您可能需要手动关闭代理，验证完毕后再重新启动代理。导致问题的原因可能是验证页面使用代理服务器加载，而非直连。**可以尝试用将验证页面的域名手动加入到配置文件中，对其使用 skip-proxy 或 DIRCET 策略。**
-2. 代理工具开启代理时，App Store 的 App 可能无法正常更新，此 bug 可能是 iOS 系统的问题，可能需要后续系统更新解决。**作者已经尝试在懒人规则内调优相关参数，试图缓解该问题。欢迎各位试用并反馈。
+2. 代理工具开启代理时，App Store 的 App 可能无法正常更新，此 bug 可能是 iOS 系统的问题，可能需要后续系统更新解决。**作者已经尝试在懒人规则内调优相关参数，试图缓解该问题。欢迎各位试用并反馈**。
 
 ## 如何使用懒人规则
 
@@ -53,7 +53,7 @@
 
 本项目需要定期维护和更新，才能保证规则发挥最佳效果。
 
-为了让规则更加亲和大众，更简单地参与到维护过程中来，我已经把规则开放到了 `Google 表格` 中。为了保证规则有序，不被恶意篡改。您需要**登录 Google 账户**，来申请维护权限；否则，您只可以具有 查看、评论 的权限。
+为了让规则更加亲和大众，更简单地参与到维护过程中来，我已经把规则开放到了 `Google 表格` 中： [SS(R) Rule Snippest](https://docs.google.com/spreadsheets/d/1yZCkmfVBYKHOBmlwPIBHGiFYLs1cwAv5ebirwZfr_20/edit?usp=sharing) 进行维护。为了保证规则有序，不被恶意篡改。您需要**登录 Google 账户**，来申请维护权限；否则，您只可以具有 查看、评论 的权限。
 
 ⚠️**维护注意事项：**
 
@@ -61,13 +61,14 @@
 2. 一个 App 可能访问多个域名，添加的域名要尽量做到完整、全面。如果一个 App 连接域名超过 3 个，而且不与 macOS 或其他 App 共用(如：美团、大众点评、猫眼电影等 App 共用 meituan 相关域名，这时使用域名匹配策略明显具有优势)，便推荐对其使用 `USER-AGENT` 策略以节省规则条目，例如`滴滴出行`App。
 3. 为保持规则不混乱，便于我的维护和整理，在您获得维护全新后，仅可对目前**已有域名、规则进行信息补充、评论、修正**，或**对原来没有的规则进行补充**。我将会进行最后的整合和汇总。
 4. 当您发现列表中，有您认为很常用，但是列表中却不存在对应的规则时，请将对应规则放置在右侧“**希望添加规则区域**”内。
-5. 方便组内交流讨论，请通过链接加入下方的` Slack 讨论群` ，并切换至 `#shadowsocks规则`频道进行讨论。
-
-SS(R) Rule Snippest : https://docs.google.com/spreadsheets/d/1yZCkmfVBYKHOBmlwPIBHGiFYLs1cwAv5ebirwZfr_20/edit?usp=sharing
+5. 方便组内交流讨论，请通过链接加入下方的 `Telegram 讨论组 `或` Slack 讨论群`(`#shadowsocks规则`频道)
 
 ## 关注项目、参与讨论
 
-- **Slack - [H Team](https://join.slack.com/hackl0us/shared_invite/MTkyMjY3NDgyMjkwLTE0OTY0OTY5MzUtZDAyNTczZjZkOA)** ⭐️：加入组织后，请移步`shadowsocks规则`频道，参与规则交流讨论。除此之外，您还可以在团队内讨论 Apple 相关的问题，和其他朋友成员互动、交流。**您还可以在这里体验到作者最新试验项目。**
+- **Telegram - [库克后厨 H Team](https://t.me/joinchat/EAPjDBMDRpVpCtB8ur85sQ) **⭐️ :自由交流、讨论任何有关 Apple 的东西，言论绝对自由，可闲聊、搞基、撩妹，首选。
+
+
+- Slack - [H Team](https://join.slack.com/hackl0us/shared_invite/MTkyMjY3NDgyMjkwLTE0OTY0OTY5MzUtZDAyNTczZjZkOA)：加入组织后，请移步`shadowsocks规则`频道，参与规则交流讨论。除此之外，您还可以在团队内讨论 Apple 相关的问题，和其他朋友成员互动、交流。**您还可以在这里体验到作者最新试验项目。**
 - 新浪微博 [@Hackl0us](weibo.com/hackl0us)：个人微博，可了解到很多关于 Apple、网络技术等科技方面的讯息。
 - [Telegram 频道](https://t.me/joinchat/AAAAAEBbyO8dblJS4QQ1hw)：任何用户均可收听该频道，关注更新动态。
 
