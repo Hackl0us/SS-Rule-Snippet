@@ -1,27 +1,24 @@
 [Rule]
 
 //纠正 GFW 的 DNS 污染问题
-DOMAIN,accounts.google.com,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,appspot.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,cdninstagram.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,facebook.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,fb.com,Proxy,force-remote-dns
+DOMAIN-KEYWORD,google,Proxy,force-remote-dns
+DOMAIN-SUFFIX,gstatic.com,Proxy,force-remote-dns
+DOMAIN-KEYWORD,gmail,Proxy,force-remote-dns
+DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
+DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fb.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,Proxy,force-remote-dns
-DOMAIN-SUFFIX,gmail.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,googleapis.com,Proxy,force-remote-dns,enhanced-mode
-DOMAIN-SUFFIX,instagram.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,scdn.co,Proxy,force-remote-dns
-DOMAIN-SUFFIX,t.co,Proxy,force-remote-dns
+DOMAIN-KEYWORD,twitter,Proxy,force-remote-dns
+DOMAIN-KEYWORD,instagram,Proxy,force-remote-dns
+DOMAIN-KEYWORD,dropbox,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,twitpic.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,twitter.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,youtube-nocookie.com,Proxy
-DOMAIN-SUFFIX,youtube.com,Proxy,force-remote-dns
-DOMAIN-KEYWORD,google,Proxy,force-remote-dns
+DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
+DOMAIN-SUFFIX,youtu.be,Proxy,force-remote-dns
+DOMAIN-KEYWORD,whatsapp,Proxy,force-remote-dns
 
 //macOS App（有待增加）
 PROCESS-NAME,Tweetbot,Proxy
+PROCESS-NAME,Twitterific,Proxy
 
 // 此部分为最常访问但被 GFW 屏蔽的网站（若有特殊需要，请参考项目的 GFWList 列表）
 DOMAIN-SUFFIX,2o7.net,Proxy
@@ -58,7 +55,8 @@ DOMAIN-SUFFIX,att.com,Proxy
 DOMAIN-SUFFIX,awsstatic.com,Proxy
 DOMAIN-SUFFIX,azureedge.net,Proxy
 DOMAIN-SUFFIX,azurewebsites.net,Proxy
-DOMAIN-SUFFIX,bintray.com,Proxy,enhanced-mode
+DOMAIN-SUFFIX,bing.com,Proxy
+DOMAIN-SUFFIX,bintray.com,Proxy
 DOMAIN-SUFFIX,bit.com,Proxy
 DOMAIN-SUFFIX,bit.ly,Proxy
 DOMAIN-SUFFIX,bitbucket.org,Proxy
@@ -85,6 +83,7 @@ DOMAIN-SUFFIX,cocoapods.org,Proxy
 DOMAIN-SUFFIX,comodoca.com,Proxy
 DOMAIN-SUFFIX,content.office.net,Proxy
 DOMAIN-SUFFIX,crashlytics.com,Proxy
+DOMAIN-SUFFIX,culturedcode.com,Proxy
 DOMAIN-SUFFIX,d.pr,Proxy
 DOMAIN-SUFFIX,danilo.to,Proxy
 DOMAIN-SUFFIX,dayone.me,Proxy
@@ -97,13 +96,10 @@ DOMAIN-SUFFIX,disquscdn.com,Proxy
 DOMAIN-SUFFIX,dnsimple.com,Proxy
 DOMAIN-SUFFIX,docker.com,Proxy
 DOMAIN-SUFFIX,dribbble.com,Proxy
-DOMAIN-SUFFIX,dropbox.com,Proxy
-DOMAIN-SUFFIX,dropboxapi.com,Proxy
-DOMAIN-SUFFIX,dropboxstatic.com,Proxy
-DOMAIN-SUFFIX,dropboxusercontent.com,Proxy
 DOMAIN-SUFFIX,droplr.com,Proxy
 DOMAIN-SUFFIX,duckduckgo.com,Proxy
 DOMAIN-SUFFIX,dueapp.com,Proxy
+DOMAIN-SUFFIX,dytt8.net,Proxy
 DOMAIN-SUFFIX,edgecastcdn.net,Proxy
 DOMAIN-SUFFIX,edgekey.net,Proxy
 DOMAIN-SUFFIX,edgesuite.net,Proxy
@@ -125,12 +121,11 @@ DOMAIN-SUFFIX,flipboard.com,Proxy
 DOMAIN-SUFFIX,g.co,Proxy
 DOMAIN-SUFFIX,gabia.net,Proxy
 DOMAIN-SUFFIX,geni.us,Proxy
-DOMAIN-SUFFIX,getdropbox.com,Proxy
 DOMAIN-SUFFIX,gfx.ms,Proxy
 DOMAIN-SUFFIX,ggpht.com,Proxy
 DOMAIN-SUFFIX,ghostnoteapp.com,Proxy
 DOMAIN-SUFFIX,git.io,Proxy
-DOMAIN-SUFFIX,github.com,Proxy,enhanced-mode
+DOMAIN-SUFFIX,github.com,Proxy
 DOMAIN-SUFFIX,github.io,Proxy
 DOMAIN-SUFFIX,githubapp.com,Proxy
 DOMAIN-SUFFIX,githubusercontent.com,Proxy
@@ -234,6 +229,7 @@ DOMAIN-SUFFIX,shazam.com,Proxy
 DOMAIN-SUFFIX,skype.com,Proxy
 DOMAIN-SUFFIX,slack-edge.com,Proxy
 DOMAIN-SUFFIX,slack.com,Proxy
+DOMAIN-SUFFIX,slack-msgs.com,Proxy
 DOMAIN-SUFFIX,smartdnsProxy.com,Proxy
 DOMAIN-SUFFIX,smartmailcloud.com,Proxy
 DOMAIN-SUFFIX,sndcdn.com,Proxy
@@ -243,7 +239,6 @@ DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Proxy
 DOMAIN-SUFFIX,soundcloud.com,Proxy
 DOMAIN-SUFFIX,sourceforge.net,Proxy
 DOMAIN-SUFFIX,speedtest.net,Proxy
-DOMAIN-SUFFIX,spoti.fi,Proxy
 DOMAIN-SUFFIX,spotify.com,Proxy
 DOMAIN-SUFFIX,squarespace.com,Proxy
 DOMAIN-SUFFIX,sstatic.net,Proxy
@@ -274,7 +269,6 @@ DOMAIN-SUFFIX,tumblr.co,Proxy
 DOMAIN-SUFFIX,tumblr.com,Proxy
 DOMAIN-SUFFIX,tweetdeck.com,Proxy
 DOMAIN-SUFFIX,tweetmarker.net,Proxy
-DOMAIN-SUFFIX,twimg.co,Proxy
 DOMAIN-SUFFIX,twitch.tv,Proxy
 DOMAIN-SUFFIX,txmblr.com,Proxy
 DOMAIN-SUFFIX,typekit.net,Proxy
@@ -298,6 +292,7 @@ DOMAIN-SUFFIX,w.org,Proxy
 DOMAIN-SUFFIX,w3schools.com,Proxy
 DOMAIN-SUFFIX,weather.com,Proxy
 DOMAIN-SUFFIX,webtype.com,Proxy
+DOMAIN-SUFFIX,wikiwand.com,Proxy
 DOMAIN-SUFFIX,wikileaks.org,Proxy
 DOMAIN-SUFFIX,wikimedia.org,Proxy
 DOMAIN-SUFFIX,wikipedia.com,Proxy
@@ -315,6 +310,5 @@ DOMAIN-SUFFIX,xiti.com,Proxy
 DOMAIN-SUFFIX,yahoo.com,Proxy
 DOMAIN-SUFFIX,yimg.com,Proxy
 DOMAIN-SUFFIX,ying.com,Proxy
-DOMAIN-SUFFIX,youtu.be,Proxy
 DOMAIN-SUFFIX,yoyo.org,Proxy
 DOMAIN-SUFFIX,ytimg.com,Proxy

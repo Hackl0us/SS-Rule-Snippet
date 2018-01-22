@@ -1,17 +1,19 @@
 # Surge-Rule-Snippets
-本项目目的在于搜集、整理使用的`Surge`/`ShadowRocket`/`Potatso`/`Cross`规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
+本项目目的在于搜集、整理使用的`Surge`/`ShadowRocket`/`Potatso` /`Quantumult(即将支持)`规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
 
 [项目更新日志](https://github.com/Hackl0us/Surge-Rule-Snippets/blob/master/Changelog.md)
 
 ## 注意事项
 
-1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso](https://manual.potatso.com/index.html) / [Cross](http://www.crossutility.com/) 规则配置说明** 定制自己的规则
+1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso](https://manual.potatso.com/index.html) / [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8) **（即将支持）规则配置说明 定制自己的规则。
 2. 规则不意味着越多越好，而是越精越好。规则越多，效率越低，RAM占用越高，最后会导致工具退出运行，尤其是越狱设备。
+3. **目前已停止对 `Cross` 工具的支持，因为此 App 被永久下架。可能不久后会停止 `Potatso 2` 的支持，因为开发者再不断放缓项目的维护。**
 
 ## 关于 懒人规则 和 兼容性
 
-1. 懒人规则目前支持三款工具，但是只有`ShadowRocket`可以直接导入用。`Surge` 和 `Potatso` **需要配置服务器**。详情请参考上文的配置手册。
-2. 就功能性而言，`Surge`功能最多最强大，`ShadowRocket`其次，`Potatso`功能最少。`ShadowRocket`/`Potatso`不支持 `Surge` 的`PROCESS-NAME`/`URL-REGEX`等参数。所以各位修改配置文件时，请确认参数的兼容性。
+1. 在所有懒人规则中，`ShadowRocket`、`Potatso 2`可以直接导入用。`Surge` 和 `Quantumult`**需要配置服务器**。详情请参考上文的配置手册。
+2. 就功能性丰富性和稳定性综合考量，`Surge` >`Quantumult`>`ShadowRocket`>`Potatso 2`功能最少。
+3. `ShadowRocket`/`Potatso`不支持 `Surge` 的`PROCESS-NAME`/`URL-REGEX`等参数。所以各位修改配置文件时，请确认参数的兼容性。
 
 ## 已知问题
 
@@ -63,14 +65,30 @@
 4. 当您发现列表中，有您认为很常用，但是列表中却不存在对应的规则时，请将对应规则放置在右侧“**希望添加规则区域**”内。
 5. 方便组内交流讨论，请通过链接加入下方的 `Telegram 讨论组 `或` Slack 讨论群`(`#shadowsocks规则`频道)
 
-## 关注项目、参与讨论
+## 关注项目、参与讨论、捐赠
 
 - **Telegram - [库克后厨 H Team](https://t.me/joinchat/EAPjDBMDRpVpCtB8ur85sQ) **⭐️ :自由交流、讨论任何有关 Apple 的东西，言论绝对自由，可闲聊、搞基、撩妹，首选。
 
 
 - Slack - [H Team](https://join.slack.com/hackl0us/shared_invite/MTkyMjY3NDgyMjkwLTE0OTY0OTY5MzUtZDAyNTczZjZkOA)：加入组织后，请移步`shadowsocks规则`频道，参与规则交流讨论。除此之外，您还可以在团队内讨论 Apple 相关的问题，和其他朋友成员互动、交流。**您还可以在这里体验到作者最新试验项目。**
+
 - 新浪微博 [@Hackl0us](weibo.com/hackl0us)：个人微博，可了解到很多关于 Apple、网络技术等科技方面的讯息。
+
 - [Telegram 频道](https://t.me/joinchat/AAAAAEBbyO8dblJS4QQ1hw)：任何用户均可收听该频道，关注更新动态。
+
+  ​
+
+##### ❤️如果您喜欢我的规则（或者喜欢我🤪），并希望项目可以继续被维护，您可以给通过以下方式捐助我😜非常感谢~
+
+- 支付宝
+
+  ![](http://ok9svak43.bkt.clouddn.com/blog/image/github/donation_alipay.JPG)
+
+- 微信
+
+  ![](http://ok9svak43.bkt.clouddn.com/blog/image/github/donation_wechat.JPG)
+
+
 
 ## 感谢
 - [@Hyyy___Ink](http://weibo.com/u/3041958065) 协助我测试`LastPass`规则
@@ -83,6 +101,6 @@
 - [@坦克突突突突突](http://weibo.com/u/2896304111) 指出`Potatso 2`中懒人规则中的语法错误 
 - [@不酷李](http://weibo.com/leexumeng)  制作的获取最新`Potatso 2`懒人规则的 Workflow
 - [@JacobCHEN16](http://weibo.com/jacksunny) 协助我测试、修正 Wiki 阅读优化相关规则
-- [@左疼健贰](http://weibo.com/sunmihora) 、[@ArM_A](http://weibo.com/u/2643106141)、@于信 协助我维护 DIRECT 规则、PROXY 规则，非常感谢你们的付出让规则更加完美。
+- [@左疼健贰](http://weibo.com/sunmihora) 、[@ArM_A](http://weibo.com/u/2643106141)、[@Cyap0s](https://weibo.com/u/1772218935) 协助我维护 DIRECT 规则、PROXY 规则，非常感谢你们的付出让规则更加完美。
 
 ---

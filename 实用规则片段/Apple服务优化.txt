@@ -4,7 +4,7 @@
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN,gs.apple.com,Proxy
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,Proxy
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
 #DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消'#'注释。
 
 // 通用部分
