@@ -5,14 +5,14 @@
 
 ## 注意事项
 
-1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso](https://manual.potatso.com/index.html) / [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8) **（即将支持）规则配置说明 定制自己的规则。
+1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso 2](https://manual.potatso.com/index.html) / [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8) **（即将支持）规则配置说明 定制自己的规则。
 2. 规则不意味着越多越好，而是越精越好。规则越多，效率越低，RAM占用越高，最后会导致工具退出运行，尤其是越狱设备。
 3. **目前已停止对 `Cross` 工具的支持，因为此 App 被永久下架。可能不久后会停止 `Potatso 2` 的支持，因为开发者再不断放缓项目的维护。**
 
 ## 关于 懒人规则 和 兼容性
 
 1. 在所有懒人规则中，`ShadowRocket`、`Potatso 2`可以直接导入用。`Surge` 和 `Quantumult`**需要配置服务器**。详情请参考上文的配置手册。
-2. 就功能性丰富性和稳定性综合考量，`Surge` >`Quantumult`>`ShadowRocket`>`Potatso 2`功能最少。
+2. 按照 功能性丰富性 和 稳定性 等综合考量，排名如下：`Surge` >`Quantumult`>`ShadowRocket`>`Potatso 2`。
 3. `ShadowRocket`/`Potatso`不支持 `Surge` 的`PROCESS-NAME`/`URL-REGEX`等参数。所以各位修改配置文件时，请确认参数的兼容性。
 
 ## 已知问题
@@ -67,7 +67,7 @@
 
 ## 关注项目、参与讨论、捐赠
 
-- **Telegram - [库克后厨 H Team](https://t.me/joinchat/EAPjDBMDRpVpCtB8ur85sQ) **⭐️ :自由交流、讨论任何有关 Apple 的东西，言论绝对自由，可闲聊、搞基、撩妹，首选。
+- **Telegram - [库克后厨 H Team](https://t.me/joinchat/EAPjDBMDRpVpCtB8ur85sQ) ** ⭐️ :自由交流、讨论任何有关 Apple 的东西，言论绝对自由，可闲聊、搞基、撩妹，首选。
 
 
 - Slack - [H Team](https://join.slack.com/hackl0us/shared_invite/MTkyMjY3NDgyMjkwLTE0OTY0OTY5MzUtZDAyNTczZjZkOA)：加入组织后，请移步`shadowsocks规则`频道，参与规则交流讨论。除此之外，您还可以在团队内讨论 Apple 相关的问题，和其他朋友成员互动、交流。**您还可以在这里体验到作者最新试验项目。**
