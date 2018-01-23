@@ -7,7 +7,7 @@
 
 1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso 2](https://manual.potatso.com/index.html) / [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8) **（即将支持）规则配置说明 定制自己的规则。
 2. 规则不意味着越多越好，而是越精越好。规则越多，效率越低，RAM占用越高，最后会导致工具退出运行，尤其是越狱设备。
-3. **目前已停止对 `Cross` 工具的支持，因为此 App 被永久下架。可能不久后会停止 `Potatso 2` 的支持，因为开发者再不断放缓项目的维护。**
+3. **目前已停止对 `Cross` 工具的支持，因为此 App 被永久下架。可能不久后会停止 `Potatso 2` 的支持，因为开发者在不断放缓项目的维护。**
 
 ## 关于 懒人规则 和 兼容性
 
