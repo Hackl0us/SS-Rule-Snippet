@@ -1,0 +1,7 @@
+[Rule]
+
+#在某些情况下，测试版 iOS 系统 Siri 会出现响应缓慢的情况，经过摸索代理 Siri 相关服务，可以解决问题。
+
+## Fix Siri
+USER-AGENT,*AssistantServices*,Proxy
+DOMAIN-SUFFIX,v2ex.com,Proxy,force-remote-dns
