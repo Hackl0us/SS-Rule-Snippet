@@ -1,0 +1,14 @@
+# 不同学校 Ipv6 访问 Google 情况不一样
+# 请在关闭代理后尝试直接打开 Google
+# 若可以则使用本片段
+
+[General]
+ipv6 = true # 确认进入教育网后 ipv6 设置为 True
+
+[Rule]
+DOMAIN-SUFFIX,duckduckgo.com,DIRECT,force-remote-dns
+DOMAIN-SUFFIX,google.com,DIRECT,force-remote-dns
+DOMAIN-SUFFIX,youtube.com,DIRECT,force-remote-dns
+DOMAIN-KEYWORD,gstatic,DIRECT,force-remote-dns
+DOMAIN-SUFFIX,appspot.com,DIRECT,force-remote-dns
+DOMAIN-SUFFIX,ampproject.org,DIRECT,force-remote-dns
