@@ -1,6 +1,15 @@
 [Rule]
 
-//纠正 GFW 的 DNS 污染问题
+// macOS App（有待增加）
+// 注意：PROCESS-NAME 规则仅 macOS 版 Surge 支持
+PROCESS-NAME,Tweetbot,Proxy
+PROCESS-NAME,Twitterific,Proxy
+PROCESS-NAME,Spotify,DIRECT
+PROCESS-NAME,Telegram,Proxy
+PROCESS-NAME,Tweetbot,Proxy
+PROCESS-NAME,Slack,Proxy
+
+// 纠正 GFW 的 DNS 污染问题
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gstatic.com,Proxy,force-remote-dns
 DOMAIN-KEYWORD,gmail,Proxy,force-remote-dns
@@ -15,10 +24,6 @@ DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
 DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youtu.be,Proxy,force-remote-dns
 DOMAIN-KEYWORD,whatsapp,Proxy,force-remote-dns
-
-//macOS App（有待增加）
-PROCESS-NAME,Tweetbot,Proxy
-PROCESS-NAME,Twitterific,Proxy
 
 // 此部分为最常访问但被 GFW 屏蔽的网站（若有特殊需要，请参考项目的 GFWList 列表）
 DOMAIN-SUFFIX,2o7.net,Proxy

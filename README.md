@@ -1,26 +1,27 @@
 # Surge-Rule-Snippets
-本项目目的在于搜集、整理使用的`Surge`/`ShadowRocket`/`Potatso` /`Quantumult(即将支持)`规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
+本项目目的在于搜集、整理使用的`Surge`/`ShadowRocket`/`Potatso` /`Quantumult`规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
 
 [项目更新日志](https://github.com/Hackl0us/Surge-Rule-Snippets/blob/master/Changelog.md)
 
+⚠️⚠️⚠️**使用本项目前，必读以下所有内容和注意事项，内附教程！**⚠️⚠️⚠️
+
 ## 注意事项
 
-1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / ShadowRocket / [Potatso 2](https://manual.potatso.com/index.html) / [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8) **（即将支持）规则配置说明 定制自己的规则。
+1. 所有规则均以片段形式存在，各位需要参考 **[Surge](https://manual.nssurge.com/overview/configuration.html) / [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8) / [Potatso 2](https://manual.potatso.com/index.html) / [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8) **规则配置说明 定制自己的规则。
 2. 规则不意味着越多越好，而是越精越好。规则越多，效率越低，RAM占用越高，最后会导致工具退出运行，尤其是越狱设备。
 3. **目前已停止对 `Cross` 工具的支持，因为此 App 被永久下架。可能不久后会停止 `Potatso 2` 的支持，因为开发者在不断放缓项目的维护。**
 
-## 关于 懒人规则 和 兼容性
+## 关于懒人规则的兼容性
 
 1. 在所有懒人规则中，`ShadowRocket`、`Potatso 2`可以直接导入用。`Surge` 和 `Quantumult`**需要配置服务器**。详情请参考上文的配置手册。
 2. 按照 功能性丰富性 和 稳定性 等综合考量，排名如下：`Surge` >`Quantumult`>`ShadowRocket`>`Potatso 2`。
-3. `ShadowRocket`/`Potatso`不支持 `Surge` 的`PROCESS-NAME`/`URL-REGEX`等参数。所以各位修改配置文件时，请确认参数的兼容性。
+3. `ShadowRocket`/`Potatso 2`不支持 `Surge` 的`PROCESS-NAME`/`URL-REGEX`等参数。所以各位修改配置文件时，请确认参数的兼容性。
 
 ## 已知问题
 
 1. 代理工具开启代理时，公共 Wi-Fi 的的验证网页可能无法加载。您可能需要手动关闭代理，验证完毕后再重新启动代理。导致问题的原因可能是验证页面使用代理服务器加载，而非直连。**可以尝试用将验证页面的域名手动加入到配置文件中，对其使用 skip-proxy 或 DIRCET 策略。**
-2. 代理工具开启代理时，App Store 的 App 可能无法正常更新，此 bug 可能是 iOS 系统的问题，可能需要后续系统更新解决。**作者已经尝试在懒人规则内调优相关参数，试图缓解该问题。欢迎各位试用并反馈**。
 
-## 如何使用懒人规则
+## 懒人规则使用教程
 
 规则在 Github 网页上，需要以 `Raw`的形式显示才是纯文本格式，可以被代理工具识别，不可以直接复制项目的地址。操作步骤十分简单，请参考以下步骤：
 
@@ -95,5 +96,6 @@
 - [@不酷李](http://weibo.com/leexumeng)  制作的获取最新`Potatso 2`懒人规则的 Workflow
 - [@JacobCHEN16](http://weibo.com/jacksunny) 协助我测试、修正 Wiki 阅读优化相关规则
 - [@左疼健贰](http://weibo.com/sunmihora) 、[@ArM_A](http://weibo.com/u/2643106141)、[@Cyap0s](https://weibo.com/u/1772218935) 协助我维护 DIRECT 规则、PROXY 规则，非常感谢你们的付出让规则更加完美。
+- [@womeimingzi11](https://github.com/womeimingzi11) 对项目持续关注和支持。
 
 ---
