@@ -1,15 +1,17 @@
 [Rule]
 
 // 其他服务
-USER-AGENT,com.apple.appstored*,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN,gs.apple.com,Proxy
-DOMAIN-SUFFIX,aaplimg.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
+USER-AGENT,com.apple.appstored*,DIRECT,force-remote-dns
+DOMAIN-SUFFIX,mzstatic.com,DIRECT,force-remote-dns
+DOMAIN,gs.apple.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
 DOMAIN,e.crashlytics.com,REJECT
 
+// CDN
+DOMAIN-SUFFIX,aaplimg.com,DIRECT,force-remote-dns
+DOMAIN-SUFFIX,akadns.net,DIRECT,force-remote-dns
+
 // 通用部分
-DOMAIN,beta.itunes.apple.com,Proxy
-DOMAIN-SUFFIX,appsto.re,Proxy
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN,beta.itunes.apple.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,apple.com,DIRECT,force-remote-dns
+DOMAIN-SUFFIX,icloud.com,DIRECT,force-remote-dns
