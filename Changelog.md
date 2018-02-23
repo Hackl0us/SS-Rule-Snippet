@@ -1,4 +1,4 @@
-# SS(R) -Rule-Snippets 更新日志
+# SS-Rule-Snippet 更新日志
 
 ## v2.6.1 (2018/02/19 11:34:23)
 

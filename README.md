@@ -1,4 +1,4 @@
-# Surge-Rule-Snippets
+# SS-Rule-Snippet
 本项目目的在于搜集、整理使用的`Surge`/`ShadowRocket`/`Potatso` /`Quantumult`规则片段。使得用户可以根据自己的需求最小化定制自己的规则，提高Surge的运行效率。
 
 [项目更新日志](https://github.com/Hackl0us/Surge-Rule-Snippets/blob/master/Changelog.md)
