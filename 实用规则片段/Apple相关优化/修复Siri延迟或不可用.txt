@@ -1,4 +1,0 @@
-#在某些情况下，iOS 测试版(beta版) 中，Siri 可能会出现响应缓慢的情况。可以尝试使用此规则修复问题。
-
-[Rule]
-USER-AGENT,*AssistantServices*,Proxy

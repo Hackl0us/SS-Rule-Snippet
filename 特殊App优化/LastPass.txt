@@ -1,8 +1,0 @@
-[Rule]
-
-// 通用部分
-USER-AGENT,LastPass*,Proxy
-DOMAIN-SUFFIX,lastpass.com,Proxy
-
-// macOS App
-PROCESS-NAME,LastPass,Proxy

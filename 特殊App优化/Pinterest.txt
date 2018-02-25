@@ -1,8 +1,0 @@
-[Rule]
-
-// 通用部分
-DOMAIN-SUFFIX,pinimg.com,Proxy
-DOMAIN-SUFFIX,pinterest.com,Proxy
-
-// iOS
-USER-AGENT,Pinterest*,Proxy

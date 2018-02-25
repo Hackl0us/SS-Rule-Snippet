@@ -1,7 +1,0 @@
-[Rule]
-USER-AGENT,mytv*,Proxy
-
-DOMAIN-SUFFIX,mytvsuper.com,Proxy
-DOMAIN-KEYWORD,nowtv100,Proxy
-DOMAIN-KEYWORD,rthklive,Proxy
-DOMAIN-SUFFIX,tvb.com,Proxy
