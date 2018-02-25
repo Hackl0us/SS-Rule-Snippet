@@ -1,5 +1,6 @@
 # SS-Rule-Snippet
-This project has beem romoved due to some reasons.
+
+This project has been removed due to some reasons.
 
 このプロジェクトは何らかの理由で削除されました。
 
