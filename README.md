@@ -1,5 +1,3 @@
-```
-*** 
 
 <h1 align="center">
 <sub>
@@ -10,14 +8,17 @@
 SS Rule Snippet
 </h1>
 <p align="center">
-<sup> <!-- Pronounciation -->
-      本项是由 <b>Hackl0us</b> 书写、搜集、整理，适用于<i> Surge / ShadowRocket / Potatso / Quantumult <i>的规则或实用规则片段，为用户提供最精简、最实用的、最高效的规则。
+<sup>
+     Made for<i> Surge / Quantumult / ShadowRocket / Potatso </i>.
+     <br> Maintained by <b>Hackl0us</b>.
 </sup>
 <br>
 </p>
-```
+
 
 ## 导航
+
+本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>ShadowRocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Potatso</i>](https://itunes.apple.com/hk/app/potatso-2/id1162704202) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
 
 * [规则使用](#规则使用)
 
@@ -35,7 +36,7 @@ SS Rule Snippet
   * [关注项目](#关注项目)
   * [捐赠](捐助)
 
-  ​
+
 
 ## 规则使用
 
@@ -49,7 +50,7 @@ SS Rule Snippet
 
 ## 关于项目
 
-### 关于屏蔽广告
+### 关于广告屏蔽
 
 本项目不会出现网页广告拦截的规则，原因如下：
 
