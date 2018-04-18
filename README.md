@@ -98,7 +98,7 @@ SS Rule Snippet
 ### 关注项目
 
 - [Telegram 频道](https://t.me/joinchat/AAAAAEBbyO8dblJS4QQ1hw)：关注后，可及时推送项目的更新日志。
-- Telegram 群组 - [库克后厨 H Team](https://t.me/joinchat/EAPjDBMDRpVpCtB8ur85sQ)：自由交流、讨论任何有关 Apple 的技术。
+- Telegram 群组 - [库克后厨 H Team](https://t.me/joinchat/EAPjDEerhmqJfqvbZkm3qQ)：自由交流、讨论任何有关 Apple 的技术。
 
 
 - 新浪微博 [@Hackl0us](https://weibo.com/hackl0us)：个人微博，可了解到很多关于 Apple、网络技术等科技方面的讯息。
