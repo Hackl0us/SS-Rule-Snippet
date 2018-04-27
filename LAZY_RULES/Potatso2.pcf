@@ -730,7 +730,7 @@ rules = [
   "IP-CIDR, 91.108.12.0/22, PROXY"
 ]
 
-[RULESET.local]LL
+[RULESET.local]
 name = "国内直连"
 rules = [
     "IP-CIDR, 127.0.0.0/8, DIRECT",
