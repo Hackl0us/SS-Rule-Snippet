@@ -1,6 +1,6 @@
 [Rules]
 
-//常见广告域名屏蔽
+#常见广告域名屏蔽
 DOMAIN-KEYWORD,adsmogo,REJECT
 DOMAIN-SUFFIX,acs86.com,REJECT
 DOMAIN-SUFFIX,adcome.cn,REJECT

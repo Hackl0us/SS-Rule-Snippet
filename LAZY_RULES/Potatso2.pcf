@@ -1,4 +1,4 @@
-# 2018-04-27 10:53:01
+# 2018-04-27 14:02:11
 
 name = "Hackl0us - Lazy Rules"
 author = "Hackl0us"
@@ -6,22 +6,12 @@ email = "ask@hackl0us.com"
 website = "https://github.com/Hackl0us/SS-Rule-Snippet"
 description = "Converted from Hackl0us's Surge Lazy Rules by Weiyi Kong. Maintaining by Hackl0us."
 
-# 用户配置（Profile）
-# 此处配置请参考 https://manual.potatsocontent.com/pcf/#%E7%A4%BA%E4%BE%8B
-[PROFILE.Hackl0us]
-name = "Hackl0us"
-dns = [
-  "119.29.29.29",
-  "182.254.116.116",
-  "1.1.1.1",
-  "1.0.0.1"
-]
-
 [RULESET.apple]
 name = "Apple 服务优化"
 rules = [
     "DOMAIN-SUFFIX, mzstatic.com, DIRECT",
     "DOMAIN, gs.apple.com, PROXY",
+    "DOMAIN-SUFFIX, itunes.apple.com, PROXY",
     "DOMAIN-SUFFIX, icloud-content.com, DIRECT",
     "DOMAIN, beta.itunes.apple.com ,PROXY",
     "DOMAIN-SUFFIX, itunes.apple.com, DIRECT",
