@@ -1,6 +1,7 @@
 [Rules]
 
 // 爱奇艺
+DOMAIN-SUFFIX,a.ckm.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.iqiyi.com,REJECT
 DOMAIN-SUFFIX,api.cupid.iqiyi.com,REJECT
@@ -12,26 +13,17 @@ DOMAIN-SUFFIX,gamecenter.iqiyi.com,REJECT
 DOMAIN-SUFFIX,hotchat-im.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ifacelog.iqiyi.com,REJECT
 DOMAIN-SUFFIX,mbdlog.iqiyi.com,REJECT
-DOMAIN-SUFFIX,msg.71.am,REJECT
 DOMAIN-SUFFIX,msg.video.qiyi.com,REJECT
 DOMAIN-SUFFIX,msg2.video.qiyi.com,REJECT
 DOMAIN-SUFFIX,msga.cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,policy.video.iqiyi.com,REJECT
 DOMAIN-SUFFIX,yuedu.iqiyi.com,REJECT
-IP-CIDR,112.13.64.0/22,REJECT,no-resolve
-IP-CIDR,112.253.36.0/24,REJECT,no-resolve
-IP-CIDR,117.139.16.0/22,REJECT,no-resolve
-IP-CIDR,117.139.18.132/22,REJECT,no-resolve
-IP-CIDR,119.188.172.192/28,REJECT,no-resolve
-IP-CIDR,119.188.173.0/27,REJECT,no-resolve
-IP-CIDR,119.188.43.61/32,REJECT,no-resolve
-IP-CIDR,123.130.122.128/28,REJECT,no-resolve
-IP-CIDR,157.122.96.23/32,REJECT,no-resolve
-IP-CIDR,183.221.244.0/22,REJECT,no-resolve
-IP-CIDR,183.221.247.189/22,REJECT,no-resolve
-IP-CIDR,27.221.89.128/28,REJECT,no-resolve
-IP-CIDR,60.211.171.128/29,REJECT,no-resolve
-IP-CIDR,60.211.211.1/32,REJECT,no-resolve
+
+// 湖南 TV
+DOMAIN-SUFFIX,click.hunantv.com,REJECT
+DOMAIN-SUFFIX,da.mgtv.com,REJECT
+DOMAIN-SUFFIX,da.hunantv.com,REJECT
+DOMAIN-SUFFIX,res.hunantv.com,REJECT
 
 // 优酷
 DOMAIN-SUFFIX,actives.youku.com,REJECT
@@ -39,7 +31,6 @@ DOMAIN-SUFFIX,ad.api.3g.youku.com,REJECT
 DOMAIN-SUFFIX,ad.api.mobile.youku.com,REJECT
 DOMAIN-SUFFIX,ad.mobile.youku.com,REJECT
 DOMAIN-SUFFIX,a-dxk.play.api.3g.youku.com,REJECT
-DOMAIN-SUFFIX,atm.youku.com,REJECT
 DOMAIN-SUFFIX,b.smartvideo.youku.com,REJECT
 DOMAIN-SUFFIX,c.yes.youku.com,REJECT
 DOMAIN-SUFFIX,das.api.youku.com,REJECT
@@ -49,7 +40,6 @@ DOMAIN-SUFFIX,dl.g.youku.com,REJECT
 DOMAIN-SUFFIX,dmapp.youku.com,REJECT
 DOMAIN-SUFFIX,e.stat.ykimg.com,REJECT
 DOMAIN-SUFFIX,gamex.mobile.youku.com,REJECT
-DOMAIN-SUFFIX,guanggaoad.youku.com,REJECT
 DOMAIN-SUFFIX,hudong.pl.youku.com,REJECT
 DOMAIN-SUFFIX,huodong.pl.youku.com,REJECT
 DOMAIN-SUFFIX,huodong.vip.youku.com,REJECT
@@ -68,18 +58,16 @@ DOMAIN-SUFFIX,r.l.youku.com,REJECT
 DOMAIN-SUFFIX,s.p.youku.com,REJECT
 DOMAIN-SUFFIX,sdk.m.youku.com,REJECT
 DOMAIN-SUFFIX,stat.youku.com,REJECT
-DOMAIN-SUFFIX,statis.api.3g.youku.com,REJECT
 DOMAIN-SUFFIX,store.tv.api.3g.youku.com,REJECT
 DOMAIN-SUFFIX,store.xl.api.3g.youku.com,REJECT
 DOMAIN-SUFFIX,tdrec.youku.com,REJECT
 DOMAIN-SUFFIX,test.ott.youku.com,REJECT
-DOMAIN-SUFFIX,test.sdk.m.youku.com,REJECT
 DOMAIN-SUFFIX,v.l.youku.com,REJECT
 DOMAIN-SUFFIX,val.api.youku.com,REJECT
-DOMAIN-SUFFIX,vali.cp31.ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,wan.youku.com,REJECT
 DOMAIN-SUFFIX,ykatr.youku.com,REJECT
 DOMAIN-SUFFIX,ykrec.youku.com,REJECT
+
 IP-CIDR,117.177.248.17/32,REJECT,no-resolve
 IP-CIDR,117.177.248.41/32,REJECT,no-resolve
 IP-CIDR,223.87.176.139/32,REJECT,no-resolve
@@ -99,44 +87,16 @@ IP-CIDR,223.87.182.52/32,REJECT,no-resolve
 DOMAIN-SUFFIX,api.game.letvstore.com,REJECT
 DOMAIN-SUFFIX,ark.letv.com,REJECT
 DOMAIN-SUFFIX,dc.letv.com,REJECT
-DOMAIN-SUFFIX,dev.dc.letv.com,REJECT
 DOMAIN-SUFFIX,fz.letv.com,REJECT
 DOMAIN-SUFFIX,g3.letv.com,REJECT
-DOMAIN-SUFFIX,letv.allyes.com,REJECT
 DOMAIN-SUFFIX,minisite.letv.com,REJECT
 DOMAIN-SUFFIX,msg.m.letv.com,REJECT
 DOMAIN-SUFFIX,n.mark.letv.com,REJECT
-DOMAIN-SUFFIX,plog.dc.letv.com,REJECT
 DOMAIN-SUFFIX,pro.hoye.letv.com,REJECT
 DOMAIN-SUFFIX,pro.letv.com,REJECT
 DOMAIN-SUFFIX,stat.letv.com,REJECT
 DOMAIN-SUFFIX,static.app.m.letv.com,REJECT
-
-// 腾讯视频
-DOMAIN-SUFFIX,aiseet.aa.atianqi.com,REJECT
-DOMAIN-SUFFIX,aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,c.l.qq.com,REJECT
-DOMAIN-SUFFIX,dp3.qq.com,REJECT
-DOMAIN-SUFFIX,livep.l.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,livep.l.qq.com,REJECT
-DOMAIN-SUFFIX,lives.l.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,lives.l.qq.com,REJECT
-DOMAIN-SUFFIX,livew.l.qq.com,REJECT
-DOMAIN-SUFFIX,mcgi.v.qq.com,REJECT
-DOMAIN-SUFFIX,mdevstat.qqlive.qq.com,REJECT
-DOMAIN-SUFFIX,monitor-uu.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,news-l.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,omgmta1.qq.com,REJECT
-DOMAIN-SUFFIX,otheve.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,othstr.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,p.l.qq.com,REJECT
-DOMAIN-SUFFIX,p-l.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,sdkconfig.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,t.l.qq.com,REJECT
-DOMAIN-SUFFIX,t-l.play.aiseet.atianqi.com,REJECT
-DOMAIN-SUFFIX,u.l.qq.com,REJECT
-DOMAIN-SUFFIX,vmindhls.tc.qq.com,REJECT
-DOMAIN-SUFFIX,vv.play.aiseet.atianqi.com,REJECT
+DOMAIN-SUFFIX,webp2p.letv.com,REJECT
 
 // Youtube
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
@@ -147,43 +107,18 @@ DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 DOMAIN-SUFFIX,m-78.jp,REJECT
 DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
 DOMAIN-SUFFIX,nicorette.co.kr,REJECT
-DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
 DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
-DOMAIN-SUFFIX,youtube.2cnt.net,REJECT
 
-// 搜狐
-DOMAIN-SUFFIX,888.tv.sohu.com,REJECT
-DOMAIN-SUFFIX,agn.aty.sohu.com,REJECT
-DOMAIN-SUFFIX,api.k.sohu.com,REJECT
-DOMAIN-SUFFIX,aty.sohu.com,REJECT
-DOMAIN-SUFFIX,bd.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,click.hd.sohu.com.cn,REJECT
-DOMAIN-SUFFIX,click2.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,count.vrs.sohu.com,REJECT
-DOMAIN-SUFFIX,ctr.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,download.wan.sohu.com,REJECT
-DOMAIN-SUFFIX,goto.sms.sohu.com,REJECT
-DOMAIN-SUFFIX,hui.sohu.com,REJECT
-DOMAIN-SUFFIX,i.go.sohu.com,REJECT
-DOMAIN-SUFFIX,images.sohu.com,REJECT
-DOMAIN-SUFFIX,info.lm.tv.sohu.com,REJECT
-DOMAIN-SUFFIX,lm.tv.sohu.com,REJECT
-DOMAIN-SUFFIX,m.aty.sohu.com,REJECT
-DOMAIN-SUFFIX,mb.hd.sohu.com.cn,REJECT
-DOMAIN-SUFFIX,mmg.aty.sohu.com,REJECT
-DOMAIN-SUFFIX,pb.hd.sohu.com.cn,REJECT
-DOMAIN-SUFFIX,push.tv.sohu.com,REJECT
-DOMAIN-SUFFIX,pv.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,pv.ott.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,pv.sohu.com,REJECT
-DOMAIN-SUFFIX,s.go.sohu.com,REJECT
-DOMAIN-SUFFIX,score.my.tv.sohu.com,REJECT
-DOMAIN-SUFFIX,sohu.wrating.com,REJECT
-DOMAIN-SUFFIX,um.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,vstat.v.blog.sohu.com,REJECT
-DOMAIN-SUFFIX,wl.hd.sohu.com,REJECT
-DOMAIN-SUFFIX,yule.sohu.com,REJECT
-DOMAIN-SUFFIX,zz.m.sohu.com,REJECT
+// Sohu
+DOMAIN-SUFFIX,adnet.sohu.com,REJECT
+DOMAIN-SUFFIX,epro.sogou.com,REJECT
+DOMAIN-SUFFIX,go.sohu.com,REJECT
+DOMAIN-SUFFIX,golden1.sogou.com,REJECT
+DOMAIN-SUFFIX,inte.sogou.com,REJECT
+DOMAIN-SUFFIX,inte.sogoucdn.com,REJECT
+DOMAIN-SUFFIX,lu.sogoucdn.com,REJECT
+DOMAIN-SUFFIX,theta.sogoucdn.com,REJECT
+DOMAIN-SUFFIX,uranus.sogou.com,REJECT
 
 // PPTV
 DOMAIN-SUFFIX,asimgs.pplive.cn,REJECT
@@ -193,20 +128,33 @@ DOMAIN-SUFFIX,pp2.pptv.com,REJECT
 DOMAIN-SUFFIX,stat.pptv.com,REJECT
 DOMAIN-SUFFIX,afp.pplive.com,REJECT
 
+// Site
+DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
+DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
+DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
+DOMAIN-SUFFIX,itv.hexun.com,REJECT
+
+// Vod
+DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
+DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net,REJECT
+DOMAIN-SUFFIX,aty.cp45.ott.cibntv.net,REJECT
+DOMAIN-SUFFIX,aty.sohu.com,REJECT
+DOMAIN-SUFFIX,cpm.cm.kankan.com,REJECT
+DOMAIN-SUFFIX,float.kankan.com,REJECT
+DOMAIN-SUFFIX,houyi.baofeng.net,REJECT
+DOMAIN-SUFFIX,iadctest.qwapi.com,REJECT
+DOMAIN-SUFFIX,log.moviebox.baofeng.com,REJECT
+DOMAIN-SUFFIX,logger.baofeng.com,REJECT
+
 // 其他
 DOMAIN-SUFFIX,ad.video.51togic.com,REJECT
 DOMAIN-SUFFIX,ads.cdn.tvb.com,REJECT
 DOMAIN-SUFFIX,biz5.kankan.com,REJECT
 DOMAIN-SUFFIX,c.algovid.com,REJECT
-DOMAIN-SUFFIX,cc.xtgreat.com,REJECT
-DOMAIN-SUFFIX,cm.zhiziyun.com,REJECT
 DOMAIN-SUFFIX,cms.laifeng.com,REJECT
-DOMAIN-SUFFIX,d.dsp.imageter.com,REJECT
 DOMAIN-SUFFIX,da.mmarket.com,REJECT
 DOMAIN-SUFFIX,data.vod.itc.cn,REJECT
 DOMAIN-SUFFIX,dotcounter.douyutv.com,REJECT
-DOMAIN-SUFFIX,files.adform.net,REJECT
-DOMAIN-SUFFIX,float.kankan.com,REJECT
 DOMAIN-SUFFIX,g.uusee.com,REJECT
 DOMAIN-SUFFIX,game.pps.tv,REJECT
 DOMAIN-SUFFIX,gcdn.2mdn.net,REJECT
@@ -215,16 +163,10 @@ DOMAIN-SUFFIX,gg.jtertp.com,REJECT
 DOMAIN-SUFFIX,gug.ku6cdn.com,REJECT
 DOMAIN-SUFFIX,hp.smiler-ad.com,REJECT
 DOMAIN-SUFFIX,kooyum.com,REJECT
-DOMAIN-SUFFIX,kwflvcdn.000dn.com,REJECT
-DOMAIN-SUFFIX,l.fancyapi.com,REJECT
-DOMAIN-SUFFIX,l.ftx.fancyapi.com,REJECT
 DOMAIN-SUFFIX,ld.kuaigames.com,REJECT
-DOMAIN-SUFFIX,logger.baofeng.com,REJECT
-DOMAIN-SUFFIX,logic.cpm.cm.kankan.com,REJECT
 DOMAIN-SUFFIX,logstat.t.sfht.com,REJECT
 DOMAIN-SUFFIX,match.rtbidder.net,REJECT
 DOMAIN-SUFFIX,mixer.cupid.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,mp4.res.hunantv.com,REJECT
 DOMAIN-SUFFIX,msg.c002.ottcn.com,REJECT
 DOMAIN-SUFFIX,msga.ptqy.gitv.tv,REJECT
 DOMAIN-SUFFIX,njwxh.com,REJECT
@@ -233,26 +175,19 @@ DOMAIN-SUFFIX,n-st.vip.com,REJECT
 DOMAIN-SUFFIX,pb.bi.gitv.tv,REJECT
 DOMAIN-SUFFIX,pop.uusee.com,REJECT
 DOMAIN-SUFFIX,pq.stat.ku6.com,REJECT
-DOMAIN-SUFFIX,qchannel01.cn,REJECT
 DOMAIN-SUFFIX,rd.kuaigames.com,REJECT
 DOMAIN-SUFFIX,shizen-no-megumi.com,REJECT
 DOMAIN-SUFFIX,shrek.6.cn,REJECT
 DOMAIN-SUFFIX,simba.6.cn,REJECT
 DOMAIN-SUFFIX,st.vq.ku6.cn,REJECT
 DOMAIN-SUFFIX,statcounter.com,REJECT
-DOMAIN-SUFFIX,static.bshare.cn,REJECT
 DOMAIN-SUFFIX,static.duoshuo.com,REJECT
 DOMAIN-SUFFIX,static.g.ppstream.com,REJECT
 DOMAIN-SUFFIX,static.ku6.com,REJECT
 DOMAIN-SUFFIX,static8.pmadx.com,REJECT
 DOMAIN-SUFFIX,store.ptqy.gitv.tv,REJECT
-DOMAIN-SUFFIX,stuff.cdn.biddingx.com,REJECT
-DOMAIN-SUFFIX,t.cr-nielsen.com,REJECT
 DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv,REJECT
 DOMAIN-SUFFIX,traffic.uusee.com,REJECT
 DOMAIN-SUFFIX,union.6.cn,REJECT
-DOMAIN-SUFFIX,w.fancyapi.com,REJECT
 DOMAIN-SUFFIX,wa.gtimg.com,REJECT
-DOMAIN-SUFFIX,www.bfshan.cn,REJECT
-DOMAIN-SUFFIX,x.da.hunantv.com,REJECT
-DOMAIN-SUFFIX,xs.houyi.baofeng.net,REJECT
+DOMAIN-SUFFIX,bfshan.cn,REJECT

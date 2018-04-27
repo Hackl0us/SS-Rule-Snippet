@@ -1,15 +1,15 @@
 [Rule]
 
-// macOS App（有待增加）
+// macOS App
 // 注意：PROCESS-NAME 规则仅 macOS 版 Surge 支持
 PROCESS-NAME,Tweetbot,Proxy
 PROCESS-NAME,Twitterific,Proxy
-PROCESS-NAME,Spotify,DIRECT
+PROCESS-NAME,Spotify,Proxy
 PROCESS-NAME,Telegram,Proxy
 PROCESS-NAME,Tweetbot,Proxy
 PROCESS-NAME,Slack,Proxy
 
-// 纠正 GFW 的 DNS 污染问题
+// 抗 DNS 污染
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gstatic.com,Proxy,force-remote-dns
 DOMAIN-KEYWORD,gmail,Proxy,force-remote-dns
@@ -25,33 +25,23 @@ DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youtu.be,Proxy,force-remote-dns
 DOMAIN-KEYWORD,whatsapp,Proxy,force-remote-dns
 
-// 此部分为最常访问但被 GFW 屏蔽的网站（若有特殊需要，请参考项目的 GFWList 列表）
-DOMAIN-SUFFIX,2o7.net,Proxy
-DOMAIN-SUFFIX,4sqi.net,Proxy
+// 国外网站
 DOMAIN-SUFFIX,9to5mac.com,Proxy
 DOMAIN-SUFFIX,abpchina.org,Proxy
 DOMAIN-SUFFIX,adblockplus.org,Proxy
 DOMAIN-SUFFIX,adobe.com,Proxy
-DOMAIN-SUFFIX,adobedtm.com,Proxy
-DOMAIN-SUFFIX,aerisapi.com,Proxy
-DOMAIN-SUFFIX,akamaihd.net,Proxy
 DOMAIN-SUFFIX,alfredapp.com,Proxy
 DOMAIN-SUFFIX,amazon.com,Proxy
 DOMAIN-SUFFIX,amazonaws.com,Proxy
 DOMAIN-SUFFIX,amplitude.com,Proxy
-DOMAIN-SUFFIX,ampproject.com,Proxy
-DOMAIN-SUFFIX,ampproject.net,Proxy
 DOMAIN-SUFFIX,ampproject.org,Proxy
 DOMAIN-SUFFIX,android.com,Proxy
 DOMAIN-SUFFIX,angularjs.org,Proxy
 DOMAIN-SUFFIX,aolcdn.com,Proxy
 DOMAIN-SUFFIX,apkpure.com,Proxy
-DOMAIN-SUFFIX,apple-dns.net,Proxy
 DOMAIN-SUFFIX,appledaily.com,Proxy
-DOMAIN-SUFFIX,appledaily.com.tw,Proxy
-DOMAIN-SUFFIX,appledailytw.com,Proxy
 DOMAIN-SUFFIX,appshopper.com,Proxy
-DOMAIN-SUFFIX,appsto.re,Proxy
+DOMAIN-SUFFIX,appspot.com,Proxy
 DOMAIN-SUFFIX,arcgis.com,Proxy
 DOMAIN-SUFFIX,archive.org,Proxy
 DOMAIN-SUFFIX,armorgames.com,Proxy
@@ -150,6 +140,7 @@ DOMAIN-SUFFIX,hotmail.com,Proxy
 DOMAIN-SUFFIX,icons8.com,Proxy
 DOMAIN-SUFFIX,ift.tt,Proxy
 DOMAIN-SUFFIX,ifttt.com,Proxy
+DOMAIN-SUFFIX,iherb.com,Proxy
 DOMAIN-SUFFIX,imageshack.us,Proxy
 DOMAIN-SUFFIX,img.ly,Proxy
 DOMAIN-SUFFIX,imgur.com,Proxy
@@ -219,6 +210,7 @@ DOMAIN-SUFFIX,periscope.tv,Proxy
 DOMAIN-SUFFIX,pinboard.in,Proxy
 DOMAIN-SUFFIX,pinterest.com,Proxy
 DOMAIN-SUFFIX,pixelmator.com,Proxy
+DOMAIN-SUFFIX,pixiv.net,Proxy
 DOMAIN-SUFFIX,playpcesor.com,Proxy
 DOMAIN-SUFFIX,playstation.com,Proxy
 DOMAIN-SUFFIX,playstation.com.hk,Proxy
@@ -232,15 +224,10 @@ DOMAIN-SUFFIX,shadowsocks.org,Proxy
 DOMAIN-SUFFIX,sharethis.com,Proxy
 DOMAIN-SUFFIX,shazam.com,Proxy
 DOMAIN-SUFFIX,skype.com,Proxy
-DOMAIN-SUFFIX,slack-edge.com,Proxy
-DOMAIN-SUFFIX,slack.com,Proxy
-DOMAIN-SUFFIX,slack-msgs.com,Proxy
 DOMAIN-SUFFIX,smartdnsProxy.com,Proxy
 DOMAIN-SUFFIX,smartmailcloud.com,Proxy
 DOMAIN-SUFFIX,sndcdn.com,Proxy
 DOMAIN-SUFFIX,sony.com,Proxy
-DOMAIN-SUFFIX,sony.com.hk,Proxy
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com,Proxy
 DOMAIN-SUFFIX,soundcloud.com,Proxy
 DOMAIN-SUFFIX,sourceforge.net,Proxy
 DOMAIN-SUFFIX,speedtest.net,Proxy
@@ -251,7 +238,7 @@ DOMAIN-SUFFIX,st.luluku.pw,Proxy
 DOMAIN-SUFFIX,stackoverflow.com,Proxy
 DOMAIN-SUFFIX,startpage.com,Proxy
 DOMAIN-SUFFIX,staticflickr.com,Proxy
-DOMAIN-SUFFIX,surge.run,Proxy
+DOMAIN-SUFFIX,steamcommunity.com,Proxy
 DOMAIN-SUFFIX,symauth.com,Proxy
 DOMAIN-SUFFIX,symcb.com,Proxy
 DOMAIN-SUFFIX,symcd.com,Proxy

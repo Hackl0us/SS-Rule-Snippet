@@ -1,16 +1,27 @@
-# 2018年02月19日 11:32:03
+# 2018-04-27 10:53:01
 
-name = "Lazy PCF"
-website = "https://github.com/Hackl0us/Surge-Rule-Snippets"
-description = "Converted from Hackl0us's Surge lazy rules by Weiyi Kong. Maintaining by Hackl0us."
+name = "Hackl0us - Lazy Rules"
+author = "Hackl0us"
+email = "ask@hackl0us.com"
+website = "https://github.com/Hackl0us/SS-Rule-Snippet"
+description = "Converted from Hackl0us's Surge Lazy Rules by Weiyi Kong. Maintaining by Hackl0us."
+
+# 用户配置（Profile）
+# 此处配置请参考 https://manual.potatsocontent.com/pcf/#%E7%A4%BA%E4%BE%8B
+[PROFILE.Hackl0us]
+name = "Hackl0us"
+dns = [
+  "119.29.29.29",
+  "182.254.116.116",
+  "1.1.1.1",
+  "1.0.0.1"
+]
 
 [RULESET.apple]
 name = "Apple 服务优化"
 rules = [
     "DOMAIN-SUFFIX, mzstatic.com, DIRECT",
     "DOMAIN, gs.apple.com, PROXY",
-    "DOMAIN-SUFFIX, aaplimg.com, DIRECT",
-    "DOMAIN-SUFFIX, akadns.net, DIRECT",
     "DOMAIN-SUFFIX, icloud-content.com, DIRECT",
     "DOMAIN, beta.itunes.apple.com ,PROXY",
     "DOMAIN-SUFFIX, itunes.apple.com, DIRECT",
@@ -27,7 +38,6 @@ rules = [
     "DOMAIN-SUFFIX,126.net,DIRECT",
     "DOMAIN-SUFFIX,127.net,DIRECT",
     "DOMAIN-SUFFIX,163.com,DIRECT",
-    "DOMAIN-SUFFIX,360.cn,DIRECT",
     "DOMAIN-SUFFIX,360buyimg.com,DIRECT",
     "DOMAIN-SUFFIX,36kr.com,DIRECT",
     "DOMAIN-SUFFIX,acfun.tv,DIRECT",
@@ -49,7 +59,6 @@ rules = [
     "DOMAIN-SUFFIX,cnbetacdn.com,DIRECT",
     "DOMAIN-SUFFIX,cootekservice.com,DIRECT",
     "DOMAIN-SUFFIX,csdn.net,DIRECT",
-    "DOMAIN-SUFFIX,csdnimg.cn,DIRECT",
     "DOMAIN-SUFFIX,ctrip.com,DIRECT",
     "DOMAIN-SUFFIX,dgtle.com,DIRECT",
     "DOMAIN-SUFFIX,dianping.com,DIRECT",
@@ -122,8 +131,8 @@ rules = [
     "DOMAIN-SUFFIX,upyun.com,DIRECT",
     "DOMAIN-SUFFIX,veryzhun.com,DIRECT",
     "DOMAIN-SUFFIX,weibo.com,DIRECT",
-    "DOMAIN-SUFFIX,weiphone.net,DIRECT",
     "DOMAIN-SUFFIX,xiami.com,DIRECT",
+    "DOMAIN-SUFFIX,xiami.net,DIRECT",
     "DOMAIN-SUFFIX,xiaomicp.com,DIRECT",
     "DOMAIN-SUFFIX,ximalaya.com,DIRECT",
     "DOMAIN-SUFFIX,xmcdn.com,DIRECT",
@@ -189,31 +198,22 @@ rules = [
     "DOMAIN-MATCH, dropbox, PROXY",
     "DOMAIN-MATCH, blogspot, PROXY",
     "DOMAIN-SUFFIX, youtu.be, PROXY",
-    "DOMAIN-SUFFIX, 2o7.net, PROXY",
-    "DOMAIN-SUFFIX, 4sqi.net, PROXY",
     "DOMAIN-SUFFIX, 9to5mac.com, PROXY",
     "DOMAIN-SUFFIX, abpchina.org, PROXY",
     "DOMAIN-SUFFIX, adblockplus.org, PROXY",
     "DOMAIN-SUFFIX, adobe.com, PROXY",
-    "DOMAIN-SUFFIX, adobedtm.com, PROXY",
-    "DOMAIN-SUFFIX, aerisapi.com, PROXY",
-    "DOMAIN-SUFFIX, akamaihd.net, PROXY",
     "DOMAIN-SUFFIX, alfredapp.com, PROXY",
     "DOMAIN-SUFFIX, amazon.com, PROXY",
     "DOMAIN-SUFFIX, amazonaws.com, PROXY",
     "DOMAIN-SUFFIX, amplitude.com, PROXY",
-    "DOMAIN-SUFFIX, ampproject.com, PROXY",
-    "DOMAIN-SUFFIX, ampproject.net, PROXY",
     "DOMAIN-SUFFIX, ampproject.org, PROXY",
     "DOMAIN-SUFFIX, android.com, PROXY",
     "DOMAIN-SUFFIX, angularjs.org, PROXY",
     "DOMAIN-SUFFIX, aolcdn.com, PROXY",
     "DOMAIN-SUFFIX, apkpure.com, PROXY",
-    "DOMAIN-SUFFIX, apple-dns.net, PROXY",
     "DOMAIN-SUFFIX, appledaily.com, PROXY",
-    "DOMAIN-SUFFIX, appledaily.com.tw, PROXY",
-    "DOMAIN-SUFFIX, appledailytw.com, PROXY",
     "DOMAIN-SUFFIX, appshopper.com, PROXY",
+    "DOMAIN-SUFFIX, appspot.com, PROXY",
     "DOMAIN-SUFFIX, arcgis.com, PROXY",
     "DOMAIN-SUFFIX, archive.org, PROXY",
     "DOMAIN-SUFFIX, armorgames.com, PROXY",
@@ -377,6 +377,7 @@ rules = [
     "DOMAIN-SUFFIX, pinimg.com, PROXY",
     "DOMAIN-SUFFIX, pinterest.com, PROXY",
     "DOMAIN-SUFFIX, pixelmator.com, PROXY",
+    "DOMAIN-SUFFIX, pixiv.net, PROXY",
     "DOMAIN-SUFFIX, playpcesor.com, PROXY",
     "DOMAIN-SUFFIX, playstation.com, PROXY",
     "DOMAIN-SUFFIX, playstation.com.hk, PROXY",
@@ -390,15 +391,10 @@ rules = [
     "DOMAIN-SUFFIX, sharethis.com, PROXY",
     "DOMAIN-SUFFIX, shazam.com, PROXY",
     "DOMAIN-SUFFIX, skype.com, PROXY",
-    "DOMAIN-SUFFIX, slack-edge.com, PROXY",
-    "DOMAIN-SUFFIX, slack.com, PROXY",
-    "DOMAIN-SUFFIX, slack-msgs.com, PROXY",
     "DOMAIN-SUFFIX, smartdnsproxy.com, PROXY",
     "DOMAIN-SUFFIX, smartmailcloud.com, PROXY",
     "DOMAIN-SUFFIX, sndcdn.com, PROXY",
     "DOMAIN-SUFFIX, sony.com, PROXY",
-    "DOMAIN-SUFFIX, sony.com.hk, PROXY",
-    "DOMAIN-SUFFIX, sonyentertainmentnetwork.com, PROXY",
     "DOMAIN-SUFFIX, soundcloud.com, PROXY",
     "DOMAIN-SUFFIX, sourceforge.net, PROXY",
     "DOMAIN-SUFFIX, speedtest.net, PROXY",
@@ -410,7 +406,7 @@ rules = [
     "DOMAIN-SUFFIX, stackoverflow.com, PROXY",
     "DOMAIN-SUFFIX, startpage.com, PROXY",
     "DOMAIN-SUFFIX, staticflickr.com, PROXY",
-    "DOMAIN-SUFFIX, surge.run, PROXY",
+    "DOMAIN-SUFFIX, steamcommunity.com, PROXY",
     "DOMAIN-SUFFIX, symauth.com, PROXY",
     "DOMAIN-SUFFIX, symcb.com, PROXY",
     "DOMAIN-SUFFIX, symcd.com, PROXY",
@@ -729,21 +725,28 @@ name = "Telegram"
 rules = [
   "DOMAIN-SUFFIX, telegra.ph, PROXY",
   "DOMAIN-SUFFIX, telegram.org, PROXY",
-  "IP-CIDR, 91.108.56.0/22, PROXY",
-  "IP-CIDR, 91.108.4.0/22, PROXY",
-  "IP-CIDR, 109.239.140.0/24, PROXY",
+  "IP-CIDR, 149.154.160.0/20, PROXY",
   "IP-CIDR, 149.154.164.0/22, PROXY",
+  "IP-CIDR, 91.108.4.0/22, PROXY",
+  "IP-CIDR, 91.108.56.0/22, PROXY",
+  "IP-CIDR, 91.108.8.0/22, PROXY",
+  "IP-CIDR, 149.154.168.0/22, PROXY",
+  "IP-CIDR, 91.108.16.0/22, PROXY",
+  "IP-CIDR, 91.108.56.0/23, PROXY",
+  "IP-CIDR, 91.108.20.0/22, PROXY",
+  "IP-CIDR, 91.108.36.0/23, PROXY",
+  "IP-CIDR, 91.108.38.0/23, PROXY",
   "IP-CIDR, 149.154.172.0/22, PROXY",
-  "IP-CIDR, 149.154.160.0/22, PROXY",
-  "IP-CIDR, 149.154.168.0/22, PROXY"
+  "IP-CIDR, 91.108.12.0/22, PROXY"
 ]
 
-[RULESET.local]
-name = "局域网直连"
+[RULESET.local]LL
+name = "国内直连"
 rules = [
     "IP-CIDR, 127.0.0.0/8, DIRECT",
     "IP-CIDR, 172.16.0.0/12, DIRECT",
     "IP-CIDR, 192.168.0.0/16, DIRECT",
     "IP-CIDR, 100.64.0.0/10, DIRECT",
-    "IP-CIDR, 10.0.0.0/8, DIRECT"
+    "IP-CIDR, 10.0.0.0/8, DIRECT",
+    "IP-CIDR, 17.0.0.0/8, DIRECT"
 ]
