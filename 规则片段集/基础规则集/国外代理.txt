@@ -304,3 +304,6 @@ DOMAIN-SUFFIX,yimg.com,Proxy
 DOMAIN-SUFFIX,ying.com,Proxy
 DOMAIN-SUFFIX,yoyo.org,Proxy
 DOMAIN-SUFFIX,ytimg.com,Proxy
+
+# 最终规则（此规则仅能应用在[Rule]的最末行）
+FINAL,Proxy
