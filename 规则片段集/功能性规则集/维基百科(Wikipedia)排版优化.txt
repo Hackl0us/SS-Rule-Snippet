@@ -8,4 +8,4 @@ DOMAIN-SUFFIX,wikiwand.com,Proxy
 [URL Rewrite]
 ^https://zh.(m.)?wikipedia.org/(zh-hans|zh-sg|zh-cn|zh(?=/)) http://www.wikiwand.com/zh 302
 ^https://zh.(m.)?wikipedia.org/zh-[a-zA-Z]{2,} http://www.wikiwand.com/zh-hant 302
-^https://.*.(m.)?wikipedia.org/wiki http://www.wikiwand.com/en 302
+^https://(\w*).(m.)?wikipedia.org/wiki http://www.wikiwand.com/$1 302
