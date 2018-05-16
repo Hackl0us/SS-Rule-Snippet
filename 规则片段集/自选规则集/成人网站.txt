@@ -6,3 +6,4 @@ DOMAIN-SUFFIX,xvideos.com,Proxy
 
 # Gay
 DOMAIN-SUFFIX,me-gay.com,Proxy
+DOMAIN-SUFFIX,sexgayjapan.com,Proxy

@@ -174,7 +174,7 @@ rules = [
 ]
 
 [RULESET.gfwed]
-name = "科学上网（绕过GFW）"
+name = "外网访问"
 rules = [
     "DOMAIN-MATCH, google, PROXY",
     "DOMAIN-SUFFIX, gstatic.com, PROXY",
@@ -192,6 +192,7 @@ rules = [
     "DOMAIN-SUFFIX, abpchina.org, PROXY",
     "DOMAIN-SUFFIX, adblockplus.org, PROXY",
     "DOMAIN-SUFFIX, adobe.com, PROXY",
+    "DOMAIN-SUFFIX, akamaized.net, PROXY",
     "DOMAIN-SUFFIX, alfredapp.com, PROXY",
     "DOMAIN-SUFFIX, amazon.com, PROXY",
     "DOMAIN-SUFFIX, amazonaws.com, PROXY",
@@ -415,6 +416,7 @@ rules = [
     "DOMAIN-SUFFIX, todoist.com, PROXY",
     "DOMAIN-SUFFIX, trello.com, PROXY",
     "DOMAIN-SUFFIX, trustasiassl.com, PROXY",
+    "DOMAIN-SUFFIX, ttvnw.net, PROXY",
     "DOMAIN-SUFFIX, tumblr.co, PROXY",
     "DOMAIN-SUFFIX, tumblr.com, PROXY",
     "DOMAIN-SUFFIX, tweetdeck.com, PROXY",
