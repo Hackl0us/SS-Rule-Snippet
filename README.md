@@ -19,7 +19,7 @@ SS Rule Snippet
 
 ## 导航
 
-本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>ShadowRocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Potatso</i>](https://itunes.apple.com/hk/app/potatso-2/id1162704202) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
+本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>ShadowRocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Potatso 2</i>](https://itunes.apple.com/hk/app/potatso-2/id1162704202) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
 
 * [规则使用](#规则使用)
 
@@ -57,10 +57,15 @@ SS Rule Snippet
 
 ### 一键更新规则
 
-您可以通过 `Workflow` 和 `JsBox` 两款 App 对懒人规则进行快捷更新。
+您可以通过 [`Workflow`](https://itunes.apple.com/hk/app/workflow/id915249334) 和 [`JsBox`](https://itunes.apple.com/hk/app/jsbox-make-your-own-tools/id1312014438)（延后支持）两款 App 对懒人规则进行快捷更新。
 
-- Workflow
-- JsBox (延后支持)
+
+| 工具 | 下载地址 |
+| :-: | :-: |
+| [Surge](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) | [Workflow](https://workflow.is/workflows/fba2919b8ebe4520b2e532f7540533aa) / JSBox |
+| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [Workflow](https://workflow.is/workflows/fa41869cba0a4f4a965cef175e5b7a69) / JSBox |
+| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [Workflow](https://workflow.is/workflows/315566cca4134af79f1a192d52b1521a) / JSBox |
+| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202)  | [Workflow](https://workflow.is/workflows/490f79a5c0484686a16fbd15da91a92c) / JSBox |
 
 
 ### 关于广告屏蔽

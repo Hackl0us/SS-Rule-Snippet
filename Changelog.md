@@ -1,11 +1,19 @@
 # SS-Rule-Snippet 更新日志
 
-## v2.7.1.1（2018-05-16 09:30:22）
+## v2.7.2（2018-05-22 00:25:40）
+
+⭐️ **重要更新**：
+
+- **支持使用 [`Workflow`](https://itunes.apple.com/hk/app/workflow/id915249334?l=en&mt=8) 一键更新懒人规则**（[`JsBox`](https://itunes.apple.com/hk/app/jsbox-make-your-own-tools/id1312014438) 延后支持），详见项目首页说明文档 [一键更新规则](https://github.com/Hackl0us/SS-Rule-Snippet#%E4%B8%80%E9%94%AE%E6%9B%B4%E6%96%B0%E8%A7%84%E5%88%99) 段落。
+  
+---
+
+v2.7.1.1（2018-05-16 09:30:22）
 
  ✅ **增加**：
-  补充直播平台和成人网站的规则。
+ 
+- 补充直播平台和成人网站的规则。
 
----
 
 v2.7.1 (2018-04-27 14:03:46)
 
