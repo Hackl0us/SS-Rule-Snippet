@@ -62,10 +62,10 @@ SS Rule Snippet
 
 | 工具 | 下载地址 |
 | :-: | :-: |
-| [Surge](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) | [Workflow](https://workflow.is/workflows/fe492f4c98cb4ca58f7991d290c088cb) / JSBox |
-| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [Workflow](https://workflow.is/workflows/c42e9010b2e6436a9e8efc2c520e695c) / JSBox |
-| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [Workflow](https://workflow.is/workflows/81b6a73256ce4b6e9f8bda689c306bbf) / JSBox |
-| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202)  | [Workflow](https://workflow.is/workflows/bdab086aa0494a61a42700710bcd40fe) / JSBox |
+| [Surge](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) | [Workflow](https://workflow.is/workflows/e3a7dd3610684a998f5daa54bc1e4de3) / JSBox |
+| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [Workflow](https://workflow.is/workflows/725d93a0c96c4c71bbbd1ac6834d6648) / JSBox |
+| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [Workflow](https://workflow.is/workflows/4c8c975010344ea1afdaf1d938107ba9) / JSBox |
+| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202)  | [Workflow](https://workflow.is/workflows/147cc82d1f1b478a9f7abedc09a41be1) / JSBox |
 
 
 ### 关于广告屏蔽
