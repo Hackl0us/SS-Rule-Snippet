@@ -65,7 +65,7 @@ SS Rule Snippet
 | [Surge](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) | [Workflow](https://workflow.is/workflows/e3a7dd3610684a998f5daa54bc1e4de3) / JSBox |
 | [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [Workflow](https://workflow.is/workflows/725d93a0c96c4c71bbbd1ac6834d6648) / JSBox |
 | [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [Workflow](https://workflow.is/workflows/4c8c975010344ea1afdaf1d938107ba9) / JSBox |
-| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202)  | [Workflow](https://workflow.is/workflows/147cc82d1f1b478a9f7abedc09a41be1) / JSBox |
+| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202)  | [Workflow](https://workflow.is/workflows/404f4194a9694aef997d2ceff74abc2f) / JSBox |
 
 
 ### 关于广告屏蔽
