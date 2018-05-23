@@ -9,7 +9,7 @@ SS Rule Snippet
 </h1>
 <p align="center">
 <sup>
-     Made for<i> Surge / Quantumult / ShadowRocket / Potatso </i>.
+     Design for<i> Surge / Quantumult / ShadowRocket / Potatso 2 / Surfboard</i>.
      <br> Maintained by <b>Hackl0us</b>.
 </sup>
 <br>
@@ -19,17 +19,16 @@ SS Rule Snippet
 
 ## 导航
 
-本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>ShadowRocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Potatso 2</i>](https://itunes.apple.com/hk/app/potatso-2/id1162704202) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
+本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>ShadowRocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Potatso 2</i>](https://itunes.apple.com/hk/app/potatso-2/id1162704202) / [<i>Surfboard</i>](https://manual.getsurfboard.com/) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
 
 * [规则使用](#规则使用)
-
+  * [规则集说明](#规则集说明)
   * [懒人规则导入](https://github.com/Hackl0us/SS-Rule-Snippet/wiki/)
-  * [规则片段](#规则使用)
+  * [一键更新规则](#一键更新规则)
 
 * [关于项目](#关于项目)
-  * [规则集说明](#规则集说明)
-  * [一键更新规则](#一键更新规则)
   * [关于广告屏蔽](#关于广告屏蔽)
+  * [更新日志](https://github.com/Hackl0us/SS-Rule-Snippet/blob/master/Changelog.md)
   * [项目 Wiki](https://github.com/Hackl0us/SS-Rule-Snippet/wiki/)
 
 * [支持项目](支持项目)
