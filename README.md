@@ -27,6 +27,7 @@ SS Rule Snippet
   * [一键更新规则](#一键更新规则)
 
 * [关于项目](#关于项目)
+  * [开源协议](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
   * [关于广告屏蔽](#关于广告屏蔽)
   * [更新日志](https://github.com/Hackl0us/SS-Rule-Snippet/blob/master/Changelog.md)
   * [项目 Wiki](https://github.com/Hackl0us/SS-Rule-Snippet/wiki/)
