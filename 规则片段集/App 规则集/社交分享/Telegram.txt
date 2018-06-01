@@ -1,11 +1,5 @@
 [Rule]
 
-// macOS
-PROCESS-NAME,Telegram,Proxy
-
-// iOS
-USER-AGENT,ph.telegra.Telegraph*,Proxy
-
 // 域名
 DOMAIN-SUFFIX,telegra.ph,Proxy
 DOMAIN-SUFFIX,telegram.org,Proxy
