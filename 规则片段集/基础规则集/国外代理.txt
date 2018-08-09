@@ -9,6 +9,7 @@ PROCESS-NAME,Tweetbot,Proxy
 PROCESS-NAME,Slack,Proxy
 
 # 抗 DNS 污染
+DOMAIN-KEYWORD,amazon,Proxy,force-remote-dns
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gstatic.com,Proxy,force-remote-dns
 DOMAIN-KEYWORD,gmail,Proxy,force-remote-dns
@@ -31,8 +32,6 @@ DOMAIN-SUFFIX,adblockplus.org,Proxy
 DOMAIN-SUFFIX,adobe.com,Proxy
 DOMAIN-SUFFIX,akamaized.net,Proxy
 DOMAIN-SUFFIX,alfredapp.com,Proxy
-DOMAIN-SUFFIX,amazon.com,Proxy
-DOMAIN-SUFFIX,amazonaws.com,Proxy
 DOMAIN-SUFFIX,amplitude.com,Proxy
 DOMAIN-SUFFIX,ampproject.org,Proxy
 DOMAIN-SUFFIX,android.com,Proxy
@@ -120,10 +119,7 @@ DOMAIN-SUFFIX,gfx.ms,Proxy
 DOMAIN-SUFFIX,ggpht.com,Proxy
 DOMAIN-SUFFIX,ghostnoteapp.com,Proxy
 DOMAIN-SUFFIX,git.io,Proxy
-DOMAIN-SUFFIX,github.com,Proxy
-DOMAIN-SUFFIX,github.io,Proxy
-DOMAIN-SUFFIX,githubapp.com,Proxy
-DOMAIN-SUFFIX,githubusercontent.com,Proxy
+DOMAIN-KEYWORD,github,Proxy
 DOMAIN-SUFFIX,globalsign.com,Proxy
 DOMAIN-SUFFIX,gmodules.com,Proxy
 DOMAIN-SUFFIX,godaddy.com,Proxy

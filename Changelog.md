@@ -1,6 +1,21 @@
 # SS-Rule-Snippet 更新日志
 
-## 2.7.2.1 (2018-05-23 08:26:49)
+## 2.7.3 (2018-08-09 23:50:17)
+
+ ✅ **增加**：
+ 
+- 补充 GFWList 规则
+
+⭐️ **优化**：
+
+- 更新亚马逊购物网站相关规则，抗 DNS 污染
+- 合并 GitHub 有关域名规则
+- 更新基础规则片段集
+- 大幅更新 Surfboard 配置文件。 Surfboard 现已支持 AEAD 加密方式和 Simple-OBFS 混淆，强力推荐 Android 用户使用。
+
+---
+
+v2.7.2.1 (2018-05-23 08:26:49)
  ✅ **增加**：
  
  - 添加对 [Surfboard](https://manual.getsurfboard.com/) (for Android) 的支持

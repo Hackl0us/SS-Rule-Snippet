@@ -1,4 +1,4 @@
-# 2018-04-27 14:02:11
+# 2018-08-09 23:47:09
 
 name = "Hackl0us - Lazy Rules"
 author = "Hackl0us"
@@ -68,7 +68,6 @@ rules = [
     "DOMAIN-SUFFIX,iciba.com,DIRECT",
     "DOMAIN-SUFFIX,ifeng.com,DIRECT",
     "DOMAIN-SUFFIX,ifengimg.com,DIRECT",
-    "DOMAIN-SUFFIX,images-amazon.com,DIRECT",
     "DOMAIN-SUFFIX,ipip.net,DIRECT",
     "DOMAIN-SUFFIX,iqiyi.com,DIRECT",
     "DOMAIN-SUFFIX,jd.com,DIRECT",
@@ -194,8 +193,7 @@ rules = [
     "DOMAIN-SUFFIX, adobe.com, PROXY",
     "DOMAIN-SUFFIX, akamaized.net, PROXY",
     "DOMAIN-SUFFIX, alfredapp.com, PROXY",
-    "DOMAIN-SUFFIX, amazon.com, PROXY",
-    "DOMAIN-SUFFIX, amazonaws.com, PROXY",
+    "DOMAIN-MATCH, amazon, PROXY",
     "DOMAIN-SUFFIX, amplitude.com, PROXY",
     "DOMAIN-SUFFIX, ampproject.org, PROXY",
     "DOMAIN-SUFFIX, android.com, PROXY",
@@ -279,10 +277,7 @@ rules = [
     "DOMAIN-SUFFIX, ggpht.com, PROXY",
     "DOMAIN-SUFFIX, ghostnoteapp.com, PROXY",
     "DOMAIN-SUFFIX, git.io, PROXY",
-    "DOMAIN-SUFFIX, github.com, PROXY",
-    "DOMAIN-SUFFIX, github.io, PROXY",
-    "DOMAIN-SUFFIX, githubapp.com, PROXY",
-    "DOMAIN-SUFFIX, githubusercontent.com, PROXY",
+    "DOMAIN-MATCH, github, PROXY",
     "DOMAIN-SUFFIX, globalsign.com, PROXY",
     "DOMAIN-SUFFIX, gmodules.com, PROXY",
     "DOMAIN-SUFFIX, godaddy.com, PROXY",
@@ -469,8 +464,6 @@ rules = [
 [RULESET.boost]
 name = "国外网站加速"
 rules = [
-    "DOMAIN-SUFFIX, amazon.com, PROXY",
-    "DOMAIN-SUFFIX, amazonaws.com, PROXY",
     "DOMAIN-SUFFIX, archive.org, PROXY",
     "DOMAIN-SUFFIX, archive.is, PROXY",
     "DOMAIN-SUFFIX, archives.gov, PROXY",
