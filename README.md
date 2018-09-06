@@ -9,7 +9,7 @@ SS Rule Snippet
 </h1>
 <p align="center">
 <sup>
-     Design for<i> Surge / Quantumult / ShadowRocket / Potatso 2 / Surfboard</i>.
+     Design for<i> Surge / Quantumult / ShadowRocket / Potatso 2 / Surfboard / clashX / shuttle </i>.
      <br> Maintained by <b>Hackl0us</b>.
 </sup>
 <br>
@@ -19,7 +19,7 @@ SS Rule Snippet
 
 ## 导航
 
-本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>ShadowRocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Potatso 2</i>](https://itunes.apple.com/hk/app/potatso-2/id1162704202) / [<i>Surfboard</i>](https://manual.getsurfboard.com/) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
+本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://nssurge.com) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>ShadowRocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Potatso 2</i>](https://itunes.apple.com/hk/app/potatso-2/id1162704202) / [<i>Surfboard</i>](https://manual.getsurfboard.com/) / [<i>clashX</i>](https://github.com/yichengchen/clashX) / [<i>shuttle</i>](https://github.com/sipt/shuttle) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
 
 * [规则使用](#规则使用)
   * [规则集说明](#规则集说明)
@@ -43,9 +43,18 @@ SS Rule Snippet
 ## 规则使用
 
 **懒人规则**具体使用方法请参考 [项目 Wiki](https://github.com/Hackl0us/SS-Rule-Snippet/wiki/)。
+除懒人规则外，实用规则均以片段形式存在。您可以根据工具官方（或非官方）提供的配置参考手册，严格按照语法要求对规则正确地修改。
+规则的强大不在于条目多，而在于少而精。规则堆积越多，RAM 占用越高，工具运行效率越低。过多的规则甚至会导致工具直接崩溃（越狱设备尤为明显），严重影响用户体验。
 
-1. 除懒人规则外，所有规则均以片段形式存在，各位需要参考 [Surge](https://manual.nssurge.com/overview/configuration.html) / [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8) / [Potatso 2](https://manual.potatso.com/index.html) / [Quantumult](https://itunes.apple.com/cn/app/quantumult/id1252015438?mt=8) 规则语法，正确、合理定制自己的规则。
-2. 规则绝对不是越多越好，而是越精越好。规则堆积越多，RAM 占用越高，工具运行效率越低。过多的规则会导致工具后台退出运行，尤其是越狱设备，严重影响体验。
+| 工具 | 适用平台 | 配置参考手册 |
+| :-: | :-: | :-: |
+| [Surge](https://nssurge.com) | iOS / macOS | [官方](https://manual.nssurge.com/) |
+| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | iOS | [非官方](https://github.com/JasonLee-Go/Quantumult/wiki/Quantumult-Unofficial-Manual)|
+| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | iOS | 未提供 |
+| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202) | iOS | [官方](https://manual.potatso.com/) |
+| [Surfboard](https://manual.getsurfboard.com/) | Android | [非官方](https://surfboard.driller.pub/download) |
+| [clashX](https://github.com/yichengchen/clashX) | macOS | [官方](https://github.com/yichengchen/clashX#config) |
+| [shuttle](https://github.com/sipt/shuttle)| Windows / macOS / Linux | [官方](https://github.com/sipt/shuttle#shuttle) | 
 
 ## 关于项目
 
