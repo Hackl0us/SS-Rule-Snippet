@@ -1,10 +1,14 @@
 [Rule]
+
 DOMAIN-SUFFIX,91porn.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,pornhub.com,Proxy
 DOMAIN-SUFFIX,t66y.com,Proxy
 DOMAIN-SUFFIX,xvideos.com,Proxy
+DOMAIN-SUFFIX,kdw019.com
 
 # Gay
 DOMAIN-SUFFIX,me-gay.com,Proxy
 DOMAIN-SUFFIX,sexgayjapan.com,Proxy
 DOMAIN-SUFFIX,gaypornarchive.com,Proxy
+DOMAIN-SUFFIX,www.gayporntube.tv,Proxy
+DOMAIN-SUFFIX,darknight.blog,Proxy

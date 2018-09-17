@@ -30,7 +30,6 @@ DOMAIN-SUFFIX,9to5mac.com,Proxy
 DOMAIN-SUFFIX,abpchina.org,Proxy
 DOMAIN-SUFFIX,adblockplus.org,Proxy
 DOMAIN-SUFFIX,adobe.com,Proxy
-DOMAIN-SUFFIX,akamaized.net,Proxy
 DOMAIN-SUFFIX,alfredapp.com,Proxy
 DOMAIN-SUFFIX,amplitude.com,Proxy
 DOMAIN-SUFFIX,ampproject.org,Proxy
@@ -174,7 +173,6 @@ DOMAIN-SUFFIX,medium.com,Proxy
 DOMAIN-SUFFIX,mega.co.nz,Proxy
 DOMAIN-SUFFIX,mega.nz,Proxy
 DOMAIN-SUFFIX,megaupload.com,Proxy
-DOMAIN-SUFFIX,microsoft.com,Proxy
 DOMAIN-SUFFIX,microsofttranslator.com,Proxy
 DOMAIN-SUFFIX,mindnode.com,Proxy
 DOMAIN-SUFFIX,mobile01.com,Proxy
@@ -226,7 +224,6 @@ DOMAIN-SUFFIX,sndcdn.com,Proxy
 DOMAIN-SUFFIX,sony.com,Proxy
 DOMAIN-SUFFIX,soundcloud.com,Proxy
 DOMAIN-SUFFIX,sourceforge.net,Proxy
-DOMAIN-SUFFIX,speedtest.net,Proxy
 DOMAIN-SUFFIX,spotify.com,Proxy
 DOMAIN-SUFFIX,squarespace.com,Proxy
 DOMAIN-SUFFIX,sstatic.net,Proxy
@@ -243,6 +240,8 @@ DOMAIN-SUFFIX,tapbots.net,Proxy
 DOMAIN-SUFFIX,tdesktop.com,Proxy
 DOMAIN-SUFFIX,techcrunch.com,Proxy
 DOMAIN-SUFFIX,techsmith.com,Proxy
+DOMAIN-SUFFIX,telegra.ph,Proxy
+DOMAIN-SUFFIX,telegram.org,Proxy
 DOMAIN-SUFFIX,thepiratebay.org,Proxy
 DOMAIN-SUFFIX,theverge.com,Proxy
 DOMAIN-SUFFIX,time.com,Proxy
@@ -258,7 +257,6 @@ DOMAIN-SUFFIX,tumblr.com,Proxy
 DOMAIN-SUFFIX,tweetdeck.com,Proxy
 DOMAIN-SUFFIX,tweetmarker.net,Proxy
 DOMAIN-SUFFIX,twitch.tv,Proxy
-DOMAIN-SUFFIX,ttvnw.net,Proxy
 DOMAIN-SUFFIX,txmblr.com,Proxy
 DOMAIN-SUFFIX,typekit.net,Proxy
 DOMAIN-SUFFIX,ubertags.com,Proxy
@@ -288,6 +286,7 @@ DOMAIN-SUFFIX,wikipedia.com,Proxy
 DOMAIN-SUFFIX,wikipedia.org,Proxy
 DOMAIN-SUFFIX,windows.com,Proxy
 DOMAIN-SUFFIX,windows.net,Proxy
+DOMAIN-SUFFIX,wire.com,Proxy
 DOMAIN-SUFFIX,wordpress.com,Proxy
 DOMAIN-SUFFIX,workflowy.com,Proxy
 DOMAIN-SUFFIX,wp.com,Proxy

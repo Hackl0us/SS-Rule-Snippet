@@ -1,0 +1,183 @@
+# Baidu
+DOMAIN-SUFFIX,a.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,adm.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,als.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,api.youqian.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,api.share.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,as.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,ashifen.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,baidustatic.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,baidutv.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,baikebcs.bdimg.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,bar.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,bdimg.share.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,boscdn.bpc.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,c.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,cbjs.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,cjhq.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,cpro.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,cpro.tieba.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,cpro.zhidao.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,dcps.nuomi.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,drmcmm.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,e.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,eiv.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,feed.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,focusbaiduafp.allyes.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,hc.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,hm.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,hmma.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,hpd.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,idm-su.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,imageplus.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,itsdata.map.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,libs.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,log.nuomi.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,log.waimai.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,ma.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,mobads-logs.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,mobads.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,msite.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,nsclick.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,qchannel01.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,rj.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,shifen.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,spcode.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,static.map.bdimg.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,static.su.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,tk.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,tuisong.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,ucstat.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,ufosdk.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,ulog.imap.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,union.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,utility.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,utk.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,wangmeng.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,wm.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,wn.pos.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,zhanzhang.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,znsv.baidu.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,zz.bdstatic.com,REJECT-TINYGIF
+DOMAIN,em.baidu.com,REJECT-TINYGIF
+
+# Ali
+DOMAIN-SUFFIX,acjs.aliyun.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,adash-c.ut.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,adash.m.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,adashbc.m.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,afp.alicdn.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,alipaylog.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,amdc.alipay.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,amdc.m.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,appdownload.alicdn.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,atanx.alicdn.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,click.aliyun.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,dorangesource.alicdn.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,hydra.alibaba.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,ifs.tanx.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,m-adash.m.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,m.simaba.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,nbsdk-baichuan.alicdn.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,nbsdk-baichuan.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,pics.taobaocdn.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,show.re.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,strip.taobaocdn.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,tns.simba.taobao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,userimg.qunar.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,yiliao.hupan.com,REJECT-TINYGIF
+
+# sina
+DOMAIN-SUFFIX,ad.sina.com.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,adm.leju.sina.com.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,atm.sina.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,dcads.sina.com.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,dp.im.weibo.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,imrworldwide.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,log.weico.cc,REJECT-TINYGIF
+DOMAIN-SUFFIX,miaozhen.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,sax.sina.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,sax.sina.com.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,tjs.sjs.sinajs.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,wax.weibo.com,REJECT-TINYGIF
+DOMAIN,sbeacon.sina.com.cn,REJECT-TINYGIF
+DOMAIN,log.sina.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,sapi.sina.cn,REJECT-TINYGIF
+
+# QQ
+DOMAIN-SUFFIX,act.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,adsfile.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,beacon.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,btrace.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,bugly.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,e.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,gdt.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,ltsdl.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,monitor.uu.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,mtrace.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,pingjs.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,pingma.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,pingtcss.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,report.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,routertips.video.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,tajs.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,tcss.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,up-hl.3g.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,fusion.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,sdkconfig.video.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,iacc.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,news.l.qq.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,yun-hl.3g.qq.com,REJECT-TINYGIF
+
+# 360
+DOMAIN-SUFFIX,3600.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,adapi.shouji.360.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,dev.tg.wan.360.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,huodong.ios.shouji.360.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,kuaikan.netmon.360safe.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,leak.360.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,openbox.mobilem.360.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,pub.se.360.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,soft.data.weather.360.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,stat.360safe.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,stat.m.360.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,update.360safe.com,REJECT-TINYGIF
+
+# 163
+DOMAIN-SUFFIX,adgeo.163.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,bobo.163.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,fa.163.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,g.163.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,g1.163.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,gb.corp.163.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,haitaoad.nosdn.127.net,REJECT-TINYGIF
+DOMAIN-SUFFIX,img1.126.net,REJECT-TINYGIF
+DOMAIN-SUFFIX,oadz.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,oimagea2.ydstatic.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,pagechoice.net,REJECT-TINYGIF
+DOMAIN-SUFFIX,prom.gome.com.cn,REJECT-TINYGIF
+DOMAIN-SUFFIX,rlogs.youdao.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,static.flv.uuzuonline.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,wanproxy.127.net,REJECT-TINYGIF
+
+# WPS
+DOMAIN-SUFFIX,docer.com,nProxy
+DOMAIN-SUFFIX,ksosoft.com,REJECT-TINYGIF
+
+[URL Rewrite]
+^http://bbsanalytics\.weiphone\.net _ reject
+^http://capi\.douyucdn\.cn/lapi/sign/appapi/ _ reject
+^http://www\.inoreader\.com/adv/ _ reject
+^http://api\.mobile\.youku\.com/adv/ _ reject
+^http://mp\.weixin\.qq\.com/mp/report _ reject
+^http://g\.tbcdn\.cn/mtb/ _ reject
+^http://wbapp\.mobile\.sina\.cn/interface/win/winad\.php _ reject
+^http://wbapp\.mobile\.sina\.cn/interface/f/ttt/v3/freshguidad\.php _ reject
+^http://wbapp\.mobile\.sina\.cn/wbapplua/wbpullad\.lua _ reject
+^http://sdkapp\.mobile\.sina\.cn/interface/sdk/actionad\.php _ reject
+^http://sdkapp\.mobile\.sina\.cn/interface/sdk/sdkad\.php _ reject
+^http://u1\.img\.mobile\.sina\.cn/public/files/image/750x120_ _ reject
