@@ -1,0 +1,9 @@
+# 注意！此段规则只能出现在 Rule 字段的最末尾
+
+[Rule]
+GEOIP,CN,DIRECT
+FINAL,Proxy,dns-failed
+
+# dns-failed 参数为 Surge 3 独有参数
+# clashX 的最末规则为 FINAL,,Proxy
+

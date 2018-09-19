@@ -2,8 +2,6 @@
 
 //此部分网站没有被 GFW 封锁，但使用代理会获得更快的速度，请选择性添加
 
-//** 千万不要忘记最后一行的规则 **
-
 #A
 DOMAIN-SUFFIX,amazon.com,Proxy
 DOMAIN-SUFFIX,amazonaws.com,Proxy
@@ -309,6 +307,3 @@ DOMAIN-SUFFIX,zeutch.com,Proxy
 #0-9
 DOMAIN-SUFFIX,4everproxy.com,Proxy
 DOMAIN-SUFFIX,4shared.com,Proxy
-
-//下面一条规则请加在 [Rule]段 的最末行
-FINAL,Proxy

@@ -1,6 +1,6 @@
 [Rule]
 
-# macOS（注意：PROCESS-NAME 策略仅被 macOS 版 Surge 支持）
+# macOS 进程
 PROCESS-NAME,Tweetbot,Proxy
 PROCESS-NAME,Twitterific,Proxy
 PROCESS-NAME,Spotify,Proxy
@@ -300,6 +300,3 @@ DOMAIN-SUFFIX,yimg.com,Proxy
 DOMAIN-SUFFIX,ying.com,Proxy
 DOMAIN-SUFFIX,yoyo.org,Proxy
 DOMAIN-SUFFIX,ytimg.com,Proxy
-
-# 最终规则（注意：此规则仅能用于[Rule]段的末尾）
-FINAL,Proxy
