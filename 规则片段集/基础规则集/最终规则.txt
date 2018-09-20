@@ -1,9 +1,18 @@
-# 注意！此段规则只能出现在 Rule 字段的最末尾
+# 注意！此段规则应出现在 Rule 字段的最末尾
 
 [Rule]
+# LAN
+DOMAIN-SUFFIX,local,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,17.0.0.0/8,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
+
 GEOIP,CN,DIRECT
 FINAL,Proxy,dns-failed
 
 # dns-failed 参数为 Surge 3 独有参数
-# clashX 的最末规则为 FINAL,,Proxy
+# clashX 的最终规则为 FINAL,,Proxy
 
