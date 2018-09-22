@@ -1,4 +1,4 @@
-[Rules]
+[Rule]
 
 // 爱奇艺
 DOMAIN-SUFFIX,a.ckm.iqiyi.com,REJECT
