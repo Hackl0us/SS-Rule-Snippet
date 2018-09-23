@@ -2,6 +2,8 @@
 #  只建议选择摘录部分规则，而不建议全部应用，或者直接选用 Tinylist。
 
 # 5293 Rules from GFWList (GFWListToSurgeRule.js http://s5s5.github.io/GFWListToSurgeRule.js/)
+
+[Rule]
 DOMAIN,share.dmhy.org,DIRECT
 DOMAIN,blog.ontrac.com,DIRECT
 DOMAIN,store.sprite.org,DIRECT

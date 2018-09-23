@@ -2,6 +2,7 @@
 # 此规则为极度精简的 GFWList，而且可以满足绝大多数用户的需求。
 #  强烈推荐使用此规则，或作为参考。
 
+[Rule]
 DOMAIN,share.dmhy.org,DIRECT
 DOMAIN,nrch.culture.tw,DIRECT
 DOMAIN,translate.google.cn,DIRECT

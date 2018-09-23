@@ -1,3 +1,5 @@
+[Rule]
+
 # Baidu
 DOMAIN-SUFFIX,a.baidu.com,REJECT-TINYGIF
 DOMAIN-SUFFIX,adm.baidu.com,REJECT-TINYGIF

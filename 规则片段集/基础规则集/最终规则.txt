@@ -1,6 +1,7 @@
 # 注意！此段规则应出现在 Rule 字段的最末尾
 
 [Rule]
+
 # LAN
 DOMAIN-SUFFIX,local,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
