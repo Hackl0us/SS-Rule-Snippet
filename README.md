@@ -53,6 +53,7 @@ SS Rule Snippet
 | [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | iOS | 未提供 |
 | [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202) | iOS | [官方](https://manual.potatso.com/) |
 | [Surfboard](https://manual.getsurfboard.com/) | Android | [非官方](https://surfboard.driller.pub/download) |
+| [clash](https://github.com/Dreamacro/clash) | Windows / macOS / Linux | [官方](https://github.com/Dreamacro/clash#------clash--) |
 | [clashX](https://github.com/yichengchen/clashX) | macOS | [官方](https://github.com/yichengchen/clashX#config) |
 | [shuttle](https://github.com/sipt/shuttle)| Windows / macOS / Linux | [官方](https://github.com/sipt/shuttle#shuttle) | 
 
