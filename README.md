@@ -72,18 +72,11 @@ SS Rule Snippet
 
 | 工具 | 下载地址 |
 | :-: | :-: |
-| [Surge 2](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://workflow.is/workflows/e3a7dd3610684a998f5daa54bc1e4de3) / JSBox |
-| [Quantumult](https://itunes.apple.com/hk/app/qua
-| 工具 | 下载地址 |
-| :-: | :-: |
 | Surge 2 | [捷径](https://www.icloud.com/shortcuts/1444a17fd6f3495f8feb6fe49f14c3e0) / JSBox |
 | [Surge 3](https://itunes.apple.com/us/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://www.icloud.com/shortcuts/d075bdf82d094329b7a682f241ef81a8) / JSBox |
 | [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [捷径](https://workflow.is/workflows/725d93a0c96c4c71bbbd1ac6834d6648) / JSBox |
 | [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [捷径](https://workflow.is/workflows/4c8c975010344ea1afdaf1d938107ba9) / JSBox |
 | [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202) | [捷径](https://workflow.is/workflows/404f4194a9694aef997d2ceff74abc2f) / JSBox |
-ntumult/id1252015438) | [捷径](https://workflow.is/workflows/725d93a0c96c4c71bbbd1ac6834d6648) / JSBox |
-| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [捷径](https://workflow.is/workflows/4c8c975010344ea1afdaf1d938107ba9) / JSBox |
-| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202)  | [捷径](https://workflow.is/workflows/404f4194a9694aef997d2ceff74abc2f) / JSBox |
 
 
 ### 关于广告屏蔽
