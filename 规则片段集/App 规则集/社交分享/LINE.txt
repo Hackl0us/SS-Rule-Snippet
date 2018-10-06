@@ -1,12 +1,13 @@
-## LINE 已经解除运营商屏蔽
+# LINE 已经解除运营商屏蔽
 
 [Rule]
-// 域名
+
+## 域名
 DOMAIN-SUFFIX,line.me,Proxy,force-remote-dns
 DOMAIN-SUFFIX,naver.jp,Proxy,force-remote-dns
 USER-AGENT,Line*,Proxy,force-remote-dns
 
-// 服务IP段
+## 服务IP段
 IP-CIDR,103.2.28.0/24,Proxy,no-resolve
 IP-CIDR,103.2.30.0/23,Proxy,no-resolve
 IP-CIDR,103.2.30.0/24,Proxy,no-resolve

@@ -1,12 +1,12 @@
 [Rule]
 
-// iOS
+## iOS
 USER-AGENT,Slack*,Proxy
 
-// macOS
+## macOS
 PROCESS-NAME,Slack,Proxy
 
-// 通用部分
+## 通用部分
 DOMAIN-SUFFIX,slack-edge.com,Proxy
 DOMAIN-SUFFIX,slack.com,Proxy
 DOMAIN-SUFFIX,slack-msgs.com,Proxy

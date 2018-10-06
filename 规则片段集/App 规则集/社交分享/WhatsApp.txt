@@ -1,15 +1,15 @@
 [Rule]
 
-// iOS
+## iOS
 USER-AGENT,WhatsApp*,Proxy
 
-// macOS App
+## macOS App
 PROCESS-NAME,WhatsApp,Proxy
 
-// 通用部分
+## 通用部分
 DOMAIN-SUFFIX,whatsapp.com,Proxy
 
-// IPv4 地址段
+## IPv4 地址段
 IP-CIDR,31.13.64.51/32,Proxy,no-resolve
 IP-CIDR,31.13.65.49/32,Proxy,no-resolve
 IP-CIDR,31.13.66.49/32,Proxy,no-resolve
@@ -178,7 +178,7 @@ IP-CIDR,208.43.115.192/27,Proxy,no-resolve
 IP-CIDR,208.43.117.79/32,Proxy,no-resolve
 IP-CIDR,208.43.122.128/27,Proxy,no-resolve
 
-// IPv6 地址段（除非您使用 IPv6 否则无需添加）
+## IPv6 地址段（除非您使用 IPv6，否则无需添加）
 IP-CIDR6,2607:f0d0:1b01:d4::/64,Proxy,no-resolve
 IP-CIDR6,2607:f0d0:1b02:14d::/64,Proxy,no-resolve
 IP-CIDR6,2607:f0d0:1b04:32::/64,Proxy,no-resolve

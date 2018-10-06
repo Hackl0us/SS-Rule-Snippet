@@ -1,6 +1,6 @@
 [Rule]
 
-// 通用部分
+## 通用部分
 DOMAIN-SUFFIX,kakao.com,Proxy
 DOMAIN-SUFFIX,kakao.co.kr,Proxy
 DOMAIN-SUFFIX,kakaocdn.net,Proxy

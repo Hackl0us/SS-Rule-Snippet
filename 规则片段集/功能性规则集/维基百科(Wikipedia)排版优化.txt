@@ -1,6 +1,7 @@
-#注意：此功能需要启用 Surge, Quantumult 等工具 MITM 功能，具体配置 MitM 功能请参考工具的配置手册。
-#iOS 10.3 及以上系统需要在所有配置完成后，进入 设置>通用>关于本机>证书信任度设置 中打开 Surge证书信任权限
-#Surge 可以参考 http://t.cn/RMXzgaw 配置教程（Surge 用户只看文章底部 2.0 部分即可）
+# 注意：此功能需要启用 Surge, Quantumult 等工具 MITM 功能，具体配置 MitM 功能请参考工具的配置手册。
+
+# iOS 10.3 及以上系统需要在所有配置完成后，进入 设置>通用>关于本机>证书信任度设置 中打开 Surge证书信任权限
+# Surge 可以参考 http://t.cn/RMXzgaw 配置教程（Surge 用户只看文章底部 2.0 部分即可）
 
 [Rule]
 DOMAIN-SUFFIX,wikiwand.com,Proxy

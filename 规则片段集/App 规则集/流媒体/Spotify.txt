@@ -6,7 +6,7 @@
 # 现默认使用 Proxy 策略（Spotify 设置的地区需要与出口 IP 国家匹配）可以保证你的免费账户一直可用。
 
 [Rule]
-PROCESS-NAME,*Spotify*,Proxy
+PROCESS-NAME,Spotify,Proxy
 USER-AGENT,*Spotify*,Proxy
 
 DOMAIN-SUFFIX,scdn.co,Proxy
