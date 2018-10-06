@@ -1,0 +1,6 @@
+DOMAIN-SUFFIX,kakao.com
+DOMAIN-SUFFIX,kakao.co.kr
+DOMAIN-SUFFIX,kakaocdn.net
+
+USER-AGENT,KakaoTalk*
+USER-AGENT,KT*
