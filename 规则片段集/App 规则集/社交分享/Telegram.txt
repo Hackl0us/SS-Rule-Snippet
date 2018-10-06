@@ -5,11 +5,11 @@ DOMAIN-SUFFIX,telegra.ph,Proxy
 DOMAIN-SUFFIX,telegram.org,Proxy
 
 ## IPv4 地址段
-IP-CIDR,91.108.56.0/22,no-resolve,Proxy
-IP-CIDR,91.108.4.0/22,no-resolve,Proxy
-IP-CIDR,91.108.8.0/22,no-resolve,Proxy
-IP-CIDR,109.239.140.0/24,no-resolve,Proxy
-IP-CIDR,149.154.160.0/20,no-resolve,Proxy
-IP-CIDR,149.154.164.0/22,no-resolve,Proxy
+IP-CIDR,91.108.56.0/22,Proxy,no-resolve
+IP-CIDR,91.108.4.0/22,Proxy,no-resolve
+IP-CIDR,91.108.8.0/22,Proxy,no-resolve
+IP-CIDR,109.239.140.0/24,Proxy,no-resolve
+IP-CIDR,149.154.160.0/20,Proxy,no-resolve
+IP-CIDR,149.154.164.0/22,Proxy,no-resolve
 
 
