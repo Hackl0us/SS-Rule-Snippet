@@ -48,7 +48,7 @@ SS Rule Snippet
 
 | 工具 | 适用平台 | 配置参考手册 |
 | :-: | :-: | :-: |
-| [Surge](https://nssurge.com) | iOS / macOS | [官方](https://manual.nssurge.com/) |
+| [Surge 2](https://nssurge.com) | iOS / macOS | [官方](https://manual.nssurge.com/) |
 | [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | iOS | [非官方](https://github.com/JasonLee-Go/Quantumult/wiki/Quantumult-Unofficial-Manual)|
 | [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | iOS | 未提供 |
 | [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202) | iOS | [官方](https://manual.potatso.com/) |
@@ -67,15 +67,23 @@ SS Rule Snippet
 
 ### 一键更新规则
 
-您可以通过 [`Workflow`](https://itunes.apple.com/hk/app/workflow/id915249334) 和 [`JsBox`](https://itunes.apple.com/hk/app/jsbox-make-your-own-tools/id1312014438)（延后支持）两款 App 对懒人规则进行快捷更新。
+您可以通过 [`捷径`](https://itunes.apple.com/hk/app/workflow/id915249334) 和 [`JsBox`](https://itunes.apple.com/hk/app/jsbox-make-your-own-tools/id1312014438)（延后支持）两款 App 对懒人规则进行快捷更新。
 
 
 | 工具 | 下载地址 |
 | :-: | :-: |
-| [Surge](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) | [Workflow](https://workflow.is/workflows/e3a7dd3610684a998f5daa54bc1e4de3) / JSBox |
-| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [Workflow](https://workflow.is/workflows/725d93a0c96c4c71bbbd1ac6834d6648) / JSBox |
-| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [Workflow](https://workflow.is/workflows/4c8c975010344ea1afdaf1d938107ba9) / JSBox |
-| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202)  | [Workflow](https://workflow.is/workflows/404f4194a9694aef997d2ceff74abc2f) / JSBox |
+| [Surge 2](https://itunes.apple.com/hk/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://workflow.is/workflows/e3a7dd3610684a998f5daa54bc1e4de3) / JSBox |
+| [Quantumult](https://itunes.apple.com/hk/app/qua
+| 工具 | 下载地址 |
+| :-: | :-: |
+| Surge 2 | [捷径](https://www.icloud.com/shortcuts/1444a17fd6f3495f8feb6fe49f14c3e0) / JSBox |
+| [Surge 3](https://itunes.apple.com/us/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://www.icloud.com/shortcuts/d075bdf82d094329b7a682f241ef81a8) / JSBox |
+| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [捷径](https://workflow.is/workflows/725d93a0c96c4c71bbbd1ac6834d6648) / JSBox |
+| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [捷径](https://workflow.is/workflows/4c8c975010344ea1afdaf1d938107ba9) / JSBox |
+| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202) | [捷径](https://workflow.is/workflows/404f4194a9694aef997d2ceff74abc2f) / JSBox |
+ntumult/id1252015438) | [捷径](https://workflow.is/workflows/725d93a0c96c4c71bbbd1ac6834d6648) / JSBox |
+| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [捷径](https://workflow.is/workflows/4c8c975010344ea1afdaf1d938107ba9) / JSBox |
+| [Potatso 2](https://itunes.apple.com/hk/app/potatso-2/id1162704202)  | [捷径](https://workflow.is/workflows/404f4194a9694aef997d2ceff74abc2f) / JSBox |
 
 
 ### 关于广告屏蔽
