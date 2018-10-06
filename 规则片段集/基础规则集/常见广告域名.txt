@@ -1,6 +1,6 @@
 [Rule]
 
-#常见广告域名关键字
+## 常见广告域名关键字
 DOMAIN-KEYWORD,admarvel,REJECT-TINYGIF
 DOMAIN-KEYWORD,admaster,REJECT-TINYGIF
 DOMAIN-KEYWORD,adsage,REJECT-TINYGIF

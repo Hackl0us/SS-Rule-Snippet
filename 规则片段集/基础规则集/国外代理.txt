@@ -1,14 +1,6 @@
 [Rule]
 
-# macOS 进程
-PROCESS-NAME,Tweetbot,Proxy
-PROCESS-NAME,Twitterific,Proxy
-PROCESS-NAME,Spotify,Proxy
-PROCESS-NAME,Telegram,Proxy
-PROCESS-NAME,Tweetbot,Proxy
-PROCESS-NAME,Slack,Proxy
-
-# 抗 DNS 污染
+## 抗 DNS 污染
 DOMAIN-KEYWORD,amazon,Proxy,force-remote-dns
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-SUFFIX,gstatic.com,Proxy,force-remote-dns
@@ -25,7 +17,7 @@ DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
 DOMAIN-SUFFIX,youtu.be,Proxy,force-remote-dns
 DOMAIN-KEYWORD,whatsapp,Proxy,force-remote-dns
 
-# 国外网站
+## 国外网站
 DOMAIN-SUFFIX,9to5mac.com,Proxy
 DOMAIN-SUFFIX,abpchina.org,Proxy
 DOMAIN-SUFFIX,adblockplus.org,Proxy

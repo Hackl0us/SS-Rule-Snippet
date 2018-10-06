@@ -3,13 +3,13 @@
 
 [Rule]
 
-// 中国知网
+## 中国知网
 DOMAIN-KEYWORD,cnki.net,DIRECT
 
-// 万方
+## 万方
 DOMAIN-KEYWORD,wanfangdata,DIRECT
 
-// 国际环境生态学术出版商
+## 国际环境生态学术出版商
 DOMAIN-SUFFIX,sciencedirect.com,DIRECT
 DOMAIN-SUFFIX,researchgate.net,DIRECT
 DOMAIN-SUFFIX,springer.com,DIRECT
@@ -23,5 +23,5 @@ DOMAIN-SUFFIX,nature.com,DIRECT
 DOMAIN-SUFFIX,sciencemag.org,DIRECT
 DOMAIN-SUFFIX,osapublishing.org,DIRECT
 
-// 告别出版商绑架
+## 告别出版商绑架
 DOMAIN-KEYWORD,sci-hub,Proxy

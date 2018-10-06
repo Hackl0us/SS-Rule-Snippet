@@ -1,6 +1,6 @@
 [Rule]
 
-# 国内网站
+## 国内网站
 DOMAIN-SUFFIX,cn,DIRECT
 DOMAIN-KEYWORD,-cn,DIRECT
 

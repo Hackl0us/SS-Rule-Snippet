@@ -1,6 +1,5 @@
 # 314 Rules from Tinylist
-# 此规则为极度精简的 GFWList，而且可以满足绝大多数用户的需求。
-#  强烈推荐使用此规则，或作为参考。
+# 此规则为极度精简的 GFWList，但不推荐直接使用，因为重复域名非常多。请仅将其当做参考。
 
 [Rule]
 DOMAIN,share.dmhy.org,DIRECT

@@ -1,6 +1,6 @@
 [Rule]
 
-# 广告域名列表
+## 广告域名列表
 
 DOMAIN-SUFFIX,10up.com,REJECT
 DOMAIN-SUFFIX,111cn.net,REJECT

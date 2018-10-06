@@ -1,6 +1,6 @@
 [Rule]
 
-// 爱奇艺
+## 爱奇艺
 DOMAIN-SUFFIX,a.ckm.iqiyi.com,REJECT
 DOMAIN-SUFFIX,ad.m.iqiyi.com,REJECT
 DOMAIN-SUFFIX,afp.iqiyi.com,REJECT
@@ -19,13 +19,13 @@ DOMAIN-SUFFIX,msga.cupid.iqiyi.com,REJECT
 DOMAIN-SUFFIX,policy.video.iqiyi.com,REJECT
 DOMAIN-SUFFIX,yuedu.iqiyi.com,REJECT
 
-// 湖南 TV
+## 湖南 TV
 DOMAIN-SUFFIX,click.hunantv.com,REJECT
 DOMAIN-SUFFIX,da.mgtv.com,REJECT
 DOMAIN-SUFFIX,da.hunantv.com,REJECT
 DOMAIN-SUFFIX,res.hunantv.com,REJECT
 
-// 优酷
+## 优酷
 DOMAIN-SUFFIX,actives.youku.com,REJECT
 DOMAIN-SUFFIX,ad.api.3g.youku.com,REJECT
 DOMAIN-SUFFIX,ad.api.mobile.youku.com,REJECT
@@ -68,6 +68,8 @@ DOMAIN-SUFFIX,wan.youku.com,REJECT
 DOMAIN-SUFFIX,ykatr.youku.com,REJECT
 DOMAIN-SUFFIX,ykrec.youku.com,REJECT
 
+
+## IPv4 地址段
 IP-CIDR,117.177.248.17/32,REJECT,no-resolve
 IP-CIDR,117.177.248.41/32,REJECT,no-resolve
 IP-CIDR,223.87.176.139/32,REJECT,no-resolve
@@ -83,7 +85,7 @@ IP-CIDR,223.87.182.102/32,REJECT,no-resolve
 IP-CIDR,223.87.182.11/32,REJECT,no-resolve
 IP-CIDR,223.87.182.52/32,REJECT,no-resolve
 
-// 乐视 TV
+## 乐视 TV
 DOMAIN-SUFFIX,api.game.letvstore.com,REJECT
 DOMAIN-SUFFIX,ark.letv.com,REJECT
 DOMAIN-SUFFIX,dc.letv.com,REJECT
@@ -98,7 +100,7 @@ DOMAIN-SUFFIX,stat.letv.com,REJECT
 DOMAIN-SUFFIX,static.app.m.letv.com,REJECT
 DOMAIN-SUFFIX,webp2p.letv.com,REJECT
 
-// Youtube
+## Youtube
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
 DOMAIN-SUFFIX,azabu-u.ac.jp,REJECT
 DOMAIN-SUFFIX,couchcoaster.jp,REJECT
@@ -109,7 +111,7 @@ DOMAIN-SUFFIX,nichibenren.or.jp,REJECT
 DOMAIN-SUFFIX,nicorette.co.kr,REJECT
 DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
 
-// Sohu
+## Sohu
 DOMAIN-SUFFIX,adnet.sohu.com,REJECT
 DOMAIN-SUFFIX,epro.sogou.com,REJECT
 DOMAIN-SUFFIX,go.sohu.com,REJECT
@@ -120,7 +122,7 @@ DOMAIN-SUFFIX,lu.sogoucdn.com,REJECT
 DOMAIN-SUFFIX,theta.sogoucdn.com,REJECT
 DOMAIN-SUFFIX,uranus.sogou.com,REJECT
 
-// PPTV
+## PPTV
 DOMAIN-SUFFIX,asimgs.pplive.cn,REJECT
 DOMAIN-SUFFIX,de.as.pptv.com,REJECT
 DOMAIN-SUFFIX,jp.as.pptv.com,REJECT
@@ -128,13 +130,13 @@ DOMAIN-SUFFIX,pp2.pptv.com,REJECT
 DOMAIN-SUFFIX,stat.pptv.com,REJECT
 DOMAIN-SUFFIX,afp.pplive.com,REJECT
 
-// Site
+## Site
 DOMAIN-SUFFIX,deliver.ifeng.com,REJECT
 DOMAIN-SUFFIX,hxjs.tool.hexun.com,REJECT
 DOMAIN-SUFFIX,hxsame.hexun.com,REJECT
 DOMAIN-SUFFIX,itv.hexun.com,REJECT
 
-// Vod
+## Vod
 DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,atm.cp31.ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,aty.cp45.ott.cibntv.net,REJECT
@@ -146,7 +148,7 @@ DOMAIN-SUFFIX,iadctest.qwapi.com,REJECT
 DOMAIN-SUFFIX,log.moviebox.baofeng.com,REJECT
 DOMAIN-SUFFIX,logger.baofeng.com,REJECT
 
-// 其他
+## 其他
 DOMAIN-SUFFIX,ad.video.51togic.com,REJECT
 DOMAIN-SUFFIX,ads.cdn.tvb.com,REJECT
 DOMAIN-SUFFIX,biz5.kankan.com,REJECT

@@ -1,8 +1,8 @@
 [Rule]
 
-//此部分网站没有被 GFW 封锁，但使用代理会获得更快的速度，请选择性添加
+# 此列表中的部分网站没有被 GFW 封锁，但使用代理会获得更快的速度，请选择性添加。
 
-#A
+## A
 DOMAIN-SUFFIX,amazon.com,Proxy
 DOMAIN-SUFFIX,amazonaws.com,Proxy
 DOMAIN-SUFFIX,archive.org,Proxy
@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,allconnected.co,Proxy
 DOMAIN-SUFFIX,apkleecher.com,Proxy
 DOMAIN-SUFFIX,appsonplaystore.com,Proxy
 
-#B
+## B
 DOMAIN-SUFFIX,books.com.tw,Proxy
 DOMAIN-SUFFIX,bloomberg.com,Proxy
 DOMAIN-SUFFIX,bloglovin.com,Proxy
@@ -35,7 +35,7 @@ DOMAIN-SUFFIX,bbtoystore.com,Proxy
 DOMAIN-SUFFIX,boxun.com,Proxy
 DOMAIN-SUFFIX,bandwagonhost.com,Proxy
 
-#C
+## C
 DOMAIN-SUFFIX,cnn.com,Proxy
 DOMAIN-SUFFIX,cdninstagram.com,Proxy
 DOMAIN-SUFFIX,cbc.ca,Proxy
@@ -44,7 +44,7 @@ DOMAIN-SUFFIX,cloudfront.net,Proxy
 DOMAIN-SUFFIX,cn-proxy.com,Proxy
 DOMAIN-SUFFIX,cccat.cc,Proxy
 
-#D
+## D
 DOMAIN-SUFFIX,dw.com,Proxy
 DOMAIN-SUFFIX,duckduckgo.com,Proxy
 DOMAIN-SUFFIX,dropbox.com,Proxy
@@ -54,14 +54,14 @@ DOMAIN-SUFFIX,dcmilitary.com,Proxy
 DOMAIN-SUFFIX,digitaltrends.com,Proxy
 DOMAIN-SUFFIX,daolan.net,Proxy
 
-#E
+## E
 DOMAIN-SUFFIX,extmatrix.com,Proxy
 DOMAIN-SUFFIX,easybib.com,Proxy
 DOMAIN-SUFFIX,easybib.com,Proxy
 DOMAIN-SUFFIX,economist.com,Proxy
 DOMAIN-SUFFIX,edgecastcdn.net,Proxy
 
-#F
+## F
 DOMAIN-SUFFIX,facebook.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,facebook.net,Proxy,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,Proxy,force-remote-dns
@@ -71,7 +71,7 @@ DOMAIN-SUFFIX,flitto.com,Proxy
 DOMAIN-SUFFIX,flipkart.com,Proxy
 DOMAIN-SUFFIX,flickr.com,Proxy
 
-#G
+## G
 DOMAIN-SUFFIX,getcloudapp.com,Proxy
 DOMAIN-SUFFIX,gunsamerica.com,Proxy
 DOMAIN-SUFFIX,gravatar.com,Proxy
@@ -81,26 +81,26 @@ DOMAIN-SUFFIX,go.com,Proxy
 DOMAIN-SUFFIX,go.jp,Proxy
 DOMAIN-SUFFIX,gfw.press,Proxy
 
-#H
+## H
 DOMAIN-SUFFIX,howtoforge.com,Proxy
 DOMAIN-SUFFIX,hootsuite.com,Proxy
 DOMAIN-SUFFIX,homedepot.com,Proxy
 DOMAIN-SUFFIX,hulu.com,Proxy
 
-#I
+## I
 DOMAIN-SUFFIX,instagram.com,Proxy
 DOMAIN-SUFFIX,icoco.com,Proxy
 DOMAIN-SUFFIX,imgur.com,Proxy
 DOMAIN-SUFFIX,instructables.com,Proxy
 DOMAIN-SUFFIX,ift.tt,Proxy
 
-#K
+## K
 DOMAIN-SUFFIX,kenengba.com,Proxy
 
-#L
+## L
 DOMAIN-SUFFIX,logmein.com,Proxy
 
-#M
+## M
 DOMAIN-SUFFIX,mp3buscador.com,Proxy
 DOMAIN-SUFFIX,medium.com,Proxy
 DOMAIN-SUFFIX,mlssoccer.com,Proxy
@@ -109,7 +109,7 @@ DOMAIN-SUFFIX,nih.gov,Proxy
 DOMAIN-SUFFIX,mycnnews.com,Proxy
 DOMAIN-SUFFIX,maplestage.com,Proxy
 
-#N
+## N
 DOMAIN-SUFFIX,nytimes.com,Proxy
 DOMAIN-SUFFIX,nytimg.com,Proxy
 DOMAIN-SUFFIX,nrk.no,Proxy
@@ -119,12 +119,12 @@ DOMAIN-SUFFIX,nasa.gov,Proxy
 DOMAIN-SUFFIX,netflix.com,Proxy
 DOMAIN-SUFFIX,nintendo.com,Proxy
 
-#O
+## O
 DOMAIN-SUFFIX,onlineyoutube.com,Proxy
 DOMAIN-SUFFIX,osha.gov,Proxy
 DOMAIN-SUFFIX,optimizely.com,Proxy
 
-#P
+## P
 DOMAIN-SUFFIX,psiphon3.com,Proxy
 DOMAIN-SUFFIX,puffinbrowser.com,Proxy
 DOMAIN-SUFFIX,pubu.com.tw,Proxy
@@ -134,7 +134,7 @@ DOMAIN-SUFFIX,pokemon.com,Proxy
 DOMAIN-SUFFIX,pastebin.com,Proxy
 DOMAIN-SUFFIX,pandora.com,Proxy
 
-#R
+## R
 DOMAIN-SUFFIX,rsf.org,Proxy
 DOMAIN-SUFFIX,rileyguide.com,Proxy
 DOMAIN-SUFFIX,rfi.fr,Proxy
@@ -142,7 +142,7 @@ DOMAIN-SUFFIX,reuters.com,Proxy
 DOMAIN-SUFFIX,readmoo.com,Proxy
 DOMAIN-SUFFIX,readingtimes.com.tw,Proxy
 
-#S
+## S
 DOMAIN-SUFFIX,scribd.com,Proxy
 DOMAIN-SUFFIX,sydneytoday.com,Proxy
 DOMAIN-SUFFIX,surrenderat20.net,Proxy
@@ -172,7 +172,7 @@ DOMAIN-SUFFIX,sciencedaily.com,Proxy
 DOMAIN-SUFFIX,signalsitemap.com,Proxy
 DOMAIN-SUFFIX,surge.run,Proxy
 
-#T
+## T
 DOMAIN-SUFFIX,twtkr.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,twitthat.com,Proxy,force-remote-dns
@@ -216,7 +216,7 @@ DOMAIN-SUFFIX,tablesgenerator.com,Proxy
 DOMAIN-SUFFIX,tomshardware.com,Proxy
 DOMAIN-SUFFIX,theverge.com,Proxy
 
-#U
+## U
 DOMAIN-SUFFIX,ustream.tv,Proxy
 DOMAIN-SUFFIX,uspto.gov,Proxy
 DOMAIN-SUFFIX,usma.edu,Proxy
@@ -234,7 +234,7 @@ DOMAIN-SUFFIX,udn.com,Proxy
 DOMAIN-SUFFIX,uchicago.edu,Proxy
 DOMAIN-SUFFIX,usgs.gov,Proxy
 
-#V
+## V
 DOMAIN-SUFFIX,vpngate.net,Proxy
 DOMAIN-SUFFIX,vpnbook.com,Proxy
 DOMAIN-SUFFIX,vpnaccount.org,Proxy
@@ -257,7 +257,7 @@ DOMAIN-SUFFIX,verizonwireless.com,Proxy
 DOMAIN-SUFFIX,vzw.com,Proxy
 DOMAIN-SUFFIX,voachinese.com,Proxy
 
-#W
+## W
 DOMAIN-SUFFIX,wwitv.com,Proxy
 DOMAIN-SUFFIX,wsj.com,Proxy
 DOMAIN-SUFFIX,wordpress.com,Proxy
@@ -282,11 +282,11 @@ DOMAIN-SUFFIX,w3schools.com,Proxy
 DOMAIN-SUFFIX,whatsapp.net,Proxy
 DOMAIN-SUFFIX,winudf.com,Proxy
 
-#X
+## X
 DOMAIN-SUFFIX,xuite.net,Proxy
 DOMAIN-SUFFIX,xanga.com,Proxy
 
-#Y
+## Y
 DOMAIN-SUFFIX,yahoo.com,Proxy
 DOMAIN-SUFFIX,yourlisten.com,Proxy
 DOMAIN-SUFFIX,youmaker.com,Proxy
@@ -298,12 +298,12 @@ DOMAIN-SUFFIX,yeeyi.com,Proxy
 DOMAIN-SUFFIX,yasni.co.uk,Proxy
 DOMAIN-SUFFIX,yastatic.net,Proxy
 
-#Z
+## Z
 DOMAIN-SUFFIX,zacebook.com,Proxy
 DOMAIN-SUFFIX,zalmos.com,Proxy
 DOMAIN-SUFFIX,zaobao.com.sg,Proxy
 DOMAIN-SUFFIX,zeutch.com,Proxy
 
-#0-9
+## 0-9
 DOMAIN-SUFFIX,4everproxy.com,Proxy
 DOMAIN-SUFFIX,4shared.com,Proxy
