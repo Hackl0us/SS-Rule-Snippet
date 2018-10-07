@@ -93,6 +93,7 @@ DOMAIN-SUFFIX,entrust.net,Proxy
 DOMAIN-SUFFIX,eurekavpt.com,Proxy
 DOMAIN-SUFFIX,evernote.com,Proxy
 DOMAIN-SUFFIX,fabric.io,Proxy
+DOMAIN-SUFFIX,fast.com,Proxy
 DOMAIN-SUFFIX,fastly.net,Proxy
 DOMAIN-SUFFIX,fc2.com,Proxy
 DOMAIN-SUFFIX,feedburner.com,Proxy
@@ -265,7 +266,6 @@ DOMAIN-SUFFIX,vsco.co,Proxy
 DOMAIN-SUFFIX,vultr.com,Proxy
 DOMAIN-SUFFIX,w.org,Proxy
 DOMAIN-SUFFIX,w3schools.com,Proxy
-DOMAIN-SUFFIX,weather.com,Proxy
 DOMAIN-SUFFIX,webtype.com,Proxy
 DOMAIN-SUFFIX,wikiwand.com,Proxy
 DOMAIN-SUFFIX,wikileaks.org,Proxy
