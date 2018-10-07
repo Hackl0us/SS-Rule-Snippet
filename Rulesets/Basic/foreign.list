@@ -1,7 +1,6 @@
 ## 抗 DNS 污染
 DOMAIN-KEYWORD,amazon,force-remote-dns
 DOMAIN-KEYWORD,google,force-remote-dns
-DOMAIN-SUFFIX,gstatic.com,force-remote-dns
 DOMAIN-KEYWORD,gmail,force-remote-dns
 DOMAIN-KEYWORD,youtube,force-remote-dns
 DOMAIN-KEYWORD,facebook,force-remote-dns
@@ -264,7 +263,6 @@ DOMAIN-SUFFIX,vsco.co
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,w.org
 DOMAIN-SUFFIX,w3schools.com
-DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,webtype.com
 DOMAIN-SUFFIX,wikiwand.com
 DOMAIN-SUFFIX,wikileaks.org

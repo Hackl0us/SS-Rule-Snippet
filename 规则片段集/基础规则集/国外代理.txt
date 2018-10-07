@@ -3,7 +3,6 @@
 ## 抗 DNS 污染
 DOMAIN-KEYWORD,amazon,Proxy,force-remote-dns
 DOMAIN-KEYWORD,google,Proxy,force-remote-dns
-DOMAIN-SUFFIX,gstatic.com,Proxy,force-remote-dns
 DOMAIN-KEYWORD,gmail,Proxy,force-remote-dns
 DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
 DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns

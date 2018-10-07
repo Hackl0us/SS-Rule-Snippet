@@ -203,7 +203,6 @@ DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
 # 抗 DNS 污染 
 - DOMAIN-KEYWORD,amazon,Proxy
 - DOMAIN-KEYWORD,google,Proxy
-- DOMAIN-SUFFIX,gstatic.com,Proxy
 - DOMAIN-KEYWORD,gmail,Proxy
 - DOMAIN-KEYWORD,youtube,Proxy
 - DOMAIN-KEYWORD,facebook,Proxy
