@@ -256,8 +256,6 @@ DOMAIN-SUFFIX,ulyssesapp.com,Proxy
 DOMAIN-SUFFIX,urchin.com,Proxy
 DOMAIN-SUFFIX,usertrust.com,Proxy
 DOMAIN-SUFFIX,v.gd,Proxy
-DOMAIN-SUFFIX,v2ex.co,Proxy
-DOMAIN-SUFFIX,v2ex.com,Proxy
 DOMAIN-SUFFIX,vimeo.com,Proxy
 DOMAIN-SUFFIX,vimeocdn.com,Proxy
 DOMAIN-SUFFIX,vine.co,Proxy

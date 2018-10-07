@@ -182,6 +182,7 @@ DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
 - DOMAIN-SUFFIX,umetrip.com,DIRECT
 - DOMAIN-SUFFIX,upaiyun.com,DIRECT
 - DOMAIN-SUFFIX,upyun.com,DIRECT
+- DOMAIN-SUFFIX,v2ex.com,DIRECT
 - DOMAIN-SUFFIX,veryzhun.com,DIRECT
 - DOMAIN-SUFFIX,weibo.com,DIRECT
 - DOMAIN-SUFFIX,xiami.com,DIRECT
@@ -482,8 +483,6 @@ DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
 - DOMAIN-SUFFIX,urchin.com,Proxy
 - DOMAIN-SUFFIX,usertrust.com,Proxy
 - DOMAIN-SUFFIX,v.gd,Proxy
-- DOMAIN-SUFFIX,v2ex.co,Proxy
-- DOMAIN-SUFFIX,v2ex.com,Proxy
 - DOMAIN-SUFFIX,vimeo.com,Proxy
 - DOMAIN-SUFFIX,vimeocdn.com,Proxy
 - DOMAIN-SUFFIX,vine.co,Proxy
