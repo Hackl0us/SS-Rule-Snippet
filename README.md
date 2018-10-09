@@ -9,7 +9,7 @@ SS Rule Snippet
 </h1>
 <p align="center">
 <sup>
-     Design for<i> Surge / Quantumult / ShadowRocket / Surfboard / clash(X) / shuttle </i>.
+     Design for<i> Surge / Quantumult / Shadowrocket / Surfboard / clash(X) / shuttle </i>.
      <br> Maintained by <b>Hackl0us</b>.
 </sup>
 <br>
@@ -19,7 +19,7 @@ SS Rule Snippet
 
 ## 导航
 
-本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://nssurge.com) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>ShadowRocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Surfboard</i>](https://manual.getsurfboard.com/) / [<i>clashX</i>](https://github.com/yichengchen/clashX) / [<i>shuttle</i>](https://github.com/sipt/shuttle) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
+本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://nssurge.com) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>Shadowrocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Surfboard</i>](https://manual.getsurfboard.com/) / [<i>clashX</i>](https://github.com/yichengchen/clashX) / [<i>shuttle</i>](https://github.com/sipt/shuttle) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
 
 * [规则使用](#规则使用)
   * [规则集说明](#规则集说明)
@@ -50,7 +50,7 @@ SS Rule Snippet
 | :-: | :-: | :-: |
 | [Surge 2](https://nssurge.com) | iOS / macOS | [官方](https://manual.nssurge.com/) |
 | [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | iOS | [非官方](https://github.com/JasonLee-Go/Quantumult/wiki/Quantumult-Unofficial-Manual)|
-| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | iOS | 未提供 |
+| [Shadowrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | iOS | 未提供 |
 | [Surfboard](https://manual.getsurfboard.com/) | Android | [非官方](https://surfboard.driller.pub/download) |
 | [clash](https://github.com/Dreamacro/clash) | Windows / macOS / Linux | [官方](https://github.com/Dreamacro/clash#------clash--) |
 | [clashX](https://github.com/yichengchen/clashX) | macOS | [官方](https://github.com/yichengchen/clashX#config) |
@@ -71,10 +71,10 @@ SS Rule Snippet
 
 | 工具 | 下载地址 |
 | :-: | :-: |
-| Surge 2 | [捷径](https://www.icloud.com/shortcuts/1444a17fd6f3495f8feb6fe49f14c3e0) / JSBox |
-| [Surge 3](https://itunes.apple.com/us/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://www.icloud.com/shortcuts/d075bdf82d094329b7a682f241ef81a8) / JSBox |
-| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [捷径](https://workflow.is/workflows/725d93a0c96c4c71bbbd1ac6834d6648) / JSBox |
-| [ShadowRocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [捷径](https://workflow.is/workflows/4c8c975010344ea1afdaf1d938107ba9) / JSBox |
+| Surge 2 | [捷径](https://www.icloud.com/shortcuts/eb5f7930bf8e414993452c3cae1906ca) / JSBox |
+| [Surge 3](https://itunes.apple.com/us/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://www.icloud.com/shortcuts/dd6197b8faa24b639f0b35e339da4c17) / JSBox |
+| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [捷径](https://www.icloud.com/shortcuts/884f18991ad14e69b0c13a1a4e7b3aac) / JSBox |
+| [Shadowrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [捷径](https://www.icloud.com/shortcuts/29b06dddc6684afd9cf8a17b7c0af901) / JSBox |
 
 
 ### 关于广告屏蔽
@@ -119,7 +119,7 @@ SS Rule Snippet
 
 ### 关注项目
 
-- [Telegram 频道](https://t.me/joinchat/AAAAAEBbyO8dblJS4QQ1hw)：关注后，可及时推送项目的更新日志。
+- [Telegram 频道](https://t.me/ssrule)：关注后，可及时推送项目的更新日志。
 - Telegram 群组 - [库克后厨 H Team](https://t.me/joinchat/EAPjDEerhmqJfqvbZkm3qQ)：自由交流、讨论任何有关 Apple 的技术。
 - 新浪微博 [@Hackl0us](https://weibo.com/hackl0us)：个人微博，可了解到很多关于 Apple、网络技术等科技方面的讯息。
 
