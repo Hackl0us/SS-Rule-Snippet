@@ -49,10 +49,10 @@ Proxy:
 
 Proxy Group:
 # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
-- { name: "auto", type: url-test, proxies: ["ss1", "ss2", "vmess1"], url: http://www.gstatic.com/generate_204, delay: 300 }
+- { name: "auto", type: url-test, proxies: ["ss1", "ss2", "vmess1"], url: https://www.bing.com, interval: 300 }
 
 # fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
-- { name: "fallback-auto", type: fallback, proxies: ["ss1", "ss2", "vmess1"], url: http://www.gstatic.com/generate_204, delay: 300 }
+- { name: "fallback-auto", type: fallback, proxies: ["ss1", "ss2", "vmess1"], url: https://www.bing.com, interval: 300 }
 
 # select 用来允许用户手动选择 代理服务器 或 服务器组
 # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
@@ -61,18 +61,18 @@ Proxy Group:
 Rule:
 # Apple 服务优化
 ## 其他服务
-DOMAIN,gs.apple.com,Proxy
-DOMAIN-SUFFIX,mzstatic.com,DIRECT,force-remote-dns
-DOMAIN-SUFFIX,aaplimg.com,DIRECT,force-remote-dns
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT,force-remote-dns
+- DOMAIN,gs.apple.com,Proxy
+- DOMAIN-SUFFIX,mzstatic.com,DIRECT,force-remote-dns
+- DOMAIN-SUFFIX,aaplimg.com,DIRECT,force-remote-dns
+- DOMAIN-SUFFIX,cdn-apple.com,DIRECT,force-remote-dns
 
 ## 通用部分
-DOMAIN,itunes.apple.com,Proxy,force-remote-dns
-DOMAIN,beta.itunes.apple.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT,force-remote-dns
-DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
-#DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
+- DOMAIN,itunes.apple.com,Proxy,force-remote-dns
+- DOMAIN,beta.itunes.apple.com,Proxy,force-remote-dns
+- DOMAIN-SUFFIX,apple.com,DIRECT
+- DOMAIN-SUFFIX,icloud.com,DIRECT,force-remote-dns
+- DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
+#- DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
 
 
 # 自定义规则
