@@ -72,7 +72,7 @@ SS Rule Snippet
 | 工具 | 下载地址 |
 | :-: | :-: |
 | Surge 2 | [捷径](https://www.icloud.com/shortcuts/eb5f7930bf8e414993452c3cae1906ca) / JSBox |
-| [Surge 3](https://itunes.apple.com/us/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://www.icloud.com/shortcuts/dd6197b8faa24b639f0b35e339da4c17) / JSBox |
+| [Surge 3](https://itunes.apple.com/us/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://www.icloud.com/shortcuts/5dee27f365974ba7bec536adc543b24d) / JSBox |
 | [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [捷径](https://www.icloud.com/shortcuts/884f18991ad14e69b0c13a1a4e7b3aac) / JSBox |
 | [Shadowrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [捷径](https://www.icloud.com/shortcuts/29b06dddc6684afd9cf8a17b7c0af901) / JSBox |
 
