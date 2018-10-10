@@ -1,4 +1,4 @@
-# 2018-10-07 23:22:34
+# 2018-10-11 00:15:14
 #---------------------------------------------------#
 ## 配置文件需要放置在 $HOME/.config/clash/config.yml
 ## 
@@ -63,6 +63,7 @@ Rule:
 ## 其他服务
 - DOMAIN,gs.apple.com,Proxy
 - DOMAIN-SUFFIX,mzstatic.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
 - DOMAIN-SUFFIX,aaplimg.com,DIRECT
 - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 
