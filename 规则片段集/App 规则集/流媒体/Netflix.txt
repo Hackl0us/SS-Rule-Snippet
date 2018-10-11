@@ -1,11 +1,5 @@
 [Rule]
 USER-AGENT,Argo*,Proxy
 
-DOMAIN-SUFFIX,fast.com,Proxy
-DOMAIN-SUFFIX,netflix.com,Proxy
-DOMAIN-SUFFIX,netflix.net,Proxy
-DOMAIN-SUFFIX,nflxext.com,Proxy
-DOMAIN-SUFFIX,nflximg.com,Proxy
-DOMAIN-SUFFIX,nflximg.net,Proxy
-DOMAIN-SUFFIX,nflxso.net,Proxy
-DOMAIN-SUFFIX,nflxvideo.net,Proxy
+DOMAIN-KEYWORD,netflix,Proxy
+DOMAIN-KEYWORD,nflx,Proxy
