@@ -1,5 +1,6 @@
-DOMAIN-SUFFIX,line.me,force-remote-dns
-DOMAIN-SUFFIX,naver.jp,force-remote-dns
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,naver.jp
+DOMAIN-SUFFIX,line-apps.com
 USER-AGENT,Line*
 
 IP-CIDR,103.2.28.0/24,no-resolve

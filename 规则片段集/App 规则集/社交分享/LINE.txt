@@ -3,9 +3,10 @@
 [Rule]
 
 ## 域名
-DOMAIN-SUFFIX,line.me,Proxy,force-remote-dns
-DOMAIN-SUFFIX,naver.jp,Proxy,force-remote-dns
-USER-AGENT,Line*,Proxy,force-remote-dns
+DOMAIN-SUFFIX,line.me,Proxy
+DOMAIN-SUFFIX,naver.jp,Proxy
+DOMAIN-SUFFIX,line-apps.com,Proxy
+USER-AGENT,Line*,Proxy
 
 ## 服务IP段
 IP-CIDR,103.2.28.0/24,Proxy,no-resolve
