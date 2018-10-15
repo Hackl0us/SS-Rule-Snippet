@@ -1,3 +1,4 @@
+# 此规则可以将 Wikipedia 的请求跳转至 Wikiwand 以达到 Wikipedia 排版优化的目的。重新排版后的语言将与原页面语言保持一致。
 # 注意：此功能需要启用 Surge, Quantumult 等工具 MITM 功能，具体配置 MitM 功能请参考工具的配置手册。
 
 # iOS 10.3 及以上系统需要在所有配置完成后，进入 设置>通用>关于本机>证书信任度设置 中打开 Surge证书信任权限
@@ -7,8 +8,7 @@
 DOMAIN-SUFFIX,wikiwand.com,Proxy
 
 [URL Rewrite]
-^https://zh.(m.)?wikipedia.org/(zh-hans|zh-sg|zh-cn|zh(?=/)) http://www.wikiwand.com/zh 302
-^https://zh.(m.)?wikipedia.org/zh-(\w*) http://www.wikiwand.com/zh-hant 302
+^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) http://www.wikiwand.com/zh$2 302
 ^https://(\w*).(m.)?wikipedia.org/wiki http://www.wikiwand.com/$1 302
 
 [MITM]
