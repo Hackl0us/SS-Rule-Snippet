@@ -1,4 +1,4 @@
-# 2018-10-11 00:15:14
+# 2018-10-20 13:10:05
 #---------------------------------------------------#
 ## 配置文件需要放置在 $HOME/.config/clash/config.yml
 ## 
@@ -36,16 +36,16 @@ Proxy:
 # 支持加密方式： AEAD_AES_128_GCM AEAD_AES_192_GCM AEAD_AES_256_GCM AEAD_CHACHA20_POLY1305 AES-128-CTR AES-192-CTR AES-256-CTR AES-128-CFB AES-192-CFB AES-256-CFB CHACHA20-IETF XCHACHA20 
 # clash 额外支持 chacha20 rc4-md5 xchacha20-ietf-poly1305 加密方式
 
-- { name: "ss1", type: ss, server: server, port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password" }
-- { name: "ss2", type: ss, server: server, port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password", obfs: tls, obfs-host: bing.com }
+- { name: "ss1", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password" }
+- { name: "ss2", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password", obfs: tls, obfs-host: "bing.com" }
 
 # vmess
 # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
-- { name: "vmess1", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto }
-- { name: "vmess2", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, tls: true }
+- { name: "vmess1", type: vmess, server: "server", port: 443, uuid: uuid, alterId: 32, cipher: auto }
+- { name: "vmess2", type: vmess, server: "server", port: 443, uuid: uuid, alterId: 32, cipher: auto, tls: true }
 
 # socks5
-- { name: "socks", type: socks5, server: server, port: 443 }
+- { name: "socks", type: socks5, server: "server", port: 443 }
 
 Proxy Group:
 # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
