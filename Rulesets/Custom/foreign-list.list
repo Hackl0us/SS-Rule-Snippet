@@ -305,3 +305,6 @@ DOMAIN-SUFFIX,zeutch.com
 ## 0-9
 DOMAIN-SUFFIX,4everproxy.com
 DOMAIN-SUFFIX,4shared.com
+
+## 告别出版商绑架
+DOMAIN-KEYWORD,sci-hub
