@@ -1,4 +1,4 @@
-# DIRECT 策略
+# DIRECT 策略 或 学校提供的代理
 # 此规则适用于学校校园网已经购买论文网站版权，通过校园网的直连才能具备该免费下载的权限。
 # 此规则使用前应先咨询校方，是否有购买版权。若没有，此规则无用处。更适合大学生及以上学学历学生使用。
 
@@ -8,7 +8,7 @@ DOMAIN-KEYWORD,cnki.net
 ## 万方
 DOMAIN-KEYWORD,wanfangdata
 
-## Law
+## 法律数据库
 DOMAIN-KEYWORD,pkulaw
 DOMAIN-KEYWORD,westlawchina
 
