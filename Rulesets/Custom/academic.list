@@ -8,6 +8,10 @@ DOMAIN-KEYWORD,cnki.net
 ## 万方
 DOMAIN-KEYWORD,wanfangdata
 
+## Law
+DOMAIN-KEYWORD,pkulaw
+DOMAIN-KEYWORD,westlawchina
+
 ## 国际环境生态学术出版商
 DOMAIN-SUFFIX,sciencedirect.com
 DOMAIN-SUFFIX,researchgate.net
