@@ -27,6 +27,9 @@ log-level: info
 # clash 的 RESTful API
 external-controller: 127.0.0.1:9090
 
+# RESTful API 的口令 (可选)
+secret: ""
+
 Proxy:
 
 # shadowsocks
