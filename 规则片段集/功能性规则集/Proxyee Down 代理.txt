@@ -1,0 +1,18 @@
+# 此规则允许在 macOS 系统上，开启 Proxyee-Down 时，自动切换代理服务器以达到自动代理 百度云盘 相关域名，一键导入任务并避免冲突。
+
+[Proxy]
+Proxyee = http, 127.0.0.1, 9999
+
+[Proxy Group]
+## 规则默认使用 fallback 策略检测代理是否开启，并自动切换线路策略，每间隔 10 秒发起一次测试。
+⬇️ Proxyee = fallback, Proxyee, DIRECT, url = http://pan.baidu.com/static/images/16new/logo_wechat.png, timeout = 1, interval = 10
+
+
+## 您也可以使用 select 策略，在开启 Proxyee-Down 以后，手动选择代理策略。例如：
+## ⬇️ Proxyee = select, Proxyee, DIRECT
+## 具体配置和参数请参考工具的配置手册。
+
+[Rule]
+DOMAIN,pan.baidu.com,⬇️ Proxyee
+DOMAIN,yun.baidu.com,⬇️ Proxyee
+## 要保证这两条规则在 DOMAIN-KEYWORK,baidu,DIRECT 上方，否则此部分否则不会生效。因为代理工具按照自上而下的顺序匹配。
