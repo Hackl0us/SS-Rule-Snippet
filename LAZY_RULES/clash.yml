@@ -213,6 +213,7 @@ Rule:
 - DOMAIN-SUFFIX,zealer.com,DIRECT
 - DOMAIN-SUFFIX,zhihu.com,DIRECT
 - DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
 
 # 抗 DNS 污染 
 - DOMAIN-KEYWORD,amazon,Proxy
