@@ -307,7 +307,6 @@ Rule:
 - DOMAIN-SUFFIX,cnet.com,Proxy
 - DOMAIN-SUFFIX,cocoapods.org,Proxy
 - DOMAIN-SUFFIX,comodoca.com,Proxy
-- DOMAIN-SUFFIX,content.office.net,Proxy
 - DOMAIN-SUFFIX,crashlytics.com,Proxy
 - DOMAIN-SUFFIX,culturedcode.com,Proxy
 - DOMAIN-SUFFIX,d.pr,Proxy
@@ -419,7 +418,6 @@ Rule:
 - DOMAIN-SUFFIX,nssurge.com,Proxy
 - DOMAIN-SUFFIX,nyt.com,Proxy
 - DOMAIN-SUFFIX,nytimes.com,Proxy
-- DOMAIN-SUFFIX,office365.com,Proxy
 - DOMAIN-SUFFIX,omnigroup.com,Proxy
 - DOMAIN-SUFFIX,onedrive.com,Proxy
 - DOMAIN-SUFFIX,onenote.com,Proxy
