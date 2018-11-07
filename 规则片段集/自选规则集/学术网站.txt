@@ -3,18 +3,17 @@
 
 [Rule]
 
-## 中国知网
+# 中国知网
 DOMAIN-KEYWORD,cnki.net,DIRECT
 
-## 万方
+# 万方
 DOMAIN-KEYWORD,wanfangdata,DIRECT
 
-## 法律数据库
+# 法律数据库
 DOMAIN-KEYWORD,pkulaw,DIRECT
 DOMAIN-KEYWORD,westlawchina,DIRECT
 
-## 国际环境生态学术出版商
-DOMAIN-SUFFIX,sciencedirect.com,DIRECT
+# SCI 综合
 DOMAIN-SUFFIX,researchgate.net,DIRECT
 DOMAIN-SUFFIX,springer.com,DIRECT
 DOMAIN-SUFFIX,wiley.com,DIRECT
@@ -27,5 +26,10 @@ DOMAIN-SUFFIX,nature.com,DIRECT
 DOMAIN-SUFFIX,sciencemag.org,DIRECT
 DOMAIN-SUFFIX,osapublishing.org,DIRECT
 
+## Elsevier 旗下
+DOMAIN-SUFFIX,scopus.com,DIRECT
+DOMAIN-SUFFIX,sciencedirect.com,DIRECT
+
 ## 告别出版商绑架
 DOMAIN-KEYWORD,sci-hub,Proxy
+
