@@ -27,7 +27,11 @@ DOMAIN-SUFFIX,osapublishing.org
 
 ## Elsevier 旗下
 DOMAIN-SUFFIX,scopus.com
-DOMAIN-SUFFIX,sciencedirect.com
+DOMAIN-KEYWORD,sciencedirect
+DOMAIN-KEYWORD,elsevier
+DOMAIN-KEYWORD,deepdyve
+DOMAIN-KEYWORD,els-cdn
+
 
 ## 告别出版商绑架
 DOMAIN-KEYWORD,sci-hub,Proxy
