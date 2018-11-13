@@ -16,7 +16,6 @@ DOMAIN-KEYWORD,westlawchina,DIRECT
 # SCI 综合
 DOMAIN-SUFFIX,researchgate.net,DIRECT
 DOMAIN-SUFFIX,springer.com,DIRECT
-DOMAIN-SUFFIX,wiley.com,DIRECT
 DOMAIN-SUFFIX,blackwell-synergy.com,DIRECT
 DOMAIN-SUFFIX,sciencemag.org,DIRECT
 DOMAIN-SUFFIX,jstor.org,DIRECT
@@ -26,9 +25,16 @@ DOMAIN-SUFFIX,nature.com,DIRECT
 DOMAIN-SUFFIX,sciencemag.org,DIRECT
 DOMAIN-SUFFIX,osapublishing.org,DIRECT
 
+## Willey 旗下
+DOMAIN-SUFFIX,wiley.com,DIRECT
+DOMAIN-KEYWORD,readcube,DIRECT
+
 ## Elsevier 旗下
 DOMAIN-SUFFIX,scopus.com,DIRECT
-DOMAIN-SUFFIX,sciencedirect.com,DIRECT
+DOMAIN-KEYWORD,sciencedirect,DIRECT
+DOMAIN-KEYWORD,elsevier,DIRECT
+DOMAIN-KEYWORD,deepdyve,DIRECT
+DOMAIN-KEYWORD,els-cdn,DIRECT
 
 ## 告别出版商绑架
 DOMAIN-KEYWORD,sci-hub,Proxy
