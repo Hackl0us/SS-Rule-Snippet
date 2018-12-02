@@ -1,4 +1,4 @@
-# 2018-10-20 13:10:05
+# 2018-12-02 18:04:26
 #---------------------------------------------------#
 ## 配置文件需要放置在 $HOME/.config/clash/config.yml
 ## 
@@ -71,20 +71,15 @@ Proxy Group:
 - { name: "Proxy", type: select, proxies: ["ss1", "ss2", "vmess1", "auto"] }
 
 Rule:
-# Apple 服务优化
-## 其他服务
-- DOMAIN,gs.apple.com,Proxy
+# Apple
+- DOMAIN,itunes.apple.com,Proxy
+- DOMAIN-SUFFIX,icloud.com,DIRECT
+- DOMAIN-SUFFIX,icloud-content.com,DIRECT
 - DOMAIN-SUFFIX,mzstatic.com,DIRECT
 - DOMAIN-SUFFIX,akadns.net,DIRECT
 - DOMAIN-SUFFIX,aaplimg.com,DIRECT
 - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-
-## 通用部分
-- DOMAIN,itunes.apple.com,Proxy
-- DOMAIN,beta.itunes.apple.com,Proxy
 - DOMAIN-SUFFIX,apple.com,DIRECT
-- DOMAIN-SUFFIX,icloud.com,DIRECT
-- DOMAIN-SUFFIX,icloud-content.com,DIRECT
 #- DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
 
 

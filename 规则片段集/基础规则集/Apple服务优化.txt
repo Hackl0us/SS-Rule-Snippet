@@ -1,20 +1,13 @@
 [Rule]
-
-## iTunes 与 App Store
-USER-AGENT,com.apple.appstored*,DIRECT
+PROCESS-NAME,News,Proxy
+DOMAIN,itunes.apple.com,Proxy
 PROCESS-NAME,storedownloadd,DIRECT
-
-## 其他服务
-DOMAIN,gs.apple.com,Proxy
+USER-AGENT,com.apple.appstored*,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-
-## 通用部分
-DOMAIN,itunes.apple.com,Proxy
-DOMAIN,beta.itunes.apple.com,Proxy
 DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
 #DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
