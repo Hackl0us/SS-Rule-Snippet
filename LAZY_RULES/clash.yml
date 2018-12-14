@@ -30,6 +30,26 @@ external-controller: 127.0.0.1:9090
 # RESTful API 的口令 (可选)
 secret: ""
 
+dns:
+  enable: true
+  ipv6: false
+  # listen: 0.0.0.0:53
+  # enhanced-mode: redir-host
+  nameserver:
+     - 114.114.114.114
+     - 223.5.5.5
+     - tls://dns.rubyfish.cn:853 # dns over tls
+  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
+     - 114.114.114.114
+     - tls://dns.rubyfish.cn:853 # dns over tls
+     - 8.8.8.8
+
+# clash DNS 请求逻辑：
+# (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
+# (2) clash 将选取 nameserver 列表内，解析最快的结果。
+# (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
+# 因此，我在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
+
 Proxy:
 
 # shadowsocks
