@@ -54,10 +54,21 @@ Proxy:
 
 # socks5
 - { name: "socks", type: socks5, server: server, port: 443 }
-#   tls
+# socks5 with authentication
+- { name: "socks", type: socks5, server: server, port: 443, username: "username", password: "password" }
+# with tls
 - { name: "socks", type: socks5, server: server, port: 443, tls: true }
-#   tls and skip-cert-verify
+# with tls and skip-cert-verify
 - { name: "socks", type: socks5, server: server, port: 443, tls: true, skip-cert-verify: true }
+
+# http
+- { name: "http", type: http, server: server, port: 443 }
+# http with authentication
+- { name: "http", type: http, server: server, port: 443, username: "username", password: "password" }
+# with tls (https)
+- { name: "http", type: http, server: server, port: 443, tls: true }
+# with tls (https) and skip-cert-verify
+- { name: "http", type: http, server: server, port: 443, tls: true, skip-cert-verify: true }
 
 Proxy Group:
 # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
