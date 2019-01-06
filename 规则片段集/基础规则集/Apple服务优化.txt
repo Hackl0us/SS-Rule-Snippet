@@ -1,5 +1,6 @@
 [Rule]
 PROCESS-NAME,News,Proxy
+DOMAIN,hls.itunes.apple.com,Proxy
 DOMAIN,itunes.apple.com,Proxy
 PROCESS-NAME,storedownloadd,DIRECT
 USER-AGENT,com.apple.appstored*,DIRECT
