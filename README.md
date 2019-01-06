@@ -9,7 +9,7 @@ SS Rule Snippet
 </h1>
 <p align="center">
 <sup>
-     Design for<i> Surge / Quantumult / Shadowrocket / Surfboard / clash(X) / shuttle </i>.
+     Design for<i> Surge / Quantumult / Shadowrocket / Surfboard / clash(X) </i>.
      <br> Maintained by <b>Hackl0us</b>.
 </sup>
 <br>
@@ -19,7 +19,7 @@ SS Rule Snippet
 
 ## 导航
 
-本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://nssurge.com) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>Shadowrocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Surfboard</i>](https://manual.getsurfboard.com/) / [<i>clashX</i>](https://github.com/yichengchen/clashX) / [<i>shuttle</i>](https://github.com/sipt/shuttle) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
+本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://nssurge.com) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>Shadowrocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Surfboard</i>](https://manual.getsurfboard.com/) / [<i>clashX</i>](https://github.com/yichengchen/clashX) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
 
 * [规则使用](#规则使用)
   * [规则集说明](#规则集说明)
@@ -54,7 +54,6 @@ SS Rule Snippet
 | [Surfboard](https://manual.getsurfboard.com/) | Android | [非官方](https://surfboard.driller.pub/download) |
 | [clash](https://github.com/Dreamacro/clash) | Windows / macOS / Linux | [官方](https://github.com/Dreamacro/clash#------clash--) |
 | [clashX](https://github.com/yichengchen/clashX) | macOS | [官方](https://github.com/yichengchen/clashX#config) |
-| [shuttle](https://github.com/sipt/shuttle)| Windows / macOS / Linux | [官方](https://github.com/sipt/shuttle#shuttle) | 
 
 ## 关于项目
 
