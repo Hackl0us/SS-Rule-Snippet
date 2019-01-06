@@ -284,7 +284,6 @@ Rule:
 - DOMAIN-KEYWORD,usage,REJECT
 - DOMAIN-KEYWORD,wlmonitor,REJECT
 - DOMAIN-KEYWORD,zjtoolbar,REJECT
-- DOMAIN-SUFFIX,club,REJECT
 
 # 国外网站
 - DOMAIN-SUFFIX,9to5mac.com,Proxy
