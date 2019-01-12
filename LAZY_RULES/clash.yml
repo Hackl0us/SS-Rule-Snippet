@@ -103,6 +103,7 @@ Proxy Group:
 
 Rule:
 # Apple
+- DOMAIN,hls.itunes.apple.com,Proxy
 - DOMAIN,itunes.apple.com,Proxy
 - DOMAIN-SUFFIX,icloud.com,DIRECT
 - DOMAIN-SUFFIX,icloud-content.com,DIRECT
@@ -283,7 +284,6 @@ Rule:
 - DOMAIN-KEYWORD,usage,REJECT
 - DOMAIN-KEYWORD,wlmonitor,REJECT
 - DOMAIN-KEYWORD,zjtoolbar,REJECT
-- DOMAIN-SUFFIX,club,REJECT
 
 # 国外网站
 - DOMAIN-SUFFIX,9to5mac.com,Proxy
