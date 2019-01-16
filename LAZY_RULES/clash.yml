@@ -577,4 +577,4 @@ Rule:
 
 # 最终规则
 - GEOIP,CN,DIRECT
-- FINAL,,Proxy
+- MATCH,Proxy
