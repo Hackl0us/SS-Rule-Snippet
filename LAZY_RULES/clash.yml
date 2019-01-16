@@ -1,4 +1,4 @@
-# 2018-12-02 18:04:26
+# # 2019-01-16 10:05:02
 #---------------------------------------------------#
 ## 配置文件需要放置在 $HOME/.config/clash/config.yml
 ## 
@@ -36,11 +36,14 @@ dns:
   # listen: 0.0.0.0:53
   # enhanced-mode: redir-host
   nameserver:
+     - 1.2.4.8
      - 114.114.114.114
      - 223.5.5.5
      - tls://dns.rubyfish.cn:853 # dns over tls
   fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
+     - 1.2.4.8
      - 114.114.114.114
+     - 223.5.5.5
      - tls://dns.rubyfish.cn:853 # dns over tls
      - 8.8.8.8
 
