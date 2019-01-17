@@ -178,6 +178,8 @@ Rule:
 - DOMAIN-SUFFIX,le.com,DIRECT
 - DOMAIN-SUFFIX,lecloud.com,DIRECT
 - DOMAIN-SUFFIX,lemicp.com,DIRECT
+- DOMAIN-SUFFIX,licdn.com,DIRECT
+- DOMAIN-SUFFIX,linkedin.com,DIRECT
 - DOMAIN-SUFFIX,luoo.net,DIRECT
 - DOMAIN-SUFFIX,meituan.com,DIRECT
 - DOMAIN-SUFFIX,meituan.net,DIRECT
@@ -418,8 +420,6 @@ Rule:
 - DOMAIN-SUFFIX,kat.cr,Proxy
 - DOMAIN-SUFFIX,klip.me,Proxy
 - DOMAIN-SUFFIX,libsyn.com,Proxy
-- DOMAIN-SUFFIX,licdn.com,Proxy
-- DOMAIN-SUFFIX,linkedin.com,Proxy
 - DOMAIN-SUFFIX,linode.com,Proxy
 - DOMAIN-SUFFIX,lithium.com,Proxy
 - DOMAIN-SUFFIX,littlehj.com,Proxy
