@@ -72,7 +72,6 @@ DOMAIN-SUFFIX,danilo.to,Proxy
 DOMAIN-SUFFIX,dayone.me,Proxy
 DOMAIN-SUFFIX,db.tt,Proxy
 DOMAIN-SUFFIX,deskconnect.com,Proxy
-DOMAIN-SUFFIX,digicert.com,Proxy
 DOMAIN-SUFFIX,disq.us,Proxy
 DOMAIN-SUFFIX,disqus.com,Proxy
 DOMAIN-SUFFIX,disquscdn.com,Proxy

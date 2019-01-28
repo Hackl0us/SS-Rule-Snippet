@@ -1,4 +1,5 @@
 PROCESS-NAME,storedownloadd
+PROCESS-NAME,trustd
 USER-AGENT,com.apple.appstored*
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
