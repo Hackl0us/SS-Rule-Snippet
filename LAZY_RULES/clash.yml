@@ -20,9 +20,9 @@ allow-lan: false
 # 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
 mode: Rule
 
-# 设置日志输出级别 (默认级别：info，级别越高日志输出量越大，越倾向于调试)
-# 四个级别：info / warning / error / debug
-log-level: info
+# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
+# 5 个级别：silent / info / warning / error / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
+log-level: silent
 
 # clash 的 RESTful API
 external-controller: 127.0.0.1:9090
