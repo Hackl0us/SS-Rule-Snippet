@@ -27,6 +27,10 @@ log-level: silent
 # clash 的 RESTful API
 external-controller: 127.0.0.1:9090
 
+# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `${API}/ui`
+# 参数应填写配置目录的相对路径或绝对路径。
+# external-ui: folder
+
 # RESTful API 的口令 (可选)
 secret: ""
 
@@ -72,29 +76,30 @@ Proxy:
 - { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto }
 #   tls
 - { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, tls: true }
-#   tls + skip-cert-verify
+#   tls (skip-cert-verify)
 - { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true }
-#   ws
-- { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, network: ws, ws-path: /path }
+#   ws-path + ws-headers
+- { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, network: ws, ws-path: /path, ws-headers: { Host: v2ray.com } }
 #   ws + tls
 - { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, network: ws, ws-path: /path, tls: true }
 
-# socks5
+
+#   socks5
 - { name: "socks", type: socks5, server: server, port: 443 }
-# socks5 with authentication
+#   socks5 with authentication
 - { name: "socks", type: socks5, server: server, port: 443, username: "username", password: "password" }
-# with tls
+#   tls
 - { name: "socks", type: socks5, server: server, port: 443, tls: true }
-# with tls and skip-cert-verify
+#   tls (skip-cert-verify)
 - { name: "socks", type: socks5, server: server, port: 443, tls: true, skip-cert-verify: true }
 
-# http
+#   http
 - { name: "http", type: http, server: server, port: 443 }
-# http with authentication
+#   http with authentication
 - { name: "http", type: http, server: server, port: 443, username: "username", password: "password" }
-# with tls (https)
+#   tls (https)
 - { name: "http", type: http, server: server, port: 443, tls: true }
-# with tls (https) and skip-cert-verify
+#   tls (https)  (skip-cert-verify)
 - { name: "http", type: http, server: server, port: 443, tls: true, skip-cert-verify: true }
 
 Proxy Group:
