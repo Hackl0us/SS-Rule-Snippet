@@ -112,6 +112,7 @@ Rule:
 # Apple
 - DOMAIN,hls.itunes.apple.com,Proxy
 - DOMAIN,itunes.apple.com,Proxy
+- DOMAIN-SUFFIX,digicert.com,DIRECT
 - DOMAIN-SUFFIX,icloud.com,DIRECT
 - DOMAIN-SUFFIX,icloud-content.com,DIRECT
 - DOMAIN-SUFFIX,mzstatic.com,DIRECT
