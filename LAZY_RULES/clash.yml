@@ -525,7 +525,6 @@ Rule:
 - DOMAIN-SUFFIX,tumblr.com,Proxy
 - DOMAIN-SUFFIX,tweetdeck.com,Proxy
 - DOMAIN-SUFFIX,tweetmarker.net,Proxy
-- DOMAIN-SUFFIX,twitch.tv,Proxy
 - DOMAIN-SUFFIX,txmblr.com,Proxy
 - DOMAIN-SUFFIX,typekit.net,Proxy
 - DOMAIN-SUFFIX,ubertags.com,Proxy
