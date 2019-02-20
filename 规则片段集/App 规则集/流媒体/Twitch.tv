@@ -1,0 +1,10 @@
+# Twitch.tv 并没有被墙
+# 但鉴于国内大部分宽带可怜的海外带宽，想要流畅体验twitch最高画质仍然需要代理
+# 对于直连即能流畅体验的用户而言，走代理反而可能会导致卡顿，并占用代理的流量。
+# 如果确认自己直连流畅，可将下述三行加入规则。视频流的域名是下面两条。
+
+[Rule]
+
+- DOMAIN-SUFFIX,twitch.tv,DIRECT
+- DOMAIN-SUFFIX,jtvnw.net,DIRECT
+- DOMAIN-SUFFIX,ttvnw.net,DIRECT
