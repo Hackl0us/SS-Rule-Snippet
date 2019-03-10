@@ -1,4 +1,4 @@
-# 2019-01-22 23:13:14
+# 2019-03-10 18:17:37
 #---------------------------------------------------#
 ## 配置文件需要放置在 $HOME/.config/clash/config.yml
 ## 
@@ -68,8 +68,30 @@ Proxy:
 # 支持加密方式： AEAD_AES_128_GCM AEAD_AES_192_GCM AEAD_AES_256_GCM AEAD_CHACHA20_POLY1305 AES-128-CTR AES-192-CTR AES-256-CTR AES-128-CFB AES-192-CFB AES-256-CFB CHACHA20-IETF XCHACHA20 
 # clash 额外支持 chacha20 rc4-md5 xchacha20-ietf-poly1305 加密方式
 
-- { name: "ss1", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password" }
-- { name: "ss2", type: ss, server: "server", port: 443, cipher: AEAD_CHACHA20_POLY1305, password: "password", obfs: tls, obfs-host: "bing.com" }
+- name: "ss1"
+  type: ss
+  server: server
+  port: 443
+  cipher: AEAD_CHACHA20_POLY1305
+  password: "password"
+  plugin: obfs
+  plugin-opts:
+    mode: tls # 混淆模式，可以选择 http 或 tls
+    host: bing.com # 混淆域名，需要和服务器配置保持一致
+
+- name: "ss2"
+  type: ss
+  server: server
+  port: 443
+  cipher: AEAD_CHACHA20_POLY1305
+  password: "password"
+  plugin: v2ray-plugin
+  plugin-opts:
+    mode: websocket # 暂时不支持 QUIC 协议
+    # tls: true # wss
+    # skip-cert-verify: true
+    # host: bing.com
+    # path: "/"
 
 # vmess
 # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
@@ -108,6 +130,9 @@ Proxy Group:
 
 # fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
 - { name: "fallback-auto", type: fallback, proxies: ["ss1", "ss2", "vmess1"], url: "https://www.bing.com", interval: 300 }
+
+# load-balance 可以使相同 eTLD 请求在同一条代理线路上
+- { name: "load-balance", type: load-balance, proxies: ["ss1", "ss2", "vmess1"] }
 
 # select 用来允许用户手动选择 代理服务器 或 服务器组
 # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
