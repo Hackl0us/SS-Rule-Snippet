@@ -129,5 +129,5 @@ SS Rule Snippet
 
 ##### ❤️如果您喜欢我的规则，并希望项目可以继续被维护，您可以给通过以下方式捐助我😜非常感谢~
 
-  ![](http://ok9svak43.bkt.clouddn.com/blog/image/github/donation.png)
+  ![](https://ws3.sinaimg.cn/large/005BYqpgly1g1agmaeb6oj30u009qn12.jpg)
 
