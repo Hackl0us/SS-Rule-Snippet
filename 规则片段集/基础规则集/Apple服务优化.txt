@@ -2,6 +2,7 @@
 PROCESS-NAME,News,Proxy
 DOMAIN,hls.itunes.apple.com,Proxy
 DOMAIN,itunes.apple.com,Proxy
+DOMAIN,itunes.com,Proxy
 PROCESS-NAME,storedownloadd,DIRECT
 PROCESS-NAME,trustd,DIRECT
 USER-AGENT,*com.apple.*,DIRECT
