@@ -245,7 +245,6 @@ Rule:
 - DOMAIN-SUFFIX,qiyipic.com,DIRECT
 - DOMAIN-SUFFIX,qq.com,DIRECT
 - DOMAIN-SUFFIX,qqurl.com,DIRECT
-- DOMAIN-SUFFIX,tencent.com,DIRECT
 - DOMAIN-SUFFIX,rarbg.to,DIRECT
 - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
 - DOMAIN-SUFFIX,segmentfault.com,DIRECT
@@ -259,7 +258,9 @@ Rule:
 - DOMAIN-SUFFIX,sspai.com,DIRECT
 - DOMAIN-SUFFIX,suning.com,DIRECT
 - DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tencent.com,DIRECT
 - DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,tianyancha.com,DIRECT
 - DOMAIN-SUFFIX,tmall.com,DIRECT
 - DOMAIN-SUFFIX,tudou.com,DIRECT
 - DOMAIN-SUFFIX,umetrip.com,DIRECT

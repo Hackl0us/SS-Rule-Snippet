@@ -87,7 +87,6 @@ DOMAIN-SUFFIX,qiniucdn.com
 DOMAIN-SUFFIX,qiyipic.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qqurl.com
-DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,rarbg.to
 DOMAIN-SUFFIX,ruguoapp.com
 DOMAIN-SUFFIX,segmentfault.com
@@ -101,7 +100,9 @@ DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,suning.com
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,umetrip.com
