@@ -1,0 +1,6 @@
+## MoneyWiz
+DOMAIN,download.finance.yahoo.com
+
+# 建议设置为 DIRECT 规则。
+# 如果使用 Proxy 规则，在某些状况下开启 MoneyWiz 代理软件会提示错误，
+# 使用 DIRECT 可以解决该问题。
