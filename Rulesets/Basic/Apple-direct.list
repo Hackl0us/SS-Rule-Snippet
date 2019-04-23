@@ -1,5 +1,6 @@
 PROCESS-NAME,storedownloadd
-USER-AGENT,com.apple.appstored*
+PROCESS-NAME,trustd
+AND,((NOT,((USER-AGENT,*com.apple.WebKit*))),(USER-AGENT,*com.apple.*))
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,mzstatic.com

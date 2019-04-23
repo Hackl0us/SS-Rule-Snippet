@@ -56,6 +56,8 @@ DOMAIN-SUFFIX,knewone.com
 DOMAIN-SUFFIX,le.com
 DOMAIN-SUFFIX,lecloud.com
 DOMAIN-SUFFIX,lemicp.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,luoo.net
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
@@ -98,7 +100,9 @@ DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,sspai.com
 DOMAIN-SUFFIX,suning.com
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,umetrip.com
