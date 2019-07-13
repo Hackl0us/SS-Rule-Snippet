@@ -1,6 +1,7 @@
 PROCESS-NAME,storedownloadd
 PROCESS-NAME,trustd
 AND,((NOT,((USER-AGENT,*com.apple.WebKit*))),(USER-AGENT,*com.apple.*))
+DOMAIN-SUFFIX,music.apple.com,force-remote-dns
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com

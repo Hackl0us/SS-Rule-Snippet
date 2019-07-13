@@ -1,8 +1,7 @@
 [Rule]
 PROCESS-NAME,News,Proxy
-DOMAIN,hls.itunes.apple.com,Proxy
-DOMAIN,itunes.apple.com,Proxy
-DOMAIN,itunes.com,Proxy
+DOMAIN-SUFFIX,apps.apple.com,Proxy
+DOMAIN-SUFFIX,music.apple.com,DIRECT,force-remote-dns
 PROCESS-NAME,storedownloadd,DIRECT
 PROCESS-NAME,trustd,DIRECT
 USER-AGENT,com.apple.geod*,DIRECT
