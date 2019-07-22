@@ -433,6 +433,7 @@ Rule:
 - DOMAIN-SUFFIX,hockeyapp.net,Proxy
 - DOMAIN-SUFFIX,hotmail.com,Proxy
 - DOMAIN-SUFFIX,icons8.com,Proxy
+- DOMAIN-SUFFIX,ifixit.com,Proxy
 - DOMAIN-SUFFIX,ift.tt,Proxy
 - DOMAIN-SUFFIX,ifttt.com,Proxy
 - DOMAIN-SUFFIX,iherb.com,Proxy
