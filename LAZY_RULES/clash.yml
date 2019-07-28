@@ -47,7 +47,7 @@ dns:
      
   fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
      - tls://dns.rubyfish.cn:853
-     - tls://dns.google
+     - tls://dns.google:853
 
 # clash DNS 请求逻辑：
 # (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
@@ -314,6 +314,7 @@ Rule:
 - DOMAIN-KEYWORD,dwtrack,REJECT
 - DOMAIN-KEYWORD,guanggao,REJECT
 - DOMAIN-KEYWORD,lianmeng,REJECT
+- DOMAIN-SUFFIX,mmstat.com,REJECT
 - DOMAIN-KEYWORD,omgmta,REJECT
 - DOMAIN-KEYWORD,openx,REJECT
 - DOMAIN-KEYWORD,partnerad,REJECT
