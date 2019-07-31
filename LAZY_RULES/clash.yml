@@ -32,22 +32,39 @@ external-controller: 127.0.0.1:9090
 # external-ui: folder
 
 # RESTful API 的口令 (可选)
-secret: ""
+# secret: ""
+
+# 实验性功能
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+
+# 本地 SOCKS5 / HTTP(S) 服务认证
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
 
 dns:
   enable: true
   ipv6: false
   # listen: 0.0.0.0:53
-  # enhanced-mode: redir-host
+  # enhanced-mode: redir-host # 或 fake-ip
+  # # fake-ip-range: 198.18.0.1/16 # 如果你不知道这个参数的作用，请勿修改
+  # # 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
+  # # 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
+  # # 注意: hosts 在 fake-ip 模式下不生效
+  # hosts:
+  #   '*.clash.dev': 127.0.0.1
+  #   'alpha.clash.dev': '::1'
+
   nameserver:
      - 1.2.4.8
      - 114.114.114.114
      - 223.5.5.5
-     - tls://dns.rubyfish.cn:853
+     - https://dns.rubyfish.cn/dns-query
      
   fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
-     - tls://dns.rubyfish.cn:853
-     - tls://dns.google:853
+     - https://dns.rubyfish.cn/dns-query
+     - https://dns.google/dns-query
 
 # clash DNS 请求逻辑：
 # (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
@@ -62,13 +79,18 @@ dns:
 # (2) 如果您不在乎可能解析到污染的结果，更加追求速度。请将 nameserver 列表的服务器插入至 fallback 列表内，并移除重复项。
 
 Proxy:
-
 # shadowsocks
 # 所支持的加密方式与 go-shadowsocks2 保持一致
-# 支持加密方式： AEAD_AES_128_GCM AEAD_AES_192_GCM AEAD_AES_256_GCM AEAD_CHACHA20_POLY1305 AES-128-CTR AES-192-CTR AES-256-CTR AES-128-CFB AES-192-CFB AES-256-CFB CHACHA20-IETF XCHACHA20 
-# clash 额外支持 chacha20 rc4-md5 xchacha20-ietf-poly1305 加密方式
+# 支持加密方式： 
+#   aes-128-gcm aes-192-gcm aes-256-gcm
+#   aes-128-cfb aes-192-cfb aes-256-cfb
+#   aes-128-ctr aes-192-ctr aes-256-ctr
+#   rc4-md5 chacha20 chacha20-ietf xchacha20
+#   chacha20-ietf-poly1305 xchacha20-ietf-poly1305
 
-- name: "ss1"
+- { name: "ss1", type: ss, server: server, port: 443, cipher: chacha20-ietf-poly1305, password: "password", udp: true }
+
+- name: "ss2"
   type: ss
   server: server
   port: 443
@@ -79,7 +101,7 @@ Proxy:
     mode: tls # 混淆模式，可以选择 http 或 tls
     host: bing.com # 混淆域名，需要和服务器配置保持一致
 
-- name: "ss2"
+- name: "ss3"
   type: ss
   server: server
   port: 443
@@ -92,6 +114,8 @@ Proxy:
     # skip-cert-verify: true
     # host: bing.com
     # path: "/"
+    # headers:
+    #   custom: value
 
 # vmess
 # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
