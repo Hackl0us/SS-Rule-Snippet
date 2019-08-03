@@ -118,12 +118,9 @@ SS Rule Snippet
 
 ### 关注项目
 
-- [Telegram 频道](https://t.me/ssrule)：关注后，可及时推送项目的更新日志。
-- Telegram 群组 - [库克后厨 H Team](https://t.me/joinchat/EAPjDEerhmqJfqvbZkm3qQ)：自由交流、讨论任何有关 Apple 的技术。
-- 新浪微博 [@Hackl0us](https://weibo.com/hackl0us)：个人微博，可了解到很多关于 Apple、网络技术等科技方面的讯息。
-
-
-
+- [ Apple Kitchen](https://t.me/Apple_Kitchen) (Telegram 频道)：该频道用来推送项目的更新日志和  Apple 相关新闻。
+- [🍤 库克的后厨 | Cook's Kitchen 🧀](https://t.me/OnlineAppleUserGroup) (Telegram 群组)：这是一个由 Apple 员工、极客、开发者、技术书籍或文章主编、高级用户等群体，组成的自由、开放、平等的社群。
+- [@Hackl0us](https://weibo.com/hackl0us) (新浪微博)：个人微博，可了解到很多关于 Apple、网络技术等科技方面的讯息及项目最新动态。
 
 ### 捐赠
 
