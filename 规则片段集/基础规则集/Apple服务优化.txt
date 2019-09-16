@@ -6,7 +6,6 @@ PROCESS-NAME,storedownloadd,DIRECT
 PROCESS-NAME,trustd,DIRECT
 USER-AGENT,com.apple.geod*,DIRECT
 USER-AGENT,com.apple.Maps,DIRECT
-USER-AGENT,*com.apple.mobileme.fmip1,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,me.com,DIRECT
@@ -15,4 +14,6 @@ DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+DOMAIN,hls.itunes.apple.com,Proxy
 #DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
