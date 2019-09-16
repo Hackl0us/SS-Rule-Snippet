@@ -1,6 +1,0 @@
-# YouTube Music for iOS
-USER-AGENT,*YouTubeMusic* 
-USER-AGENT,*com.google.ios.youtubemusic*
-
-#YT-Music, An unofficial but fancy client of YouTube Music for Mac
-PROCESS-NAME,YT Music

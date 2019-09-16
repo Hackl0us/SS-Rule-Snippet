@@ -1,0 +1,11 @@
+# 此规则片段仅针对 YouTube 系列产品 (如 Youtube Music，Youtube Premium 等).
+# 尤其是当您订阅了 YouTube Premium 的时候，您需要将当前 IP 设置到服务开通的国家或地区才能体验服务。您可以根据需要，将 Proxy 替换为满足需求的策略组。
+
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,YouTube*
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN,youtubei.googleapis.com
+
+# YT-Music, An unofficial but fancy client of YouTube Music for Mac
+PROCESS-NAME,YT Music
