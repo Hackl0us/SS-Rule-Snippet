@@ -37,3 +37,7 @@ DOMAIN-KEYWORD,els-cdn
 
 ## 告别出版商绑架
 DOMAIN-KEYWORD,sci-hub
+
+
+## Oxford 出版系列
+DOMAIN-SUFFIX,oup.com
