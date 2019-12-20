@@ -1,0 +1,6 @@
+[Rule]
+
+## 通用部分
+DOMAIN-SUFFIX,discord.gg,Proxy
+DOMAIN-SUFFIX,discordapp.com,Proxy
+DOMAIN-SUFFIX,discordapp.net,Proxy
