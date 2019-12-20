@@ -90,6 +90,11 @@ dns:
 #   DoT: 以 tls:// 开头的 DNS 服务器。拥有更高的安全性和查询效率，但端口有可能被管制或封锁。
 #   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
 
+# fallback-filter:
+    #   geoip: true # 默认
+    #   ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+    #     - 240.0.0.0/4
+
 Proxy:
 # shadowsocks
 # 所支持的加密方式与 go-shadowsocks2 保持一致
@@ -177,6 +182,8 @@ Proxy Group:
 Rule:
 # Apple
 - DOMAIN-SUFFIX,apps.apple.com,Proxy
+- DOMAIN-SUFFIX,itunes.apple.com,Proxy
+- DOMAIN-SUFFIX,blobstore.apple.com,Proxy
 - DOMAIN-SUFFIX,music.apple.com,DIRECT
 - DOMAIN-SUFFIX,icloud.com,DIRECT
 - DOMAIN-SUFFIX,icloud-content.com,DIRECT
@@ -187,7 +194,6 @@ Rule:
 - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
 - DOMAIN-SUFFIX,apple.com,DIRECT
 - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-- DOMAIN,hls.itunes.apple.com,Proxy
 #- DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
 
 
@@ -323,6 +329,7 @@ Rule:
 - DOMAIN-SUFFIX,zhihu.com,DIRECT
 - DOMAIN-SUFFIX,zhimg.com,DIRECT
 - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+- DOMAIN-SIFFIX,zoho.com,DIRECT
 
 # 抗 DNS 污染 
 - DOMAIN-KEYWORD,amazon,Proxy
