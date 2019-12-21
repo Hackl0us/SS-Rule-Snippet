@@ -329,7 +329,7 @@ Rule:
 - DOMAIN-SUFFIX,zhihu.com,DIRECT
 - DOMAIN-SUFFIX,zhimg.com,DIRECT
 - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
-- DOMAIN-SIFFIX,zoho.com,DIRECT
+- DOMAIN-SUFFIX,zoho.com,DIRECT
 
 # 抗 DNS 污染 
 - DOMAIN-KEYWORD,amazon,Proxy
