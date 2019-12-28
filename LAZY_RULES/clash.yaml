@@ -1,6 +1,6 @@
 #---------------------------------------------------#
 ## 配置文件需要放置在 $HOME/.config/clash/config.yml
-## 
+##
 ## 如果您不知道如何操作，请参阅 SS-Rule-Snippet 的 Wiki：
 ## https://github.com/Hackl0us/SS-Rule-Snippet/wiki/clash(X)
 #---------------------------------------------------#
@@ -57,20 +57,20 @@ dns:
   #   'alpha.clash.dev': '::1'
 
   nameserver:
-     - 1.2.4.8
-     - 114.114.114.114
-     - 223.5.5.5
-     - tls://dns.rubyfish.cn:853
-     #- https://dns.rubyfish.cn/dns-query
-     
-  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
-     - tls://dns.rubyfish.cn:853
-     - tls://1.0.0.1:853
-     - tls://dns.google:853
+    - 1.2.4.8
+    - 114.114.114.114
+    - 223.5.5.5
+    - tls://dns.rubyfish.cn:853
+    #- https://dns.rubyfish.cn/dns-query
 
-     #- https://dns.rubyfish.cn/dns-query
-     #- https://cloudflare-dns.com/dns-query
-     #- https://dns.google/dns-query
+  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
+    - tls://dns.rubyfish.cn:853
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
+    #- https://dns.rubyfish.cn/dns-query
+    #- https://cloudflare-dns.com/dns-query
+    #- https://dns.google/dns-query
 
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
@@ -79,11 +79,11 @@ dns:
 #
 #   因此，我在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
 #   但是 fallback 列表内服务器会用在解析境外网站，为了结果绝对无污染，我仅保留了支持 DoT/DoH 的两个服务器。
-# 
+#
 # 2. clash DNS 配置注意事项：
 #   (1) 如果您为了确保 DNS 解析结果无污染，请仅保留列表内以 tls:// 或 https:// 开头的 DNS 服务器，但是通常对于国内域名没有必要。
 #   (2) 如果您不在乎可能解析到污染的结果，更加追求速度。请将 nameserver 列表的服务器插入至 fallback 列表内，并移除重复项。
-# 
+#
 # 3. 关于 DNS over HTTPS (DoH) 和 DNS over TLS (DoT) 的选择：
 #   对于两项技术双方各执一词，而且会无休止的争论，各有利弊。各位请根据具体需求自行选择，但是配置文件内默认启用 DoT，因为目前国内没有封锁或管制。
 #   DoH: 以 https:// 开头的 DNS 服务器。拥有更好的伪装性，且几乎不可能被运营商或网络管理封锁，但查询效率和安全性可能略低。
@@ -98,7 +98,7 @@ dns:
 Proxy:
 # shadowsocks
 # 所支持的加密方式与 go-shadowsocks2 保持一致
-# 支持加密方式： 
+# 支持加密方式：
 #   aes-128-gcm aes-192-gcm aes-256-gcm
 #   aes-128-cfb aes-192-cfb aes-256-cfb
 #   aes-128-ctr aes-192-ctr aes-256-ctr
@@ -173,7 +173,7 @@ Proxy Group:
 - { name: "fallback-auto", type: fallback, proxies: ["ss1", "ss2", "vmess1"], url: "https://www.bing.com", interval: 300 }
 
 # load-balance 可以使相同 eTLD 请求在同一条代理线路上
-- { name: "load-balance", type: load-balance, proxies: ["ss1", "ss2", "vmess1"] }
+- { name: "load-balance", type: load-balance, proxies: ["ss1", "ss2", "vmess1"], url: "https://www.bing.com", interval: 300 }
 
 # select 用来允许用户手动选择 代理服务器 或 服务器组
 # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
@@ -331,7 +331,7 @@ Rule:
 - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
 - DOMAIN-SUFFIX,zoho.com,DIRECT
 
-# 抗 DNS 污染 
+# 抗 DNS 污染
 - DOMAIN-KEYWORD,amazon,Proxy
 - DOMAIN-KEYWORD,google,Proxy
 - DOMAIN-KEYWORD,gmail,Proxy
