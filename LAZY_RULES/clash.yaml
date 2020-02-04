@@ -48,12 +48,12 @@ experimental:
 #  - "user1:pass1"
 #  - "user2:pass2"
 
-  # # 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
-  # # 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
-  # # 注意: hosts 在 fake-ip 模式下不生效
-  # hosts:
-  #   '*.clash.dev': 127.0.0.1
-  #   'alpha.clash.dev': '::1'
+# # 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
+# # 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
+# # 注意: hosts 在 fake-ip 模式下不生效
+# hosts:
+#   '*.clash.dev': 127.0.0.1
+#   'alpha.clash.dev': '::1'
 
 dns:
   enable: true
@@ -122,32 +122,32 @@ Proxy:
     password: "password"
     # udp: true  
 
-- name: "ss2"
-  type: ss
-  server: server
-  port: 443
-  cipher: AEAD_CHACHA20_POLY1305
-  password: "password"
-  plugin: obfs
-  plugin-opts:
-    mode: tls # 混淆模式，可以选择 http 或 tls
-    host: bing.com # 混淆域名，需要和服务器配置保持一致
+  - name: "ss2"
+    type: ss
+    server: server
+    port: 443
+    cipher: AEAD_CHACHA20_POLY1305
+    password: "password"
+    plugin: obfs
+    plugin-opts:
+      mode: tls # 混淆模式，可以选择 http 或 tls
+      host: bing.com # 混淆域名，需要和服务器配置保持一致
 
-- name: "ss3"
-  type: ss
-  server: server
-  port: 443
-  cipher: AEAD_CHACHA20_POLY1305
-  password: "password"
-  plugin: v2ray-plugin
-  plugin-opts:
-    mode: websocket # 暂时不支持 QUIC 协议
-    # tls: true # wss
-    # skip-cert-verify: true
-    # host: bing.com
-    # path: "/"
-    # headers:
-    #   custom: value
+  - name: "ss3"
+    type: ss
+    server: server
+    port: 443
+    cipher: AEAD_CHACHA20_POLY1305
+    password: "password"
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket # 暂时不支持 QUIC 协议
+      # tls: true # wss
+      # skip-cert-verify: true
+      # host: bing.com
+      # path: "/"
+      # headers:
+      #   custom: value
 
 # vmess
 # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
@@ -165,7 +165,7 @@ Proxy:
     # ws-path: /path
     # ws-headers:
     #   Host: v2ray.com
-
+    
   # socks5
   - name: "socks"
     type: socks5
@@ -425,7 +425,6 @@ Rule:
 - DOMAIN-KEYWORD,partnerad,REJECT
 - DOMAIN-KEYWORD,pingfore,REJECT
 - DOMAIN-KEYWORD,supersonicads,REJECT
-- DOMAIN-KEYWORD,tracking,REJECT
 - DOMAIN-KEYWORD,uedas,REJECT
 - DOMAIN-KEYWORD,umeng,REJECT
 - DOMAIN-KEYWORD,usage,REJECT
