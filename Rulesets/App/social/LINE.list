@@ -1,6 +1,9 @@
+DOMAIN-SUFFIX,scdn.co,force-remote-dns
+DOMAIN-SUFFIX,line.naver.jp,force-remote-dns
 DOMAIN-SUFFIX,line.me
-DOMAIN-SUFFIX,naver.jp
 DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-cdn.net
+DOMAIN-SUFFIX,line-scdn.net
 USER-AGENT,Line*
 
 IP-CIDR,103.2.28.0/24,no-resolve

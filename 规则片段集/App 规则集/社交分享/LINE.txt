@@ -3,9 +3,12 @@
 [Rule]
 
 ## 域名
+DOMAIN-SUFFIX,scdn.co,Proxy,force-remote-dns
+DOMAIN-SUFFIX,line.naver.jp,Proxy,force-remote-dns
 DOMAIN-SUFFIX,line.me,Proxy
-DOMAIN-SUFFIX,naver.jp,Proxy
 DOMAIN-SUFFIX,line-apps.com,Proxy
+DOMAIN-SUFFIX,line-cdn.net,Proxy
+DOMAIN-SUFFIX,line-scdn.net,Proxy
 USER-AGENT,Line*,Proxy
 
 ## 服务IP段
