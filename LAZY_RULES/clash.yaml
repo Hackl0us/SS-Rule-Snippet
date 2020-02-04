@@ -16,6 +16,11 @@ socks-port: 7891
 
 # 允许局域网的连接（可用来共享代理）
 allow-lan: false
+# bind-address: "*"
+# 此功能仅在 allow-lan 设置为 true 时生效，支持三种参数：
+# "*"                           绑定所有的 IP 地址
+# 192.168.122.11                绑定一个的 IPv4 地址
+# "[aaaa::a8aa:ff:fe09:57d8]"   绑定一个 IPv6 地址
 
 # 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
 mode: Rule
@@ -43,18 +48,22 @@ experimental:
 #  - "user1:pass1"
 #  - "user2:pass2"
 
-dns:
-  enable: true
-  ipv6: false
-  # listen: 0.0.0.0:53
-  # enhanced-mode: redir-host # 或 fake-ip
-  # # fake-ip-range: 198.18.0.1/16 # 如果你不知道这个参数的作用，请勿修改
   # # 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
   # # 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
   # # 注意: hosts 在 fake-ip 模式下不生效
   # hosts:
   #   '*.clash.dev': 127.0.0.1
   #   'alpha.clash.dev': '::1'
+
+dns:
+  enable: true
+  ipv6: false
+  # listen: 0.0.0.0:53
+  # enhanced-mode: redir-host # 或 fake-ip
+  # # fake-ip-range: 198.18.0.1/16 # 如果你不知道这个参数的作用，请勿修改
+  # fake-ip-filter: # fake-ip 白名单列表
+  #   - '*.lan'
+  #   - localhost.ptlogin2.qq.com
 
   nameserver:
      - 1.2.4.8
@@ -105,7 +114,13 @@ Proxy:
 #   rc4-md5 chacha20 chacha20-ietf xchacha20
 #   chacha20-ietf-poly1305 xchacha20-ietf-poly1305
 
-- { name: "ss1", type: ss, server: server, port: 443, cipher: chacha20-ietf-poly1305, password: "password", udp: true }
+  - name: "ss1"
+    type: ss
+    server: server
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: "password"
+    # udp: true  
 
 - name: "ss2"
   type: ss
@@ -136,48 +151,92 @@ Proxy:
 
 # vmess
 # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
-- { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto }
-#   tls
-- { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, tls: true }
-#   tls (skip-cert-verify)
-- { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true }
-#   ws-path + ws-headers
-- { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, network: ws, ws-path: /path, ws-headers: { Host: v2ray.com } }
-#   ws + tls
-- { name: "vmess", type: vmess, server: server, port: 443, uuid: uuid, alterId: 32, cipher: auto, network: ws, ws-path: /path, tls: true }
+ - name: "vmess"
+    type: vmess
+    server: server
+    port: 443
+    uuid: uuid
+    alterId: 32
+    cipher: auto
+    # udp: true
+    # tls: true
+    # skip-cert-verify: true
+    # network: ws
+    # ws-path: /path
+    # ws-headers:
+    #   Host: v2ray.com
 
+  # socks5
+  - name: "socks"
+    type: socks5
+    server: server
+    port: 443
+    # username: username
+    # password: password
+    # tls: true
+    # skip-cert-verify: true
+    # udp: true
 
-#   socks5
-- { name: "socks", type: socks5, server: server, port: 443 }
-#   socks5 with authentication
-- { name: "socks", type: socks5, server: server, port: 443, username: "username", password: "password" }
-#   tls
-- { name: "socks", type: socks5, server: server, port: 443, tls: true }
-#   tls (skip-cert-verify)
-- { name: "socks", type: socks5, server: server, port: 443, tls: true, skip-cert-verify: true }
+  # http
+  - name: "http"
+    type: http
+    server: server
+    port: 443
+    # username: username
+    # password: password
+    # tls: true # https
+    # skip-cert-verify: true
 
-#   http
-- { name: "http", type: http, server: server, port: 443 }
-#   http with authentication
-- { name: "http", type: http, server: server, port: 443, username: "username", password: "password" }
-#   tls (https)
-- { name: "http", type: http, server: server, port: 443, tls: true }
-#   tls (https)  (skip-cert-verify)
-- { name: "http", type: http, server: server, port: 443, tls: true, skip-cert-verify: true }
+  # snell
+  - name: "snell"
+    type: snell
+    server: server
+    port: 44046
+    psk: yourpsk
+    # obfs-opts:
+      # mode: http # 或 tls
+      # host: bing.com
 
 Proxy Group:
 # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
-- { name: "auto", type: url-test, proxies: ["ss1", "ss2", "vmess1"], url: "https://www.bing.com", interval: 300 }
+  - name: "auto"
+    type: url-test
+    proxies:
+      - ss1
+      - ss2
+      - vmess1
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
 
 # fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
-- { name: "fallback-auto", type: fallback, proxies: ["ss1", "ss2", "vmess1"], url: "https://www.bing.com", interval: 300 }
+- name: "fallback-auto"
+    type: fallback
+    proxies:
+      - ss1
+      - ss2
+      - vmess1
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
 
 # load-balance 可以使相同 eTLD 请求在同一条代理线路上
-- { name: "load-balance", type: load-balance, proxies: ["ss1", "ss2", "vmess1"] }
+ - name: "load-balance"
+    type: load-balance
+    proxies:
+      - ss1
+      - ss2
+      - vmess1
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
 
 # select 用来允许用户手动选择 代理服务器 或 服务器组
 # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
-- { name: "Proxy", type: select, proxies: ["ss1", "ss2", "vmess1", "auto"] }
+  - name: Proxy
+    type: select
+    proxies:
+      - ss1
+      - ss2
+      - vmess1
+      - auto
 
 Rule:
 # Apple
