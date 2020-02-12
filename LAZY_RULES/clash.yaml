@@ -151,7 +151,7 @@ Proxy:
 
 # vmess
 # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
- - name: "vmess"
+  - name: "vmess"
     type: vmess
     server: server
     port: 443
