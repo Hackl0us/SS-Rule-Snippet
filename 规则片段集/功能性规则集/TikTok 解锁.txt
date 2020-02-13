@@ -1,0 +1,14 @@
+[Rule]
+DOMAIN-SUFFIX,musical.ly,Proxy
+DOMAIN-SUFFIX,pstatp.com,Proxy
+DOMAIN-SUFFIX,tiktokv.com,Proxy
+
+[URL Rewrite]
+(.*video_id=\w{32})(.*watermark=)(.*) $1 302
+(?<=(carrier|sys)_region=)CN US 307 # 请根据实际需求切换国家代码以解锁不同区域
+
+[MITM]
+skip-server-cert-verify = true
+hostname = api*.tiktokv.com, api*.musical.ly, api*.amemv.com, aweme*.snssdk.com
+ca-passphrase = **请使用程序生成**
+ca-p12 = **请使用程序生成**
