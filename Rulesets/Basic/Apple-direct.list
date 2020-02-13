@@ -1,3 +1,6 @@
+PROCESS-NAME,com.apple.Safari.SafeBrowsing.Service
+DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN,safebrowsing.googleapis.com
 PROCESS-NAME,storedownloadd
 USER-AGENT,cloudd*
 AND,((NOT,((USER-AGENT,*com.apple.WebKit*))),(USER-AGENT,*com.apple.*))

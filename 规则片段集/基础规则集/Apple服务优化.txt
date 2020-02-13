@@ -1,4 +1,7 @@
 [Rule]
+PROCESS-NAME,com.apple.Safari.SafeBrowsing.Service,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
+DOMAIN,safebrowsing.urlsec.qq.com,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
+DOMAIN,safebrowsing.googleapis.com,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
 PROCESS-NAME,News,Proxy
 DOMAIN-SUFFIX,apps.apple.com,Proxy
 DOMAIN-SUFFIX,itunes.apple.com,Proxy
