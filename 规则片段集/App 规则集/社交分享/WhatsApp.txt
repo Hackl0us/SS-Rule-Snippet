@@ -1,11 +1,4 @@
 [Rule]
-
-## iOS
-USER-AGENT,WhatsApp*,Proxy
-
-## macOS App
-PROCESS-NAME,WhatsApp,Proxy
-
 ## 通用部分
 DOMAIN-SUFFIX,whatsapp.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,whatsapp.net,Proxy,force-remote-dns

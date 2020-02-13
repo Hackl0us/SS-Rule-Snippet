@@ -1,7 +1,3 @@
-USER-AGENT,WhatsApp*
-
-PROCESS-NAME,WhatsApp
-
 DOMAIN-SUFFIX,whatsapp.com,force-remote-dns
 DOMAIN-SUFFIX,whatsapp.net,force-remote-dns
 
