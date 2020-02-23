@@ -7,6 +7,10 @@ DOMAIN-SUFFIX,t66y.com,Proxy
 DOMAIN-SUFFIX,xvideos.com,Proxy
 DOMAIN-SUFFIX,kdw019.com,Proxy
 
+## Japanese
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-KEYWORD,dmm
+
 ## Gay
 DOMAIN-SUFFIX,me-gay.com,Proxy
 DOMAIN-SUFFIX,sexgayjapan.com,Proxy
