@@ -1,0 +1,5 @@
+# Proxy 策略
+# 此规则是为了解决因为使用了 Academic Direct 规则后，通过直连使用投稿系统会造成网速慢；投稿失败的问题。
+
+## Elsevier 旗下
+DOMAIN,ees.elsevier.com,Proxy
