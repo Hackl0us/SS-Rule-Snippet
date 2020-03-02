@@ -2,7 +2,7 @@ DOMAIN,ocsp.apple.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,entrust.net
 DOMAIN,ocsp.verisign.net
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com,force-remote-dns
+DOMAIN-SUFFIX,itunes.apple.com,force-remote-dns
 DOMAIN-SUFFIX,blobstore.apple.com
 PROCESS-NAME,News

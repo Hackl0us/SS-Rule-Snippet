@@ -1,13 +1,13 @@
 [Rule]
-PROCESS-NAME,com.apple.Safari.SafeBrowsing.Service,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
 DOMAIN,safebrowsing.urlsec.qq.com,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
 DOMAIN,safebrowsing.googleapis.com,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
 DOMAIN,ocsp.apple.com,Proxy
 DOMAIN-SUFFIX,digicert.com,Proxy
 DOMAIN-SUFFIX,entrust.net,Proxy
 DOMAIN,ocsp.verisign.net,Proxy
-DOMAIN-SUFFIX,apps.apple.com,Proxy
-DOMAIN-SUFFIX,itunes.apple.com,Proxy
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+DOMAIN-SUFFIX,apps.apple.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,itunes.apple.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,blobstore.apple.com,Proxy
 PROCESS-NAME,News,Proxy
 DOMAIN-SUFFIX,music.apple.com,DIRECT,force-remote-dns
@@ -18,7 +18,6 @@ USER-AGENT,com.apple.Maps,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 DOMAIN-SUFFIX,me.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
