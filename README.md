@@ -118,7 +118,7 @@ SS Rule Snippet
 
 ### 关注项目
 
-- [ Apple Kitchen](https://t.me/Apple_Kitchen) (Telegram 频道)：该频道用来推送项目的更新日志和  Apple 相关新闻。
+- [ 果核Apple Nuts](https://t.me/AppleNuts) (Telegram 频道)：该频道用来推送项目的更新日志和  Apple 相关新闻。
 - [🍤 库克的后厨 | Cook's Kitchen 🧀](https://t.me/OnlineAppleUserGroup) (Telegram 群组)：这是一个由 Apple 员工、极客、开发者、技术书籍或文章主编、高级用户等群体，组成的自由、开放、平等的社群。
 - [@Hackl0us](https://weibo.com/hackl0us) (新浪微博)：个人微博，可了解到很多关于 Apple、网络技术等科技方面的讯息及项目最新动态。
 
