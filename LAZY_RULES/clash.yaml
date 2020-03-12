@@ -81,6 +81,11 @@ dns:
     #- https://cloudflare-dns.com/dns-query
     #- https://dns.google/dns-query
 
+  fallback-filter:
+    geoip: true # 默认
+    ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+      - 240.0.0.0/4
+      
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
 #   (2) clash 将选取 nameserver 列表内，解析最快的结果。
@@ -99,10 +104,6 @@ dns:
 #   DoT: 以 tls:// 开头的 DNS 服务器。拥有更高的安全性和查询效率，但端口有可能被管制或封锁。
 #   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
 
-fallback-filter:
-  geoip: true # 默认
-  ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-    - 240.0.0.0/4
 
 Proxy:
 # shadowsocks
