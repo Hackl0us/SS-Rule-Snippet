@@ -291,6 +291,7 @@ Rule:
   - DOMAIN-SUFFIX,bdimg.com,DIRECT
   - DOMAIN-SUFFIX,bdstatic.com,DIRECT
   - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
   - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
   - DOMAIN-SUFFIX,clouddn.com,DIRECT
   - DOMAIN-SUFFIX,cnbeta.com,DIRECT
