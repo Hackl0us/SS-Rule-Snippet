@@ -39,6 +39,3 @@ DOMAIN-KEYWORD,els-cdn,DIRECT
 ## Oxford 出版系列
 DOMAIN-SUFFIX,oup.com,Proxy
 
-## 告别出版商绑架
-DOMAIN-KEYWORD,sci-hub,Proxy
-
