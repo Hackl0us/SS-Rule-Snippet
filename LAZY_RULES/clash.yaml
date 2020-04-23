@@ -81,6 +81,11 @@ dns:
     #- https://cloudflare-dns.com/dns-query
     #- https://dns.google/dns-query
 
+  fallback-filter:
+    geoip: true # 默认
+    ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+      - 240.0.0.0/4
+      
 # 1. clash DNS 请求逻辑：
 #   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
 #   (2) clash 将选取 nameserver 列表内，解析最快的结果。
@@ -99,10 +104,6 @@ dns:
 #   DoT: 以 tls:// 开头的 DNS 服务器。拥有更高的安全性和查询效率，但端口有可能被管制或封锁。
 #   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
 
-fallback-filter:
-  geoip: true # 默认
-  ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-    - 240.0.0.0/4
 
 Proxy:
 # shadowsocks
@@ -242,10 +243,16 @@ Rule:
 # Apple
   - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
   - DOMAIN,safebrowsing.googleapis.com,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
+  - DOMAIN,ocsp.apple.com,Proxy
+  - DOMAIN-SUFFIX,digicert.com,Proxy
+  - DOMAIN-SUFFIX,entrust.net,Proxy
+  - DOMAIN,ocsp.verisign.net,Proxy
   - DOMAIN-SUFFIX,apps.apple.com,Proxy
-  - DOMAIN-SUFFIX,itunes.apple.com,Proxy
+  - DOMAIN,itunes.apple.com,Proxy
   - DOMAIN-SUFFIX,blobstore.apple.com,Proxy
   - DOMAIN-SUFFIX,music.apple.com,DIRECT
+  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,itunes.apple.com,DIRECT
   - DOMAIN-SUFFIX,icloud.com,DIRECT
   - DOMAIN-SUFFIX,icloud-content.com,DIRECT
   - DOMAIN-SUFFIX,me.com,DIRECT
@@ -284,6 +291,7 @@ Rule:
   - DOMAIN-SUFFIX,bdimg.com,DIRECT
   - DOMAIN-SUFFIX,bdstatic.com,DIRECT
   - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
   - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
   - DOMAIN-SUFFIX,clouddn.com,DIRECT
   - DOMAIN-SUFFIX,cnbeta.com,DIRECT
