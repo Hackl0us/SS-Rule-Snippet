@@ -12,6 +12,9 @@ DOMAIN-KEYWORD,wanfangdata
 DOMAIN-KEYWORD,pkulaw
 DOMAIN-KEYWORD,westlawchina
 
+# 查找 DOI
+DOMAIN-SUFFIX,doi.org
+
 # SCI 综合
 DOMAIN-SUFFIX,researchgate.net
 DOMAIN-SUFFIX,springer.com
@@ -37,3 +40,6 @@ DOMAIN-KEYWORD,els-cdn
 
 ## Oxford 出版系列
 DOMAIN-SUFFIX,oup.com
+
+## Springer 旗下
+DOMAIN-SUFFIX,springernature.com

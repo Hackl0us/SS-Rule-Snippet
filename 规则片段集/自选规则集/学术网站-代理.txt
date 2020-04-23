@@ -3,9 +3,6 @@
 
 ## Elsevier 旗下
 DOMAIN,ees.elsevier.com,Proxy
-<<<<<<< HEAD
-=======
 
 ## 告别出版商绑架
 DOMAIN-KEYWORD,sci-hub
->>>>>>> ae31b5b3bada000e643459b5aadbb3a85b7a1906
