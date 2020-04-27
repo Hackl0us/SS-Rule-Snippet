@@ -43,3 +43,6 @@ DOMAIN-SUFFIX,oup.com
 
 ## Springer 旗下
 DOMAIN-SUFFIX,springernature.com
+
+## JSTOR 旗下
+DOMAIN-SUFFIX,jstor.org
