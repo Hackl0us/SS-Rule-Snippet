@@ -50,7 +50,7 @@ experimental:
 
 # # 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
 # # 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
-# # 注意: hosts 在 fake-ip 模式下不生效
+# # 注意: hosts 在 redir-hosts 下对非直连域名无效
 # hosts:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
