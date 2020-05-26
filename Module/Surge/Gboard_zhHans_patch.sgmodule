@@ -1,0 +1,9 @@
+#!name=Gboard zh_Hans Patch
+#!desc=Solve Gboard unable to download zh_Hans input scheme. @Hackl0us
+#!system=ios
+
+[URL Rewrite]
+^https://www\.gstatic\.com/gboard/iOS/gboard_latest/lms/zh_hans\.zip https://www.gstatic.com/gboard/iOS/gboard_2_3/lms/zh_hans.zip 302
+
+[MITM]
+hostname = %APPEND% www.gstatic.com
