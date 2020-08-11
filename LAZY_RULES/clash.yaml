@@ -53,7 +53,7 @@ external-controller: 127.0.0.1:9090
 # secret: ""
 
 # 出站网卡接口
-interface-name: en0
+# interface-name: en0
 
 # DNS 服务器和建立连接时的 静态 Hosts, 仅在 dns.enhanced-mode 模式为 redir-host 生效
 # 支持通配符域名 (例如: *.clash.dev, *.foo.*.example.com )
@@ -73,7 +73,10 @@ dns:
   # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
   # 仅填写 DNS 服务器的 IP 地址
   default-nameserver:
+    - 1.2.4.8
+    - 223.5.5.5
     - 114.114.114.114
+    - 119.29.29.29
     - 8.8.8.8
   enhanced-mode: redir-host # 或 fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
