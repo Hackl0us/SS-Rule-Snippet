@@ -1,6 +1,6 @@
 #---------------------------------------------------#
 ## 配置文件需要放置在 $HOME/.config/clash/config.yml
-## 
+##
 ## 如果您不知道如何操作，请参阅 SS-Rule-Snippet 的 Wiki：
 ## https://github.com/Hackl0us/SS-Rule-Snippet/wiki/clash(X)
 #---------------------------------------------------#
@@ -12,108 +12,114 @@ port: 7890
 socks-port: 7891
 
 # Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
-# redir-port: 7892
+redir-port: 7892
+
+# HTTP(S) and SOCKS5 共用端口
+# mixed-port: 7890
+
+# 本地 SOCKS5/HTTP(S) 服务验证
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
 
 # 允许局域网的连接（可用来共享代理）
 allow-lan: false
+
 # bind-address: "*"
 # 此功能仅在 allow-lan 设置为 true 时生效，支持三种参数：
 # "*"                           绑定所有的 IP 地址
 # 192.168.122.11                绑定一个的 IPv4 地址
 # "[aaaa::a8aa:ff:fe09:57d8]"   绑定一个 IPv6 地址
 
+# Clash 路由工作模式
 # 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
 mode: Rule
 
+# Clash 默认将日志输出至 STDOUT
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
 # 5 个级别：silent / info / warning / error / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
 log-level: silent
 
-# clash 的 RESTful API
+# clash 的 RESTful API 监听地址
 external-controller: 127.0.0.1:9090
 
-# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `${API}/ui`
-# 参数应填写配置目录的相对路径或绝对路径。
+# 存放配置文件的相对路径，或存放网页静态资源的绝对路径
+# Clash core 将会将其部署在 http://{{external-controller}}/ui
 # external-ui: folder
 
 # RESTful API 的口令 (可选)
+# 通过 HTTP 头中 Authorization: Bearer ${secret} 参数来验证口令
+# 当 RESTful API 的监听地址为 0.0.0.0 时，请务必设定口令以保证安全
 # secret: ""
 
-# 实验性功能
-experimental:
-  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+# 出站网卡接口
+interface-name: en0
 
-# 本地 SOCKS5 / HTTP(S) 服务认证
-# authentication:
-#  - "user1:pass1"
-#  - "user2:pass2"
+# DNS 服务器和建立连接时的 静态 Hosts, 仅在 dns.enhanced-mode 模式为 redir-host 生效
+# 支持通配符域名 (例如: *.clash.dev, *.foo.*.example.com )
+# 不使用通配符的域名优先级高于使用通配符的域名 (例如: foo.example.com > *.example.com > .example.com )
+# 注意: +.foo.com 的效果等同于 .foo.com 和 foo.com
+hosts:
+# '*.clash.dev': 127.0.0.1
+# '.dev': 127.0.0.1
+# 'alpha.clash.dev': '::1'
 
-# # 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
-# # 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
-# # 注意: hosts 在 fake-ip 模式下不生效
-# hosts:
-#   '*.clash.dev': 127.0.0.1
-#   'alpha.clash.dev': '::1'
-
+# DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
 dns:
   enable: true
-  ipv6: false
-  # listen: 0.0.0.0:53
-  # enhanced-mode: redir-host # 或 fake-ip
-  # # fake-ip-range: 198.18.0.1/16 # 如果你不知道这个参数的作用，请勿修改
-  # fake-ip-filter: # fake-ip 白名单列表
+  listen: 0.0.0.0:53
+  # ipv6: false # 当此选项为 false 时, AAAA 请求将返回空
+
+  # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
+  # 仅填写 DNS 服务器的 IP 地址
+  default-nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+  enhanced-mode: redir-host # 或 fake-ip
+  fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
+  # use-hosts: true # 查询 hosts 并返回 IP 记录
+
+  # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
+  # fake-ip-filter:
   #   - '*.lan'
   #   - localhost.ptlogin2.qq.com
 
+  # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
+  # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
+  # Clash 会使用最先获得的解析记录回复 DNS 请求
   nameserver:
-    - 1.2.4.8
-    - 114.114.114.114
-    - 223.5.5.5
-    - tls://13800000000.rubyfish.cn:853
-    #- https://13800000000.rubyfish.cn/
-     
-  fallback: # 与 nameserver 内的服务器列表同时发起请求，当规则符合 GEOIP 在 CN 以外时，fallback 列表内的域名服务器生效。
-    - tls://13800000000.rubyfish.cn:853
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - https://13800000000.rubyfish.cn/
+    - https://dns.alidns.com/dns-query
+    - https://doh.360.cn/dns-query
 
-    #- https://13800000000.rubyfish.cn/
-    #- https://cloudflare-dns.com/dns-query
-    #- https://dns.google/dns-query
+  # 当 fallback 参数被配置时, DNS 请求将同时发送至上方 nameserver 列表和下方 fallback 列表中配置的所有 DNS 服务器.
+  # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
+  # fallback:
+  #  - https://dns.google/dns-query
 
+  # 如果使用 nameserver 列表中的服务器解析的 IP 地址在下方列表中的子网中，则它们被认为是无效的，
+  # Clash 会选用 fallback 列表中配置 DNS 服务器解析得到的结果。
+  #
+  # 当 fallback-filter.geoip 为 true 且 IP 地址的地理位置为 CN 时，
+  # Clash 会选用 nameserver 列表中配置 DNS 服务器解析得到的结果。
+  #
+  # 当 fallback-filter.geoip 为 false, 如果解析结果在 fallback-filter.ipcidr 范围内，
+  # Clash 会选用 nameserver 列表中配置 DNS 服务器解析得到的结果。
+  #
+  # 采取以上逻辑进行域名解析是为了对抗 DNS 投毒攻击。
   fallback-filter:
-    geoip: true # 默认
-    ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-      - 240.0.0.0/4
-      
-# 1. clash DNS 请求逻辑：
-#   (1) 当访问一个域名时， nameserver 与 fallback 列表内的所有服务器并发请求，得到域名对应的 IP 地址。
-#   (2) clash 将选取 nameserver 列表内，解析最快的结果。
-#   (3) 若解析结果中，IP 地址属于 国外，那么 clash 将选择 fallback 列表内，解析最快的结果。
-#
-#   因此，我在 nameserver 和 fallback 内都放置了无污染、解析速度较快的国内 DNS 服务器，以达到最快的解析速度。
-#   但是 fallback 列表内服务器会用在解析境外网站，为了结果绝对无污染，我仅保留了支持 DoT/DoH 的两个服务器。
-# 
-# 2. clash DNS 配置注意事项：
-#   (1) 如果您为了确保 DNS 解析结果无污染，请仅保留列表内以 tls:// 或 https:// 开头的 DNS 服务器，但是通常对于国内域名没有必要。
-#   (2) 如果您不在乎可能解析到污染的结果，更加追求速度。请将 nameserver 列表的服务器插入至 fallback 列表内，并移除重复项。
-# 
-# 3. 关于 DNS over HTTPS (DoH) 和 DNS over TLS (DoT) 的选择：
-#   对于两项技术双方各执一词，而且会无休止的争论，各有利弊。各位请根据具体需求自行选择，但是配置文件内默认启用 DoT，因为目前国内没有封锁或管制。
-#   DoH: 以 https:// 开头的 DNS 服务器。拥有更好的伪装性，且几乎不可能被运营商或网络管理封锁，但查询效率和安全性可能略低。
-#   DoT: 以 tls:// 开头的 DNS 服务器。拥有更高的安全性和查询效率，但端口有可能被管制或封锁。
-#   若要了解更多关于 DoH/DoT 相关技术，请自行查阅规范文档。
+    geoip: true
+    ipcidr:
+    # - 240.0.0.0/4
 
-
-Proxy:
-# shadowsocks
-# 所支持的加密方式与 go-shadowsocks2 保持一致
-# 支持加密方式： 
-#   aes-128-gcm aes-192-gcm aes-256-gcm
-#   aes-128-cfb aes-192-cfb aes-256-cfb
-#   aes-128-ctr aes-192-ctr aes-256-ctr
-#   rc4-md5 chacha20 chacha20-ietf xchacha20
-#   chacha20-ietf-poly1305 xchacha20-ietf-poly1305
+proxies:
+  # shadowsocks
+  # 支持加密方式：
+  #   aes-128-gcm aes-192-gcm aes-256-gcm
+  #   aes-128-cfb aes-192-cfb aes-256-cfb
+  #   aes-128-ctr aes-192-ctr aes-256-ctr
+  #   rc4-md5 chacha20 chacha20-ietf xchacha20
+  #   chacha20-ietf-poly1305 xchacha20-ietf-poly1305
 
   - name: "ss1"
     type: ss
@@ -121,7 +127,7 @@ Proxy:
     port: 443
     cipher: chacha20-ietf-poly1305
     password: "password"
-    # udp: true  
+    # udp: true
 
   - name: "ss2"
     type: ss
@@ -150,8 +156,8 @@ Proxy:
       # headers:
       #   custom: value
 
-# vmess
-# 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
+  # vmess
+  # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
   - name: "vmess"
     type: vmess
     server: server
@@ -162,11 +168,30 @@ Proxy:
     # udp: true
     # tls: true
     # skip-cert-verify: true
+    # servername: example.com # 优先级高于 wss host
     # network: ws
     # ws-path: /path
     # ws-headers:
     #   Host: v2ray.com
-    
+
+  - name: "vmess-http"
+    type: vmess
+    server: server
+    port: 443
+    uuid: uuid
+    alterId: 32
+    cipher: auto
+    # udp: true
+    # network: http
+    # http-opts:
+    #   # method: "GET"
+    #   # path:
+    #   #   - '/'
+    #   #   - '/video'
+    #   # headers:
+    #   #   Connection:
+    #   #     - keep-alive
+
   # socks5
   - name: "socks"
     type: socks5
@@ -188,18 +213,61 @@ Proxy:
     # tls: true # https
     # skip-cert-verify: true
 
-  # snell
+  # snell (注意：暂时不支持 UDP 转发)
   - name: "snell"
     type: snell
     server: server
     port: 44046
     psk: yourpsk
     # obfs-opts:
-      # mode: http # 或 tls
-      # host: bing.com
+    # mode: http # 或 tls
+    # host: bing.com
 
-Proxy Group:
-# url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
+  # Trojan
+  - name: "trojan"
+    type: trojan
+    server: server
+    port: 443
+    password: yourpsk
+    # udp: true
+    # sni: example.com # 服务名称
+    # alpn:
+    #   - h2
+    #   - http/1.1
+    # skip-cert-verify: true
+
+  # ShadowsocksR
+  # 支持的加密方式: SS 中支持的所有流加密方式
+  # 支持的混淆方式:
+  #   plain http_simple http_post
+  #   random_head tls1.2_ticket_auth tls1.2_ticket_fastauth
+  # 支持的协议:
+  #   origin auth_sha1_v4 auth_aes128_md5
+  #   auth_aes128_sha1 auth_chain_a auth_chain_b
+  - name: "ssr"
+    type: ssr
+    server: server
+    port: 443
+    cipher: chacha20-ietf
+    password: "password"
+    obfs: tls1.2_ticket_auth
+    protocol: auth_sha1_v4
+    # obfs-param: domain.tld
+    # protocol-param: "#"
+    # udp: true
+
+proxy-groups:
+  # 代理的转发链, 在 proxies 中不应该包含 relay. 不支持 UDP.
+  # 流量: clash <-> http <-> vmess <-> ss1 <-> ss2 <-> 互联网
+  - name: "relay"
+    type: relay
+    proxies:
+      - http
+      - vmess
+      - ss1
+      - ss2
+
+  # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
   - name: "auto"
     type: url-test
     proxies:
@@ -209,7 +277,7 @@ Proxy Group:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
-# fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
+  # fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
   - name: "fallback-auto"
     type: fallback
     proxies:
@@ -219,7 +287,7 @@ Proxy Group:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
-# load-balance 可以使相同 eTLD 请求在同一条代理线路上
+  # load-balance 可以使相同 eTLD 请求在同一条代理线路上
   - name: "load-balance"
     type: load-balance
     proxies:
@@ -229,8 +297,8 @@ Proxy Group:
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
-# select 用来允许用户手动选择 代理服务器 或 服务器组
-# 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
+  # select 用来允许用户手动选择 代理服务器 或 服务器组
+  # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
   - name: Proxy
     type: select
     proxies:
@@ -239,8 +307,34 @@ Proxy Group:
       - vmess1
       - auto
 
-Rule:
-# Apple
+  - name: UseProvider
+    type: select
+    use:
+      - provider1
+    proxies:
+      - Proxy
+      - DIRECT
+
+proxy-providers:
+  provider1:
+    type: http
+    url: "url"
+    interval: 3600
+    path: ./provider1.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+  test:
+    type: file
+    path: /test.yaml
+    health-check:
+      enable: true
+      interval: 36000
+      url: http://www.gstatic.com/generate_204
+
+rules:
+  # Apple
   - DOMAIN,safebrowsing.urlsec.qq.com,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
   - DOMAIN,safebrowsing.googleapis.com,DIRECT # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
   - DOMAIN,ocsp.apple.com,Proxy
@@ -265,10 +359,10 @@ Rule:
   # - DOMAIN,e.crashlytics.com,REJECT //注释此选项有助于大多数App开发者分析崩溃信息；如果您拒绝一切崩溃数据统计、搜集，请取消 # 注释。
 
 
-# 自定义规则
+  # 自定义规则
   ## 您可以在此处插入您补充的自定义规则（请注意保持缩进）
 
-# 国内网站
+  # 国内网站
   - DOMAIN-SUFFIX,cn,DIRECT
   - DOMAIN-KEYWORD,-cn,DIRECT
 
@@ -400,7 +494,7 @@ Rule:
   - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
   - DOMAIN-SUFFIX,zoho.com,DIRECT
 
-# 抗 DNS 污染 
+  # 抗 DNS 污染
   - DOMAIN-KEYWORD,amazon,Proxy
   - DOMAIN-KEYWORD,google,Proxy
   - DOMAIN-KEYWORD,gmail,Proxy
@@ -416,7 +510,7 @@ Rule:
   - DOMAIN-SUFFIX,youtu.be,Proxy
   - DOMAIN-KEYWORD,whatsapp,Proxy
 
-# 常见广告域名屏蔽
+  # 常见广告域名屏蔽
   - DOMAIN-KEYWORD,admarvel,REJECT
   - DOMAIN-KEYWORD,admaster,REJECT
   - DOMAIN-KEYWORD,adsage,REJECT
@@ -441,7 +535,7 @@ Rule:
   - DOMAIN-KEYWORD,wlmonitor,REJECT
   - DOMAIN-KEYWORD,zjtoolbar,REJECT
 
-# 国外网站
+  # 国外网站
   - DOMAIN-SUFFIX,9to5mac.com,Proxy
   - DOMAIN-SUFFIX,abpchina.org,Proxy
   - DOMAIN-SUFFIX,adblockplus.org,Proxy
@@ -710,7 +804,7 @@ Rule:
   - DOMAIN-SUFFIX,yoyo.org,Proxy
   - DOMAIN-SUFFIX,ytimg.com,Proxy
 
-# Telegram
+  # Telegram
   - DOMAIN-SUFFIX,telegra.ph,Proxy
   - DOMAIN-SUFFIX,telegram.org,Proxy
 
@@ -724,7 +818,7 @@ Rule:
   - IP-CIDR,149.154.168.0/22,Proxy,no-resolve
   - IP-CIDR,149.154.172.0/22,Proxy,no-resolve
 
-# LAN
+  # LAN
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
@@ -733,6 +827,6 @@ Rule:
   - IP-CIDR,17.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
 
-# 最终规则
+  # 最终规则
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
