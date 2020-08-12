@@ -5,4 +5,5 @@ DOMAIN,ocsp.verisign.net
 DOMAIN,itunes.apple.com,force-remote-dns
 DOMAIN-SUFFIX,apps.apple.com,force-remote-dns
 DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN,cvws.icloud-content.com,Proxy
 PROCESS-NAME,News
