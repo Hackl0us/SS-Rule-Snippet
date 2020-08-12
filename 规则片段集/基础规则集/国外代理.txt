@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,9to5mac.com,Proxy
 DOMAIN-SUFFIX,abpchina.org,Proxy
 DOMAIN-SUFFIX,adblockplus.org,Proxy
 DOMAIN-SUFFIX,adobe.com,Proxy
+DOMAIN-SUFFIX,akamaized.net,Proxy
 DOMAIN-SUFFIX,alfredapp.com,Proxy
 DOMAIN-SUFFIX,amplitude.com,Proxy
 DOMAIN-SUFFIX,ampproject.org,Proxy
