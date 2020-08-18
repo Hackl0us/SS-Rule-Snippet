@@ -32,8 +32,8 @@ allow-lan: false
 # "[aaaa::a8aa:ff:fe09:57d8]"   绑定一个 IPv6 地址
 
 # Clash 路由工作模式
-# 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
-mode: Rule
+# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）
+mode: rule
 
 # Clash 默认将日志输出至 STDOUT
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
