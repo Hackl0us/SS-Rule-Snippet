@@ -521,7 +521,9 @@ rules:
   - DOMAIN-KEYWORD,adsrvmedia,REJECT
   - DOMAIN-KEYWORD,adwords,REJECT
   - DOMAIN-KEYWORD,adservice,REJECT
+  - DOMAIN-SUFFIX,appsflyer.com,REJECT
   - DOMAIN-KEYWORD,domob,REJECT
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
   - DOMAIN-KEYWORD,duomeng,REJECT
   - DOMAIN-KEYWORD,dwtrack,REJECT
   - DOMAIN-KEYWORD,guanggao,REJECT
@@ -535,6 +537,7 @@ rules:
   - DOMAIN-KEYWORD,uedas,REJECT
   - DOMAIN-KEYWORD,umeng,REJECT
   - DOMAIN-KEYWORD,usage,REJECT
+  - DOMAIN-SUFFIX,vungle.com,REJECT
   - DOMAIN-KEYWORD,wlmonitor,REJECT
   - DOMAIN-KEYWORD,zjtoolbar,REJECT
 
