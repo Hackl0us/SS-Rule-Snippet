@@ -1,9 +1,10 @@
-DOMAIN,ocsp.apple.com
+DOMAIN,developer.apple.com
 DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,entrust.net
 DOMAIN,ocsp.verisign.net
+DOMAIN,testflight.apple.com
+DOMAIN,sandbox.itunes.apple.com
 DOMAIN,itunes.apple.com,force-remote-dns
 DOMAIN-SUFFIX,apps.apple.com,force-remote-dns
 DOMAIN-SUFFIX,blobstore.apple.com
-DOMAIN,cvws.icloud-content.com,Proxy
+DOMAIN,cvws.icloud-content.com
 PROCESS-NAME,News
