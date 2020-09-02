@@ -77,7 +77,6 @@ dns:
     - 223.5.5.5
     - 114.114.114.114
     - 119.29.29.29
-    - 8.8.8.8
   enhanced-mode: redir-host # 或 fake-ip
   fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
   # use-hosts: true # 查询 hosts 并返回 IP 记录
