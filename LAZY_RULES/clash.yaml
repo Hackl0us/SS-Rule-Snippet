@@ -342,6 +342,7 @@ rules:
   - DOMAIN,developer.apple.com,Proxy
   - DOMAIN-SUFFIX,digicert.com,Proxy
   - DOMAIN,ocsp.verisign.net,Proxy
+  - DOMAIN-SUFFIX,apple-dns.net,Proxy
   - DOMAIN,testflight.apple.com,Proxy
   - DOMAIN,sandbox.itunes.apple.com,Proxy
   - DOMAIN,itunes.apple.com,Proxy
@@ -353,12 +354,14 @@ rules:
   - DOMAIN-SUFFIX,icloud.com,DIRECT
   - DOMAIN-SUFFIX,icloud-content.com,DIRECT
   - DOMAIN-SUFFIX,me.com,DIRECT
-  - DOMAIN-SUFFIX,akadns.net,DIRECT
-  - DOMAIN-SUFFIX,edgekey.net,DIRECT
-  - DOMAIN-SUFFIX,mwcname.com,DIRECT
-  - DOMAIN-SUFFIX,akamaiedge.net,DIRECT
-  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
   - DOMAIN-SUFFIX,aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,cdn20.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,akadns.net,DIRECT
+  - DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+  - DOMAIN-SUFFIX,edgekey.net,DIRECT
+  - DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
+  - DOMAIN-SUFFIX,mwcname.com,DIRECT
   - DOMAIN-SUFFIX,apple.com,DIRECT
   - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
   - DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
