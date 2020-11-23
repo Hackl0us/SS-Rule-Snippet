@@ -13,7 +13,6 @@ DOMAIN,itunes.apple.com,Proxy
 DOMAIN-SUFFIX,apps.apple.com,Proxy
 DOMAIN-SUFFIX,blobstore.apple.com,Proxy
 DOMAIN,cvws.icloud-content.com,Proxy
-PROCESS-NAME,News,Proxy
 USER-AGENT,com.apple.appstored*,DIRECT,force-remote-dns
 USER-AGENT,AppStore*,DIRECT,force-remote-dns
 DOMAIN-SUFFIX,mzstatic.com,DIRECT,force-remote-dns
