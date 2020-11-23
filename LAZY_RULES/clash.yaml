@@ -73,7 +73,6 @@ dns:
   # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
   # 仅填写 DNS 服务器的 IP 地址
   default-nameserver:
-    - 1.2.4.8
     - 223.5.5.5
     - 114.114.114.114
     - 119.29.29.29
@@ -90,9 +89,9 @@ dns:
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Clash 会使用最先获得的解析记录回复 DNS 请求
   nameserver:
-    - tls://13800000000.rubyfish.cn
-    - tls://dot.360.cn
-    - tls://dns.alidns.com
+    - https://dns.alidns.com/dns-query
+    - https://13800000000.rubyfish.cn/
+    - https://doh.360.cn/dns-query
 
   # 当 fallback 参数被配置时, DNS 请求将同时发送至上方 nameserver 列表和下方 fallback 列表中配置的所有 DNS 服务器.
   # 当解析得到的 IP 地址的地理位置不是 CN 时，clash 将会选用 fallback 中 DNS 服务器的解析结果。
