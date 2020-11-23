@@ -1,5 +1,7 @@
 DOMAIN,developer.apple.com
 DOMAIN-SUFFIX,digicert.com
+DOMAIN,ocsp.apple.com
+DOMAIN,ocsp.sectigo.com
 DOMAIN,ocsp.verisign.net
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN,testflight.apple.com
