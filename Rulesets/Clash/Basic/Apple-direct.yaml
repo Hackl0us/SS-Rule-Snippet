@@ -1,0 +1,19 @@
+payload:
+  - DOMAIN,safebrowsing.urlsec.qq.com
+  - DOMAIN,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,mzstatic.com
+  - DOMAIN-SUFFIX,itunes.apple.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,me.com
+  - DOMAIN-SUFFIX,aaplimg.com
+  - DOMAIN-SUFFIX,cdn20.com
+  - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,akadns.net
+  - DOMAIN-SUFFIX,akamaiedge.net
+  - DOMAIN-SUFFIX,edgekey.net
+  - DOMAIN-SUFFIX,mwcloudcdn.com
+  - DOMAIN-SUFFIX,mwcname.com
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,apple-mapkit.com
