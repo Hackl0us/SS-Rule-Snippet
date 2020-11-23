@@ -1,8 +1,6 @@
 DOMAIN,developer.apple.com
 DOMAIN-SUFFIX,digicert.com
-DOMAIN,ocsp.apple.com
-DOMAIN,ocsp.sectigo.com
-DOMAIN,ocsp.verisign.net
+USER-AGENT,com.apple.trustd*,Proxy
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN,testflight.apple.com
 DOMAIN,sandbox.itunes.apple.com
