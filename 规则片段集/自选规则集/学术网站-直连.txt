@@ -47,3 +47,11 @@ DOMAIN-SUFFIX,springernature.com,DIRECT
 
 ## JSTOR 旗下
 DOMAIN-SUFFIX,jstor.org,DIRECT
+
+## 其他
+DOMAIN-SUFFIX,aps.org,DIRECT
+DOMAIN-SUFFIX,acs.org,DIRECT
+DOMAIN-SUFFIX,iop.org,DIRECT
+DOMAIN-SUFFIX,aip.scitation.org,DIRECT
+DOMAIN-SUFFIX,cambridge.org,DIRECT
+DOMAIN-SUFFIX,dl.acm.org,DIRECT
