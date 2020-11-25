@@ -1,6 +1,6 @@
 DOMAIN,developer.apple.com
 DOMAIN-SUFFIX,digicert.com
-USER-AGENT,com.apple.trustd*,Proxy
+USER-AGENT,com.apple.trustd*
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN,testflight.apple.com
 DOMAIN,sandbox.itunes.apple.com
