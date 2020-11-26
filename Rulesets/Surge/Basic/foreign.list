@@ -1,18 +1,17 @@
 ## 抗 DNS 污染
-DOMAIN-KEYWORD,amazon,force-remote-dns
-DOMAIN-KEYWORD,google,force-remote-dns
-DOMAIN-KEYWORD,gmail,force-remote-dns
-DOMAIN-KEYWORD,youtube,force-remote-dns
-DOMAIN-KEYWORD,facebook,force-remote-dns
-DOMAIN-SUFFIX,fb.me,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,force-remote-dns
-DOMAIN-KEYWORD,twitter,force-remote-dns
-DOMAIN-KEYWORD,instagram,force-remote-dns
-DOMAIN-KEYWORD,dropbox,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,force-remote-dns
-DOMAIN-KEYWORD,blogspot,force-remote-dns
-DOMAIN-SUFFIX,youtu.be,force-remote-dns
-DOMAIN-KEYWORD,whatsapp,force-remote-dns
+DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,facebook
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,dropbox
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-KEYWORD,blogspot
+DOMAIN-SUFFIX,youtu.be
 
 ## 常见国外域名列表
 DOMAIN-SUFFIX,9to5mac.com
@@ -241,7 +240,7 @@ DOMAIN-SUFFIX,tumblr.co
 DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,tweetmarker.net
-DOMAIN-SUFFIX,twitch.tv,force-remote-dns
+DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,txmblr.com
 DOMAIN-SUFFIX,typekit.net
 DOMAIN-SUFFIX,ubertags.com

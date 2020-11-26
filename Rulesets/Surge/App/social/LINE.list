@@ -1,5 +1,5 @@
-DOMAIN-SUFFIX,scdn.co,force-remote-dns
-DOMAIN-SUFFIX,line.naver.jp,force-remote-dns
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,line.naver.jp
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-apps.com
 DOMAIN-SUFFIX,line-cdn.net

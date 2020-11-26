@@ -60,9 +60,9 @@ DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,edgecastcdn.net
 
 ## F
-DOMAIN-SUFFIX,facebook.com,force-remote-dns
-DOMAIN-SUFFIX,facebook.net,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,force-remote-dns
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,freeopenproxy.com
 DOMAIN-SUFFIX,fzlm.net
 DOMAIN-SUFFIX,flitto.com
@@ -171,17 +171,17 @@ DOMAIN-SUFFIX,signalsitemap.com
 DOMAIN-SUFFIX,surge.run
 
 ## T
-DOMAIN-SUFFIX,twtkr.com,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,force-remote-dns
-DOMAIN-SUFFIX,twitthat.com,force-remote-dns
-DOMAIN-SUFFIX,twitterrific.com,force-remote-dns
-DOMAIN-SUFFIX,twittercounter.com,force-remote-dns
-DOMAIN-SUFFIX,twittergadget.com,force-remote-dns
-DOMAIN-SUFFIX,twitterfeed.com,force-remote-dns
-DOMAIN-SUFFIX,twitter4j.org,force-remote-dns
-DOMAIN-SUFFIX,twttr.com,force-remote-dns
-DOMAIN-SUFFIX,twitter.com,force-remote-dns
-DOMAIN-SUFFIX,t.co,force-remote-dns
+DOMAIN-SUFFIX,twtkr.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitthat.com
+DOMAIN-SUFFIX,twitterrific.com
+DOMAIN-SUFFIX,twittercounter.com
+DOMAIN-SUFFIX,twittergadget.com
+DOMAIN-SUFFIX,twitterfeed.com
+DOMAIN-SUFFIX,twitter4j.org
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,tv.com
 DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,turbobit.net

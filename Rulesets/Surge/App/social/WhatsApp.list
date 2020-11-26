@@ -1,5 +1,5 @@
-DOMAIN-SUFFIX,whatsapp.com,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.net,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.biz,force-remote-dns
-DOMAIN,graph.facebook.com,force-remote-dns
-DOMAIN-SUFFIX,bintray.com,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,bintray.com
