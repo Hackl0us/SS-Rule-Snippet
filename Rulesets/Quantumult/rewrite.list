@@ -1,0 +1,1 @@
+^https?://(www.)?(g|google).cn url 302 https://www.google.com

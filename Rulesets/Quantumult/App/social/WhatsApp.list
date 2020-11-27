@@ -1,0 +1,5 @@
+host-suffix,whatsapp.com,proxy
+host-suffix,whatsapp.net,proxy
+host-suffix,whatsapp.biz,proxy
+host,graph.facebook.com,proxy
+host-suffix,bintray.com,proxy

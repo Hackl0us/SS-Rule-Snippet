@@ -1,0 +1,8 @@
+## 此规则集应当在所有规则列表中置顶，且会让 Apple 的系统地图提供商由 高德地图 变为 TomTom
+## iPhone 和 蜂窝数据的 iPad 必须要开启飞行模式才可以使用，因为系统会检测 SIM 卡运营商
+## Mac 和 非蜂窝数据机型的 iPad 可以在使用规则片段后直接使用 Apple News
+
+host-suffix,ls.apple.com,proxy
+user-agent,AppleNews*,proxy
+user-agent,News*,proxy
+host,apple.comscoreresearch.com,proxy
