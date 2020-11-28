@@ -1,15 +1,15 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img align="right" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
 <h1 align="center">
 <sub>
-<img  src="http://ok9svak43.bkt.clouddn.com/FqRtBnCL-IohdKpAcgP5ghgCUU-r.png"
-      height="38"
-      width="38">
+<img  src="https://i.loli.net/2020/11/27/SNhJxraRF3oeq2W.png"
+      height=8%
+      width=8%>
 </sub>
 SS Rule Snippet
 </h1>
 <p align="center">
 <sup>
-     Design for<i> Surge / Quantumult / Shadowrocket / Surfboard / clash(X) </i>.
+     Design for<i> Surge / Quantumult (X) / Shadowrocket / clash (Premium) </i>.
      <br> Maintained by <b>Hackl0us</b>.
 </sup>
 <br>
@@ -22,6 +22,9 @@ SS Rule Snippet
 本项是由 [@Hackl0us](https://weibo.com/hackl0us) 书写、搜集、整理，适用于 [<i>Surge</i>](https://nssurge.com) / [<i>Quantumult</i>](https://itunes.apple.com/hk/app/quantumult/id1252015438) / [<i>Shadowrocket</i>](https://itunes.apple.com/us/app/shadowrocket/id932747118) / [<i>Surfboard</i>](https://manual.getsurfboard.com/) / [<i>clashX</i>](https://github.com/yichengchen/clashX) 的规则或实用规则片段。追求为工具配置最精简、最实用、最高效的规则，给用户带来最流畅的使用体验。
 
 * [规则使用](#规则使用)
+  * [常用代理工具](#常用代理工具)
+  * [停止支持工具列表](#停止支持工具列表)
+  * [clash 衍生工具的选择](#clash%20衍生工具的选择)
   * [规则集说明](#规则集说明)
   * [懒人规则导入](https://github.com/Hackl0us/SS-Rule-Snippet/wiki/)
   * [一键更新规则](#一键更新规则)
@@ -46,14 +49,38 @@ SS Rule Snippet
 除懒人规则外，实用规则均以片段形式存在。您可以根据工具官方（或非官方）提供的配置参考手册，严格按照语法要求对规则正确地修改。
 规则的强大不在于条目多，而在于少而精。规则堆积越多，RAM 占用越高，工具运行效率越低。过多的规则甚至会导致工具直接崩溃（越狱设备尤为明显），严重影响用户体验。
 
-| 工具 | 适用平台 | 配置参考手册 |
-| :-: | :-: | :-: |
-| [Surge 2](https://nssurge.com) | iOS / macOS | [官方](https://manual.nssurge.com/) |
-| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | iOS | [非官方](https://github.com/JasonLee-Go/Quantumult/wiki/Quantumult-Unofficial-Manual)|
-| [Shadowrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | iOS | 未提供 |
-| [Surfboard](https://manual.getsurfboard.com/) | Android | [非官方](https://surfboard.driller.pub/download) |
-| [clash](https://github.com/Dreamacro/clash) | Windows / macOS / Linux | [官方](https://github.com/Dreamacro/clash#------clash--) |
-| [clashX](https://github.com/yichengchen/clashX) | macOS | [官方](https://github.com/yichengchen/clashX#config) |
+### 常用代理工具
+
+| 工具 | 适用平台 | 懒人规则 | 配置参考手册 | 售价 |
+| :-: | :-- | :-: | :-- | :-: |
+| [Surge](https://nssurge.com) | 📱 iOS / ⬛️ iPadOS / 💻 macOS | `Surge 3.conf` |  [官方](https://manual.nssurge.com/) | $49.99 - $99.99 | 
+| [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) | 📱 iOS / ⬛️ iPadOS | `QuantumultX.conf` | [官方（配置文件）](https://github.com/crossutility/Quantumult-X) | $7.99 |
+| [Shadowrocket](https://apps.apple.com/us/app/shadowrocket/id932747118) | 📱 iOS / ⬛️ iPadOS | `Shadowrocket.conf` | 未提供 | $2.99 |
+| [clash](https://github.com/Dreamacro/clash) | 🧬 Multiple |  `clash.yaml` | [官方](https://lancellc.gitbook.io/clash/) | 免费，🎖 开源 |
+| [clash Premium](https://github.com/Dreamacro/clash/releases/tag/premium) | 🧬 Multiple | `clash_Premium.yaml` | [官方 (Premium 功能)](https://github.com/Dreamacro/clash/wiki/Premium-Core-Features) | 免费，⭕️ 闭源 |
+| [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg) | 🪟 Windows | 参考 clash Premium | [官方](https://github.com/Fndroid/clash_for_windows_pkg/wiki) |  免费，⭕️ 闭源 |
+| [Clash X](https://github.com/yichengchen/clashX/) | 💻 macOS | 参考 clash | 参考 clash | 免费，🎖 开源  |
+| [Clash X Pro](https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public) | 💻 macOS (Intel) |参考 clash Premium |  参考 clash Premium | 免费，⭕️ 闭源|
+| [Clash X Pro - Apple Silicon](https://install.appcenter.ms/users/clashx/apps/cxp-applesilicon/distribution_groups/public) | 💻 macOS (Apple M1) | 参考 clash Premium | 参考 clash Premium | 免费，⭕️ 闭源 |
+| [Clash for Android](https://github.com/Kr328/ClashForAndroid) | 🤖️ Android | 参考 clash Premium | 参考 clash Premium | 免费，⭕️ 闭源 |
+| [OpenClash](https://github.com/vernesong/OpenClash) | 📶 OpenWRT |参考 clash Premium |  参考 clash Premium | 免费，⭕️ 闭源 |
+
+### 停止支持工具列表
+以下工具开发者已经长时间未更新或停止更新，对新协议、新功能的支持和新系统的兼容性都不是很好，因此项目考虑停止更新支持。停止更新支持的配置文件可以在 `归档` 文件夹下找到。
+
+- Surge Legacy
+- Surfboard
+- Quantumult（计划停止更新）
+
+### clash 衍生工具的选择
+
+除 iOS 平台外，很多平台的工具衍生与开源的 clash 项目。clash 项目作者在后期拓展开发更多实用功能，如 TUN、代理集、规则集、脚本等，逐渐发展成为 clash Premium，但是 clash Premium 提供的额外功能并不开源，是闭源项目。
+
+其他开发者基于这两个版本的 clash 开发并实现了可以运行在不同平台的图形化代理工具。基于 clash 开发的工具，因为开源协议限制等因素，同为开源项目，仅实现 clash 具备的基础代理功能，如 Clash X.
+
+而基于 clash Premium 开发的工具，则多为闭源项目，但是会具备更多更加实用的功能，例如 Clash X Pro 和 Clash for Windows 有具备类似 Surge 的增强模式，可以通过 TUN / TAP 接管所有流量；可以订阅代理集、规则集等，避免日后反复更新替换配置冗长的文件，一劳永逸等等
+
+你可以根据自身的需求选择适合自己的 clash 衍生工具。
 
 ## 关于项目
 
@@ -65,15 +92,13 @@ SS Rule Snippet
 
 ### 一键更新规则
 
-您可以通过 [`捷径`](https://itunes.apple.com/hk/app/workflow/id915249334) 和 [`JsBox`](https://itunes.apple.com/hk/app/jsbox-make-your-own-tools/id1312014438)（延后支持）两款 App 对懒人规则进行快捷更新。
-
+对于不方便全局替换配置文件或不支持 规则集 的工具，您可以通过 [`捷径`](https://apps.apple.com/hk/app/workflow/id915249334) 将自定义规则整合至懒人规则，实现便捷更新。
 
 | 工具 | 下载地址 |
 | :-: | :-: |
-| Surge 2 | [捷径](https://www.icloud.com/shortcuts/eb5f7930bf8e414993452c3cae1906ca) / JSBox |
-| [Surge 3](https://itunes.apple.com/us/app/surge-3-web-developer-tool/id1329879957) | [捷径](https://www.icloud.com/shortcuts/5dee27f365974ba7bec536adc543b24d) / JSBox |
-| [Quantumult](https://itunes.apple.com/hk/app/quantumult/id1252015438) | [捷径](https://www.icloud.com/shortcuts/884f18991ad14e69b0c13a1a4e7b3aac) / JSBox |
-| [Shadowrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118) | [捷径](https://www.icloud.com/shortcuts/29b06dddc6684afd9cf8a17b7c0af901) / JSBox |
+| Surge | [捷径](https://www.icloud.com/shortcuts/5bb0a407e80a478faabe33dc624f3975) |
+| Quantumult | [捷径](https://www.icloud.com/shortcuts/884f18991ad14e69b0c13a1a4e7b3aac)|
+| Shadowrocket | [捷径](https://www.icloud.com/shortcuts/29b06dddc6684afd9cf8a17b7c0af901) |
 
 
 ### 关于广告屏蔽
@@ -88,19 +113,25 @@ SS Rule Snippet
 
 综上所述，推荐各位使用广告屏蔽插件，效果要比在工具上配置屏蔽广告好得多：
 
-- iOS 端 Safari：
+- Windows / macOS 端全局过滤：
+  - [AdGuard](https://adguard.com/zh_cn/welcome.html)
+
+- iOS / iPadOS 端 Safari：
   - [Adguard](https://itunes.apple.com/hk/app/adguard-adblock-privacy/id1047223162)
 
+   ⚠️ 不推荐购买 AdGuard Pro，因为 iOS / iPadOS 仅支持同时开启 1 个 VPN，AdGuard Pro 同样会在系统开启 VPN 接管所有流量来过滤广告，会和现有代理工具冲突，而且不支持设置 upstream-proxy.
 
-- macOS 端  Safari / Chrome / Firefox 等：
+- 浏览器 Safari / Chrome / Firefox / Edge (Chromium) 等：
   - Adguard
   - Adblock
   - Adblock Plus
-  - [uBlock Origin for Safari](https://github.com/el1t/uBlock-Safari#ublock-originfor-safari)
   - [uBlock Origin for Chromium / Firefox ](https://github.com/gorhill/uBlock)
 
-
-
+- 软/硬路由端：
+  - Adbyby
+  - PiHole
+  - AdGuard Home
+  - 广告屏蔽大师+
 
 ## 支持项目
 
@@ -124,7 +155,17 @@ SS Rule Snippet
 
 ### 捐赠
 
-##### ❤️如果您喜欢我的规则，并希望项目可以继续被维护，您可以给通过以下方式捐助我😜非常感谢~
+❤️ 维护这个规则花费了很多心思和时间，你使用的每一行规则、阅读的每一个配置文件翻译都是我反复斟酌后的结果，为的就是可以让大家有一套好用、易懂的规则。
 
-  ![](https://ws3.sinaimg.cn/large/005BYqpgly1g1agmaeb6oj30u009qn12.jpg)
+如果您喜欢我的规则，并希望项目可以继续被维护，您可以给通过以下方式捐助。
+
+大家的支持是我的动力～我还会用捐助的钱给我家的两只 🐱 丑橘 🍊 和 ⚡️ 伏特 🐈‍⬛ 买鱼罐头
+
+<img  src="https://i.loli.net/2020/11/26/7MgDErcJWIsiq34.png"
+      height=80%
+      width=80%>
+
+<img  src="https://i.loli.net/2020/11/27/hSojTe1NcgJQlt9.png"
+      height=80%
+      width=80%>
 
