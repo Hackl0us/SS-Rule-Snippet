@@ -1,20 +1,20 @@
 [Rule]
 
 ## 抗 DNS 污染
-DOMAIN-KEYWORD,amazon,Proxy,force-remote-dns
-DOMAIN-KEYWORD,google,Proxy,force-remote-dns
-DOMAIN-KEYWORD,gmail,Proxy,force-remote-dns
-DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
-DOMAIN-KEYWORD,facebook,Proxy,force-remote-dns
-DOMAIN-SUFFIX,fb.me,Proxy,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,Proxy,force-remote-dns
-DOMAIN-KEYWORD,twitter,Proxy,force-remote-dns
-DOMAIN-KEYWORD,instagram,Proxy,force-remote-dns
-DOMAIN-KEYWORD,dropbox,Proxy,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,Proxy,force-remote-dns
-DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
-DOMAIN-SUFFIX,youtu.be,Proxy,force-remote-dns
-DOMAIN-KEYWORD,whatsapp,Proxy,force-remote-dns
+DOMAIN-KEYWORD,amazon,Proxy
+DOMAIN-KEYWORD,google,Proxy
+DOMAIN-KEYWORD,gmail,Proxy
+DOMAIN-KEYWORD,youtube,Proxy
+DOMAIN-KEYWORD,facebook,Proxy
+DOMAIN-SUFFIX,fb.me,Proxy
+DOMAIN-SUFFIX,fbcdn.net,Proxy
+DOMAIN-KEYWORD,twitter,Proxy
+DOMAIN-KEYWORD,instagram,Proxy
+DOMAIN-KEYWORD,dropbox,Proxy
+DOMAIN-SUFFIX,twimg.com,Proxy
+DOMAIN-KEYWORD,blogspot,Proxy
+DOMAIN-SUFFIX,youtu.be,Proxy
+DOMAIN-KEYWORD,whatsapp,Proxy
 
 ## 国外网站
 DOMAIN-SUFFIX,9to5mac.com,Proxy

@@ -1,8 +1,8 @@
 [Rule]
 
 ## 域名
-DOMAIN-SUFFIX,whatsapp.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.net,Proxy,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.biz,Proxy,force-remote-dns
-DOMAIN,graph.facebook.com,Proxy,force-remote-dns
-DOMAIN-SUFFIX,bintray.com,Proxy,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.com,Proxy
+DOMAIN-SUFFIX,whatsapp.net,Proxy
+DOMAIN-SUFFIX,whatsapp.biz,Proxy
+DOMAIN,graph.facebook.com,Proxy
+DOMAIN-SUFFIX,bintray.com,Proxy
