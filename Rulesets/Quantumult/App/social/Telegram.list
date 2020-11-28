@@ -1,11 +1,11 @@
 host-suffix,telegra.ph,proxy
 host-suffix,telegram.org,proxy
 
-ip-cidr,91.108.4.0/22,no-resolve,proxy
-ip-cidr,91.108.8.0/21,no-resolve,proxy
-ip-cidr,91.108.16.0/22,no-resolve,proxy
-ip-cidr,91.108.56.0/22,no-resolve,proxy
-ip-cidr,149.154.160.0/20,no-resolve,proxy
-ip-cidr6,2001:67c:4e8::/48,no-resolve,proxy
-ip6-cidr,2001:b28:f23d::/48,no-resolve,proxy
-ip6-cidr,2001:b28:f23f::/48,no-resolve,proxy
+ip-cidr,91.108.4.0/22,proxy
+ip-cidr,91.108.8.0/21,proxy
+ip-cidr,91.108.16.0/22,proxy
+ip-cidr,91.108.56.0/22,proxy
+ip-cidr,149.154.160.0/20,proxy
+ip6-cidr,2001:67c:4e8::/48,proxy
+ip6-cidr,2001:b28:f23d::/48,proxy
+ip6-cidr,2001:b28:f23f::/48,proxy
