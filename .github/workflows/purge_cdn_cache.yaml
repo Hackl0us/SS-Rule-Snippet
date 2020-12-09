@@ -1,0 +1,16 @@
+name: Purge CDN cache after commits
+
+on:
+  push:
+    branches: [ master ]
+  
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Purge CDN cache
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Purge CDN Cache
+      run: curl ${{ secrets.CDN_URL }}
