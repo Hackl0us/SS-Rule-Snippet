@@ -12,6 +12,15 @@ const aqicnToken = ''
 	hostname = weather-data.apple.com
 */
 
+// Quantumult X 可在配置文件中添加如下配置。注意：/path/to/iOS_Weather_AQI_Standard.js 后应该替换为添加 apicnToken 值后的脚本路径
+/*
+	[rewrite_local]
+	^https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\? url script-response-body /path/to/iOS_Weather_AQI_Standard.js
+
+	[mitm]
+	hostname = weather-data.apple.com	
+*/
+
 const AirQualityStandard = {
 	CN: 'HJ6332012.1',
 	US: 'EPA_NowCast.1'
@@ -110,12 +119,29 @@ function roundHours(time, method) {
 	return time;
 }
 
-$httpClient.get(`https://api.waqi.info/feed/geo:${lat};${lng}/?token=${aqicnToken}`, function (error, _response, data) {
-	if (error) {
-		let body = $response.body
-		$done({ body })
-	} else {
-		let body = modifyWeatherResp($response.body, data)
-		$done({ body })
+const isSurge = typeof $httpClient !== 'undefined';
+const isQuantumultX = typeof $task !== 'undefined';
+
+if (isSurge) {
+	$httpClient.get(`https://api.waqi.info/feed/geo:${lat};${lng}/?token=${aqicnToken}`, function (error, _response, data) {
+		if (error) {
+			let body = $response.body
+			$done({ body })
+		} else {
+			let body = modifyWeatherResp($response.body, data)
+			$done({ body })
+		}
+	});
+} else if (isQuantumultX) {
+	const aqicnRequest = {
+		url: `https://api.waqi.info/feed/geo:${lat};${lng}/?token=${aqicnToken}`
 	}
-});
+
+	$task.fetch(aqicnRequest).then(response => {
+		let body = modifyWeatherResp($response.body, response.body);
+		$done({ body });
+	}, reason => {
+		let body = $response.body;
+		$done({ body });
+	});
+}
