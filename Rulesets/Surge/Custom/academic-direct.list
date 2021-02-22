@@ -44,5 +44,8 @@ DOMAIN-SUFFIX,oup.com
 ## Springer 旗下
 DOMAIN-SUFFIX,springernature.com
 
+# ACM (Association for Computing Machinery)
+DOMAIN-SUFFIX,acm.org
+
 ## JSTOR 旗下
 DOMAIN-SUFFIX,jstor.org
