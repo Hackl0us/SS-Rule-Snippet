@@ -9,7 +9,7 @@ DOMAIN-SUFFIX,apple-dns.net,Proxy
 DOMAIN,testflight.apple.com,Proxy
 DOMAIN,sandbox.itunes.apple.com,Proxy
 DOMAIN,itunes.apple.com,Proxy
-DOMAIN-SUFFIX,apps.apple.com,Proxy
+DOMAIN-SUFFIX,apps.apple.com,DIRECT
 DOMAIN-SUFFIX,blobstore.apple.com,Proxy
 DOMAIN,cvws.icloud-content.com,Proxy
 USER-AGENT,com.apple.appstored*,DIRECT
