@@ -1,0 +1,9 @@
+user-agent,Disney+*,proxy
+
+host-suffix,DOMAIN-SUFFIX,disneyplus.com,proxy
+host-suffix,disney-plus.net,proxy
+host-suffix,disneystreaming.com,proxy
+host-suffix,bamgrid.com,proxy
+host-suffix,dssott.com,proxy
+
+host,cdn.registerdisney.go.com,proxy

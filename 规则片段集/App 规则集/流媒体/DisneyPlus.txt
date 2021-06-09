@@ -1,0 +1,14 @@
+# 此规则片段仅针对 Disney+ 流媒体服务
+# 当您订阅了 Disney+ 服务时，您需要将当前 IP 设置到服务开通的国家或地区（如：新加坡、美国等）才能体验服务。您可以根据需要，将 Proxy 替换为满足需求的策略组。
+
+[Rule]
+
+USER-AGENT,Disney+*,Proxy
+
+DOMAIN-SUFFIX,disneyplus.com,Proxy
+DOMAIN-SUFFIX,disney-plus.net,Proxy
+DOMAIN-SUFFIX,disneystreaming.com,Proxy
+DOMAIN-SUFFIX,bamgrid.com,Proxy
+DOMAIN-SUFFIX,dssott.com,Proxy
+
+DOMAIN,cdn.registerdisney.go.com,Proxy
