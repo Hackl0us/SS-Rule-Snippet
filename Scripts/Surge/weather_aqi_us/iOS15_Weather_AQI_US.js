@@ -103,7 +103,7 @@ function constructAirQuailityNode(aqicnData) {
 	return airQualityNode
 }
 
-function covertTime(time, action) {
+function timeConversion(time, action) {
 	switch (action) {
 		case 'remain':
 			time.setMilliseconds(0);
