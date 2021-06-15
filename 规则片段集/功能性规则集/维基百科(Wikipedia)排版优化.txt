@@ -8,7 +8,7 @@
 DOMAIN-SUFFIX,wikiwand.com,Proxy
 
 [URL Rewrite]
-^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) http://www.wikiwand.com/zh$2 302
+^https://zh.(m.)?wikipedia.org/(zh(-\w)?) http://www.wikiwand.com/$2 302
 ^https://(\w*).(m.)?wikipedia.org/wiki http://www.wikiwand.com/$1 302
 
 [MITM]
