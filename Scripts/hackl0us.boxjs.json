@@ -1,0 +1,32 @@
+{
+    "id": "hackl0us.app.sub",
+    "name": "Hackl0us 应用订阅",
+    "author": "@Hackl0us",
+    "icon": "https://avatars.githubusercontent.com/u/10215166?s=460&u=ea0067a5598224deeebf57086ac83225148f55a7&v=4",
+    "repo": "https://github.com/Hackl0us/SS-Rule-Snippet",
+    "apps": [
+      {
+        "id": "hackl0us.aqius",
+        "name": "将 iOS 系统原生 天气 App 的空气质量标准改为 AQI-US",
+        "keys": ["hackl0us_aqi_token"],
+        "settings": [
+          {
+            "id": "hackl0us_aqi_token",
+            "name": "aqicn API Token",
+            "val": "",
+            "type": "textarea",
+            "placeholder": "token",
+            "autoGrow": true,
+            "rows": 3,
+            "desc": ""
+          }
+        ],
+        "author": "@hackl0us",
+        "repo": "https://github.com/Hackl0us/SS-Rule-Snippet/tree/master/Scripts/Surge",
+        "icons": [
+          "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/weather.png",
+          "https://raw.githubusercontent.com/Orz-3/mini/master/Color/weather.png"
+        ]
+      }
+    ]
+  }
