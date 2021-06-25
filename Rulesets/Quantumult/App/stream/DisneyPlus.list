@@ -1,6 +1,6 @@
 user-agent,Disney+*,proxy
 
-host-suffix,DOMAIN-SUFFIX,disneyplus.com,proxy
+host-suffix,disneyplus.com,proxy
 host-suffix,disney-plus.net,proxy
 host-suffix,disneystreaming.com,proxy
 host-suffix,bamgrid.com,proxy
