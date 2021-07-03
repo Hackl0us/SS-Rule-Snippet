@@ -1,3 +1,4 @@
+
 # 此规则适用于学校校园网已经购买网站内容版权，且通过 校园网直连（DIRECT 策略） 或 学校提供的代理服务器（将策略改为指定服务器或服务器组的名称） 访问才能生效。
 # 此规则使用前应先咨询校方相关事宜。若校方不具有版权，此规则无用处。
 
@@ -5,6 +6,10 @@
 
 # 中国知网
 DOMAIN-KEYWORD,cnki.net,DIRECT
+
+# 维普
+DOMAIN-SUFFIX,cqvip.com,DIRECT
+DOMAIN-SUFFIX,vipinfo.com.cn,DIRECT
 
 # 万方
 DOMAIN-KEYWORD,wanfangdata,DIRECT
@@ -21,11 +26,9 @@ DOMAIN-SUFFIX,researchgate.net,DIRECT
 DOMAIN-SUFFIX,springer.com,DIRECT
 DOMAIN-SUFFIX,blackwell-synergy.com,DIRECT
 DOMAIN-SUFFIX,sciencemag.org,DIRECT
-DOMAIN-SUFFIX,jstor.org,DIRECT
 DOMAIN-SUFFIX,cabdirect.org,DIRECT
 DOMAIN-SUFFIX,ieee.org,DIRECT
 DOMAIN-SUFFIX,nature.com,DIRECT
-DOMAIN-SUFFIX,sciencemag.org,DIRECT
 DOMAIN-SUFFIX,osapublishing.org,DIRECT
 
 ## Willey 旗下
