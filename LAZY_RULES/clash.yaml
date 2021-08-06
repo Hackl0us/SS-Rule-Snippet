@@ -101,23 +101,10 @@ dns:
     - 'time.*.edu.cn'
     - 'time.*.apple.com'
 
-    - 'time1.*.com'
-    - 'time2.*.com'
-    - 'time3.*.com'
-    - 'time4.*.com'
-    - 'time5.*.com'
-    - 'time6.*.com'
-    - 'time7.*.com'
+    - 'time*.*.com'
 
     - 'ntp.*.com'
-    - 'ntp.*.com'
-    - 'ntp1.*.com'
-    - 'ntp2.*.com'
-    - 'ntp3.*.com'
-    - 'ntp4.*.com'
-    - 'ntp5.*.com'
-    - 'ntp6.*.com'
-    - 'ntp7.*.com'
+    - 'ntp*.*.com'
 
     - '*.time.edu.cn'
     - '*.ntp.org.cn'
@@ -159,7 +146,9 @@ dns:
     - '+.xboxlive.com'
     # === Other ===
     ## QQ Quick Login
-    - 'localhost.ptlogin2.qq.com'
+    ## - localhost.ptplugin2.qq.com
+    ## - localhost.sec.qq.com
+    - 'localhost.*.qq.com'
     ## Golang
     - 'proxy.golang.org'
     ## STUN Server
