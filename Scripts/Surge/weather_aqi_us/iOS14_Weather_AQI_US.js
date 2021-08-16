@@ -17,8 +17,8 @@ const aqicnToken = $.getdata($.token) || '';
 */
 
 const AirQualityStandard = {
-	CN: 'HJ6332012.4',
-	US: 'EPA_NowCast.4'
+	CN: 'HJ6332012.2111',
+	US: 'EPA_NowCast.2111'
 }
 
 const AirQualityLevel = {
@@ -100,7 +100,7 @@ function constructAirQuailityNode(aqicnData) {
 	airQualityNode.metadata.reported_time = timeConversion(new Date(aqicnData.time.iso), 'remain')
 	airQualityNode.metadata.read_time = timeConversion(new Date(), 'remain')
 	airQualityNode.metadata.expire_time = timeConversion(new Date(aqicnData.time.iso), 'add-1h-floor')
-	airQualityNode.metadata.language = language
+	airQualityNode.metadata.language = "zh-CN"
 
 	return airQualityNode
 }
