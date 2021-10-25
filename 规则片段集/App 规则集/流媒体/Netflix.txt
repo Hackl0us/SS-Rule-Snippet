@@ -3,3 +3,4 @@ USER-AGENT,Argo*,Proxy
 
 DOMAIN-KEYWORD,netflix,Proxy
 DOMAIN-KEYWORD,nflx,Proxy
+DOMAIN-SUFFIX,us-west-2.amazonaws.com,Proxy

@@ -2,3 +2,4 @@ USER-AGENT,Argo*
 
 DOMAIN-KEYWORD,netflix
 DOMAIN-KEYWORD,nflx
+DOMAIN-SUFFIX,us-west-2.amazonaws.com
