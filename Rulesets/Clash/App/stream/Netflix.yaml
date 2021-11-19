@@ -1,4 +1,6 @@
 payload:
   - DOMAIN-KEYWORD,netflix
   - DOMAIN-KEYWORD,nflx
+  - DOMAIN-KEYWORD,dualstack.apiproxy-
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
   - DOMAIN-SUFFIX,us-west-2.amazonaws.com

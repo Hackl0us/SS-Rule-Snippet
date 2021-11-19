@@ -1,6 +1,6 @@
 [Rule]
-USER-AGENT,Argo*,Proxy
-
 DOMAIN-KEYWORD,netflix,Proxy
 DOMAIN-KEYWORD,nflx,Proxy
+DOMAIN-KEYWORD,dualstack.apiproxy-,Proxy
+DOMAIN-KEYWORD,dualstack.ichnaea-web-,Proxy
 DOMAIN-SUFFIX,us-west-2.amazonaws.com,Proxy
