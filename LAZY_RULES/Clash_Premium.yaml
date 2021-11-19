@@ -84,23 +84,18 @@ dns:
   # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
   fake-ip-filter:
     # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
-    # === LAN ===
     - '*.lan'
-    # === Linksys Wireless Router ===
-    - '*.linksys.com'
-    - '*.linksyssmartwifi.com'
-    # === Apple Software Update Service ===
-    - 'swscan.apple.com'
-    - 'mesu.apple.com'
-    # === Windows 10 Connnect Detection ===
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    # === NTP Service ===
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
     - 'time.*.com'
     - 'time.*.gov'
     - 'time.*.edu.cn'
     - 'time.*.apple.com'
-
     - 'time1.*.com'
     - 'time2.*.com'
     - 'time3.*.com'
@@ -108,8 +103,6 @@ dns:
     - 'time5.*.com'
     - 'time6.*.com'
     - 'time7.*.com'
-
-    - 'ntp.*.com'
     - 'ntp.*.com'
     - 'ntp1.*.com'
     - 'ntp2.*.com'
@@ -118,53 +111,69 @@ dns:
     - 'ntp5.*.com'
     - 'ntp6.*.com'
     - 'ntp7.*.com'
-
     - '*.time.edu.cn'
     - '*.ntp.org.cn'
     - '+.pool.ntp.org'
-
     - 'time1.cloud.tencent.com'
-    # === Music Service ===
-    ## NetEase
-    - '+.music.163.com'
+    - 'music.163.com'
+    - '*.music.163.com'
     - '*.126.net'
-    ## Baidu
     - 'musicapi.taihe.com'
     - 'music.taihe.com'
-    ## Kugou
     - 'songsearch.kugou.com'
     - 'trackercdn.kugou.com'
-    ## Kuwo
     - '*.kuwo.cn'
-    ## JOOX
     - 'api-jooxtt.sanook.com'
     - 'api.joox.com'
     - 'joox.com'
-    ## QQ
-    - '+.y.qq.com'
-    - '+.music.tc.qq.com'
+    - 'y.qq.com'
+    - '*.y.qq.com'
+    - 'streamoc.music.tc.qq.com'
+    - 'mobileoc.music.tc.qq.com'
+    - 'isure.stream.qqmusic.qq.com'
+    - 'dl.stream.qqmusic.qq.com'
     - 'aqqmusic.tc.qq.com'
-    - '+.stream.qqmusic.qq.com'
-    ## Xiami
+    - 'amobile.music.tc.qq.com'
     - '*.xiami.com'
-    ## Migu
-    - '+.music.migu.cn'
-    # === Game Service ===
-    ## Nintendo Switch
-    - '+.srv.nintendo.net'
-    ## Sony PlayStation
-    - '+.stun.playstation.net'
-    ## Microsoft Xbox
-    - 'xbox.*.microsoft.com'
-    - '+.xboxlive.com'
-    # === Other ===
-    ## QQ Quick Login
+    - '*.music.migu.cn'
+    - 'music.migu.cn'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'msftconnecttest.com'
+    - 'msftncsi.com'
     - 'localhost.ptlogin2.qq.com'
-    ## Golang
+    - 'localhost.sec.qq.com'
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - 'xbox.*.microsoft.com'
+    - 'xnotify.xboxlive.com'
+    - '+.battlenet.com.cn'
+    - '+.wotgame.cn'
+    - '+.wggames.cn'
+    - '+.wowsgame.cn'
+    - '+.wargaming.net'
     - 'proxy.golang.org'
-    ## STUN Server
     - 'stun.*.*'
     - 'stun.*.*.*'
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - 'heartbeat.belkin.com'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - '*.router.asus.com'
+    - 'mesu.apple.com'
+    - 'swscan.apple.com'
+    - 'swquery.apple.com'
+    - 'swdownload.apple.com'
+    - 'swcdn.apple.com'
+    - 'swdist.apple.com'
+    - 'lens.l.google.com'
+    - 'stun.l.google.com'
+    - '+.nflxvideo.net'
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
 
   # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
@@ -191,12 +200,28 @@ dns:
   fallback-filter:
     geoip: false
     ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
       - 240.0.0.0/4
-      - 0.0.0.0/32
-    # domain:
-    #   - '+.google.com'
-    #   - '+.facebook.com'
-    #   - '+.youtube.com'
+      - 255.255.255.255/32
+    domain:
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
+      - '+.githubusercontent.com'
+      - '+.googlevideo.com'
 
 tun:
   enable: false #如果需要启用 TUN 模式，请设置为 true
