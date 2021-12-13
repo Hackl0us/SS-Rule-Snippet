@@ -2,16 +2,16 @@
 
 payload:
   # Apple Music One
-  DOMAIN,itsliveradio.apple.com
-  DOMAIN,aodp-ssl.apple.com
+  - DOMAIN,itsliveradio.apple.com
+  - DOMAIN,aodp-ssl.apple.com
   # 电视、电影预告片、电影正片
-  DOMAIN,video-ssl.itunes.apple.com
-  DOMAIN,mvod.itunes.apple.com
-  DOMAIN,hls-amt.itunes.apple.com
+  - DOMAIN,video-ssl.itunes.apple.com
+  - DOMAIN,mvod.itunes.apple.com
+  - DOMAIN,hls-amt.itunes.apple.com
   # iTunes Store
-  DOMAIN,audio-ssl.itunes.apple.com
-  DOMAIN,streamingaudio.itunes.apple.com
+  - DOMAIN,audio-ssl.itunes.apple.com
+  - DOMAIN,streamingaudio.itunes.apple.com
   # Apple Music 资料库自上传及播放
-  DOMAIN-SUFFIX,amazonaws.com
-  DOMAIN,blobstore.apple.com
-  DOMAIN,audio.itunes.apple.com
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN,blobstore.apple.com
+  - DOMAIN,audio.itunes.apple.com
