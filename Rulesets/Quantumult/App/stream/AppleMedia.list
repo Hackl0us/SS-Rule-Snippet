@@ -1,19 +1,7 @@
-## 外区苹果媒体服务优化
-
-# Apple Music One
+host-suffix,music.apple.com,proxy
+host-suffix,mzstatic.com,proxy
+host-suffix,itunes.apple.com,proxy
 host,itsliveradio.apple.com,proxy
 host,aodp-ssl.apple.com,proxy
-
-# 电视、电影预告片、电影正片
-host,video-ssl.itunes.apple.com,proxy
-host,mvod.itunes.apple.com,proxy
-host,hls-amt.itunes.apple.com,proxy
-
-# iTunes Store
-host,audio-ssl.itunes.apple.com,proxy
-host,streamingaudio.itunes.apple.com,proxy
-
-# Apple Music 资料库自上传及播放
 host-suffix,amazonaws.com,proxy
 host,blobstore.apple.com,proxy
-host,audio.itunes.apple.com,proxy
