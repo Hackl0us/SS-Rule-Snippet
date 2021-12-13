@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,music.apple.com
+  - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN-SUFFIX,itunes.apple.com
   - DOMAIN,itsliveradio.apple.com
   - DOMAIN,aodp-ssl.apple.com
