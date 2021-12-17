@@ -166,6 +166,10 @@ dns:
     - 'stun.*.*'
     - 'stun.*.*.*'
 
+
+    ## Bilibili CDN
+    - '*.mcdn.bilivideo.cn'
+
   # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Clash 会使用最先获得的解析记录回复 DNS 请求
