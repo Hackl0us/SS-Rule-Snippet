@@ -260,9 +260,27 @@ proxies:
     # skip-cert-verify: true
     # servername: example.com # 优先级高于 wss host
     # network: ws
-    # ws-path: /path
-    # ws-headers:
-    #   Host: v2ray.com
+    # ws-opts:
+    #   path: /path
+    #   headers:
+    #     Host: v2ray.com
+    #   max-early-data: 2048
+    #   early-data-header-name: Sec-WebSocket-Protocol
+
+  - name: "vmess-h2"
+    type: vmess
+    server: server
+    port: 443
+    uuid: uuid
+    alterId: 32
+    cipher: auto
+    network: h2
+    tls: true
+    h2-opts:
+      host:
+        - http.example.com
+        - http-alt.example.com
+      path: /
 
   - name: "vmess-http"
     type: vmess
@@ -281,6 +299,20 @@ proxies:
     #   # headers:
     #   #   Connection:
     #   #     - keep-alive
+
+  - name: vmess-grpc
+    server: server
+    port: 443
+    type: vmess
+    uuid: uuid
+    alterId: 32
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: example.com
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "example"
 
   # socks5
   - name: "socks"
