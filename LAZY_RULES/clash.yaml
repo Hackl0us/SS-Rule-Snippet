@@ -166,6 +166,10 @@ dns:
     - 'stun.*.*'
     - 'stun.*.*.*'
 
+
+    ## Bilibili CDN
+    - '*.mcdn.bilivideo.cn'
+
   # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Clash 会使用最先获得的解析记录回复 DNS 请求
@@ -516,7 +520,6 @@ rules:
   - DOMAIN-SUFFIX,lecloud.com,DIRECT
   - DOMAIN-SUFFIX,lemicp.com,DIRECT
   - DOMAIN-SUFFIX,licdn.com,DIRECT
-  - DOMAIN-SUFFIX,linkedin.com,DIRECT
   - DOMAIN-SUFFIX,luoo.net,DIRECT
   - DOMAIN-SUFFIX,meituan.com,DIRECT
   - DOMAIN-SUFFIX,meituan.net,DIRECT
@@ -765,6 +768,7 @@ rules:
   - DOMAIN-SUFFIX,kat.cr,Proxy
   - DOMAIN-SUFFIX,klip.me,Proxy
   - DOMAIN-SUFFIX,libsyn.com,Proxy
+  - DOMAIN-SUFFIX,linkedin.com,Proxy
   - DOMAIN-SUFFIX,linode.com,Proxy
   - DOMAIN-SUFFIX,lithium.com,Proxy
   - DOMAIN-SUFFIX,littlehj.com,Proxy

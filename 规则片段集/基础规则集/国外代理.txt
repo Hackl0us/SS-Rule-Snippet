@@ -147,6 +147,7 @@ DOMAIN-SUFFIX,justgetflux.com,Proxy
 DOMAIN-SUFFIX,kat.cr,Proxy
 DOMAIN-SUFFIX,klip.me,Proxy
 DOMAIN-SUFFIX,libsyn.com,Proxy
+DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,linode.com,Proxy
 DOMAIN-SUFFIX,lithium.com,Proxy
 DOMAIN-SUFFIX,littlehj.com,Proxy
