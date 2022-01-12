@@ -1,8 +1,11 @@
 payload:
-  - DOMAIN-SUFFIX,music.apple.com
-  - DOMAIN-SUFFIX,mzstatic.com
-  - DOMAIN-SUFFIX,itunes.apple.com
-  - DOMAIN,itsliveradio.apple.com
-  - DOMAIN,aodp-ssl.apple.com
+  - DOMAIN-SUFFIX,blobstore.apple.com
+  - DOMAIN-SUFFIX,itsliveradio.apple.com
+  - DOMAIN-SUFFIX,aodp-ssl.apple.com
+  - DOMAIN-SUFFIX,video-ssl.itunes.apple.com
+  - DOMAIN-SUFFIX,mvod.itunes.apple.com
+  - DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+  - DOMAIN-SUFFIX,audio-ssl.itunes.apple.com
+  - DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
   - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN,blobstore.apple.com
+  - DOMAIN-SUFFIX,audio.itunes.apple.com
