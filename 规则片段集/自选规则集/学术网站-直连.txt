@@ -17,16 +17,16 @@ DOMAIN-KEYWORD,westlawchina,DIRECT
 DOMAIN-SUFFIX,doi.org,DIRECT
 
 # SCI 综合
-DOMAIN-SUFFIX,researchgate.net,DIRECT
-DOMAIN-SUFFIX,springer.com,DIRECT
 DOMAIN-SUFFIX,blackwell-synergy.com,DIRECT
-DOMAIN-SUFFIX,sciencemag.org,DIRECT
-DOMAIN-SUFFIX,jstor.org,DIRECT
 DOMAIN-SUFFIX,cabdirect.org,DIRECT
 DOMAIN-SUFFIX,ieee.org,DIRECT
+DOMAIN-SUFFIX,jstor.org,DIRECT
 DOMAIN-SUFFIX,nature.com,DIRECT
-DOMAIN-SUFFIX,sciencemag.org,DIRECT
 DOMAIN-SUFFIX,osapublishing.org,DIRECT
+DOMAIN-SUFFIX,researchgate.net,DIRECT
+DOMAIN-SUFFIX,science.org,DIRECT
+DOMAIN-SUFFIX,sciencemag.org,DIRECT
+DOMAIN-SUFFIX,springer.com,DIRECT
 
 ## Willey 旗下
 DOMAIN-SUFFIX,wiley.com,DIRECT
