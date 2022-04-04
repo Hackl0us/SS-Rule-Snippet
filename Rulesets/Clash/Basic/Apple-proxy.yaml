@@ -9,3 +9,4 @@ payload:
   - DOMAIN-SUFFIX,apps.apple.com
   - DOMAIN-SUFFIX,blobstore.apple.com
   - DOMAIN,cvws.icloud-content.com
+  - DOMAIN-SUFFIX,podcasts.apple.com
