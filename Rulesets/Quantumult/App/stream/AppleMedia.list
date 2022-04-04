@@ -1,7 +1,0 @@
-host-suffix,music.apple.com,proxy
-host-suffix,mzstatic.com,proxy
-host-suffix,itunes.apple.com,proxy
-host,itsliveradio.apple.com,proxy
-host,aodp-ssl.apple.com,proxy
-host-suffix,amazonaws.com,proxy
-host,blobstore.apple.com,proxy
