@@ -4,5 +4,11 @@
 
 host-suffix,ls.apple.com,proxy
 user-agent,AppleNews*,proxy
-user-agent,News*,proxy
+user-agent,News,proxy
+user-agent,com.apple.news*
+host-suffix,apple.news
+host,news-assets.apple.com
+host,news-client.apple.com
+host,news-edge.apple.com
+host,news-events.apple.com
 host,apple.comscoreresearch.com,proxy
