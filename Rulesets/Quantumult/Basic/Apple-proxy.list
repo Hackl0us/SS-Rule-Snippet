@@ -8,3 +8,4 @@ host,itunes.apple.com,proxy
 host-suffix,apps.apple.com,proxy
 host-suffix,blobstore.apple.com,proxy
 host,cvws.icloud-content.com,proxy
+host-suffix,podcasts.apple.com,proxy
