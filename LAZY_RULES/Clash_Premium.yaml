@@ -469,13 +469,6 @@ rule-providers:
     path: ./ruleset/Apple-direct.yaml
     interval: 3600
 
-  cn:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/CN.yaml"
-    path: ./ruleset/CN.yaml
-    interval: 3600
-
   ad-keyword:
     type: http
     behavior: classical
@@ -495,6 +488,13 @@ rule-providers:
     behavior: classical
     url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/App/social/Telegram.yaml"
     path: ./ruleset/Telegram.yaml
+    interval: 3600
+
+  cn:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/CN.yaml"
+    path: ./ruleset/CN.yaml
     interval: 3600
 
   lan:
