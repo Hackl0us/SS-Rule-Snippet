@@ -70,6 +70,7 @@ SS Rule Snippet
 
 - Surge Legacy
 - Surfboard
+- V2rayU
 - Quantumult（计划停止更新）
 
 ### clash 衍生工具的选择
