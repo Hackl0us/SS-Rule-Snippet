@@ -519,7 +519,6 @@ rules:
   - DOMAIN-SUFFIX,le.com,DIRECT
   - DOMAIN-SUFFIX,lecloud.com,DIRECT
   - DOMAIN-SUFFIX,lemicp.com,DIRECT
-  - DOMAIN-SUFFIX,licdn.com,DIRECT
   - DOMAIN-SUFFIX,luoo.net,DIRECT
   - DOMAIN-SUFFIX,meituan.com,DIRECT
   - DOMAIN-SUFFIX,meituan.net,DIRECT
